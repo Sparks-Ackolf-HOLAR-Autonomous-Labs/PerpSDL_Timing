@@ -1,0 +1,7 @@
+{"arm": "MIX50", "seed": 1, "opaque_id": "75fce27081", "cls": "f1", "mem_bit": null, "size_bin": null, "t_start": 1791259028.0, "t_end": 1791263972.9, "wall_s": 4944.9, "billed_nh": 0.4674, "ok": true}
+{"arm": "MIX50", "seed": 1, "opaque_id": "29e957d9af", "cls": "f1", "mem_bit": null, "size_bin": null, "t_start": 1791259028.0, "t_end": 1791264343.3, "wall_s": 5315.3, "billed_nh": 0.5024, "ok": true}
+{"arm": "MIX50", "seed": 1, "opaque_id": "75fce27081", "cls": "f2", "mem_bit": 1, "size_bin": null, "t_start": 1791263972.9, "t_end": 1791272747.9, "wall_s": 8775.0, "billed_nh": 0.9756, "ok": true}
+{"arm": "MIX50", "seed": 1, "opaque_id": "29e957d9af", "cls": "f2", "mem_bit": 1, "size_bin": null, "t_start": 1791264343.3, "t_end": 1791273066.4, "wall_s": 8723.1, "billed_nh": 0.9699, "ok": true}
+{"arm": "MIX50", "seed": 1, "opaque_id": "75fce27081", "cls": "f3", "mem_bit": null, "size_bin": null, "t_start": 1791272751.6, "t_end": 1791277536.3, "wall_s": 4784.7, "billed_nh": 0.5586, "ok": true}
+{"arm": "MIX50", "seed": 1, "opaque_id": "29e957d9af", "cls": "f3", "mem_bit": 1, "size_bin": null, "t_start": 1791273071.9, "t_end": 1791279206.8, "wall_s": 6134.9, "billed_nh": 0.7162, "ok": true}
+{"arm": "MIX50", "seed": 1, "opaque_id": "1da7a5a118", "cls": "f1", "mem_bit": null, "size_bin": null, "t_start": 1791279209.3, "t_end": 1791286726.8, "wall_s": 7517.5, "billed_nh": 0.7105, "ok": true}

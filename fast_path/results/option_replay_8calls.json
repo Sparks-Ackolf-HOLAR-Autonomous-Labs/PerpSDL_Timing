@@ -1,0 +1,168 @@
+{
+ "status": "provisional",
+ "filled_entries": [
+  "TiSe2_2H.f3",
+  "TiTe2_2H.f2",
+  "TiTe2_2H.f3",
+  "ZrS2_2H.f1",
+  "ZrS2_2H.f2",
+  "ZrS2_2H.f3",
+  "ZrSe2_2H.f2",
+  "ZrSe2_2H.f3",
+  "ZrTe2_1T.f1",
+  "ZrTe2_1T.f2",
+  "ZrTe2_1T.f3",
+  "ZrTe2_2H.f1",
+  "ZrTe2_2H.f2",
+  "ZrTe2_2H.f3",
+  "HfSe2_1T.f2",
+  "HfSe2_1T.f3",
+  "MoSe2_2H.f1",
+  "MoSe2_2H.f2",
+  "MoSe2_2H.f3",
+  "MoTe2_2H.f3",
+  "WS2_2H.f3",
+  "WTe2_2H.f1",
+  "WTe2_2H.f2",
+  "WTe2_2H.f3"
+ ],
+ "calls": 8,
+ "seeds": 15,
+ "grades": {
+  "CTDE|none": {
+   "H_ratio_labels_per_pcnh": 1.0,
+   "PW60_wins": "0/15",
+   "PW60_pass": false,
+   "pairs_neither_found": 9,
+   "billed_median": 7.16,
+   "billed_total": 131.0,
+   "makespan_median_h": 13.5,
+   "mask_held_h_total": 0.0,
+   "timing_identity_rate": null,
+   "qualifiers_per_campaign": 0.4
+  },
+  "MIX50|none": {
+   "H_ratio_labels_per_pcnh": 1.156,
+   "PW60_wins": "3/15",
+   "PW60_pass": false,
+   "pairs_neither_found": 9,
+   "billed_median": 7.16,
+   "billed_total": 119.0,
+   "makespan_median_h": 13.5,
+   "mask_held_h_total": 0.0,
+   "timing_identity_rate": 0.923,
+   "qualifiers_per_campaign": 0.33
+  },
+  "CEDT_P4|none": {
+   "H_ratio_labels_per_pcnh": 1.303,
+   "PW60_wins": "6/15",
+   "PW60_pass": false,
+   "pairs_neither_found": 8,
+   "billed_median": 6.72,
+   "billed_total": 105.6,
+   "makespan_median_h": 10.9,
+   "mask_held_h_total": 0.0,
+   "timing_identity_rate": 0.967,
+   "qualifiers_per_campaign": 0.47
+  },
+  "CTCE|none": {
+   "H_ratio_labels_per_pcnh": 1.583,
+   "PW60_wins": "4/15",
+   "PW60_pass": false,
+   "pairs_neither_found": 8,
+   "billed_median": 5.69,
+   "billed_total": 91.1,
+   "makespan_median_h": 9.8,
+   "mask_held_h_total": 0.0,
+   "timing_identity_rate": null,
+   "qualifiers_per_campaign": 0.33
+  },
+  "DTDE|none": {
+   "billed_total": 131.0,
+   "timing_identity_rate_if_visible": 0.958,
+   "makespan_median_h": 13.5
+  },
+  "CTDE|fixed600": {
+   "H_ratio_labels_per_pcnh": 1.0,
+   "PW60_wins": "0/15",
+   "PW60_pass": false,
+   "pairs_neither_found": 9,
+   "billed_median": 7.16,
+   "billed_total": 131.0,
+   "makespan_median_h": 13.5,
+   "mask_held_h_total": 0.0,
+   "timing_identity_rate": null,
+   "qualifiers_per_campaign": 0.4
+  },
+  "MIX50|fixed600": {
+   "H_ratio_labels_per_pcnh": 1.139,
+   "PW60_wins": "3/15",
+   "PW60_pass": false,
+   "pairs_neither_found": 9,
+   "billed_median": 7.23,
+   "billed_total": 120.8,
+   "makespan_median_h": 13.6,
+   "mask_held_h_total": 5.8,
+   "timing_identity_rate": 0.415,
+   "qualifiers_per_campaign": 0.33
+  },
+  "CEDT_P4|fixed600": {
+   "H_ratio_labels_per_pcnh": 1.264,
+   "PW60_wins": "3/15",
+   "PW60_pass": false,
+   "pairs_neither_found": 9,
+   "billed_median": 6.94,
+   "billed_total": 108.9,
+   "makespan_median_h": 11.3,
+   "mask_held_h_total": 9.8,
+   "timing_identity_rate": 0.475,
+   "qualifiers_per_campaign": 0.4
+  },
+  "DTDE|fixed600": {
+   "billed_total": 131.0,
+   "timing_identity_rate_if_visible": 0.958,
+   "makespan_median_h": 13.5
+  },
+  "CTDE|prop25": {
+   "H_ratio_labels_per_pcnh": 1.0,
+   "PW60_wins": "0/15",
+   "PW60_pass": false,
+   "pairs_neither_found": 9,
+   "billed_median": 7.16,
+   "billed_total": 131.0,
+   "makespan_median_h": 13.5,
+   "mask_held_h_total": 0.0,
+   "timing_identity_rate": null,
+   "qualifiers_per_campaign": 0.4
+  },
+  "MIX50|prop25": {
+   "H_ratio_labels_per_pcnh": 1.092,
+   "PW60_wins": "2/15",
+   "PW60_pass": false,
+   "pairs_neither_found": 9,
+   "billed_median": 7.37,
+   "billed_total": 126.0,
+   "makespan_median_h": 13.9,
+   "mask_held_h_total": 20.6,
+   "timing_identity_rate": 0.234,
+   "qualifiers_per_campaign": 0.33
+  },
+  "CEDT_P4|prop25": {
+   "H_ratio_labels_per_pcnh": 1.154,
+   "PW60_wins": "4/15",
+   "PW60_pass": false,
+   "pairs_neither_found": 8,
+   "billed_median": 7.51,
+   "billed_total": 119.3,
+   "makespan_median_h": 12.3,
+   "mask_held_h_total": 42.6,
+   "timing_identity_rate": 0.225,
+   "qualifiers_per_campaign": 0.47
+  },
+  "DTDE|prop25": {
+   "billed_total": 131.0,
+   "timing_identity_rate_if_visible": 0.958,
+   "makespan_median_h": 13.5
+  }
+ }
+}

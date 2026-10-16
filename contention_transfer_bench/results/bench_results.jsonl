@@ -1,0 +1,20 @@
+{"name": "TiS2_1T_s1_k6", "wall_s": 3.16, "converged": true, "ram_mb_per_proc": 20.24, "nelec": 24.0, "nh": 0.00044, "ranks": 32, "scale": "s1", "rep": 0, "kind": "solo"}
+{"name": "TiS2_1T_s1_k6", "wall_s": 3.31, "converged": true, "ram_mb_per_proc": 20.24, "nelec": 24.0, "nh": 0.00046, "ranks": 32, "scale": "s1", "rep": 0, "partner": "MoSe2_2H_s1_k6", "kind": "cotenant"}
+{"name": "MoSe2_2H_s1_k6", "wall_s": 5.34, "converged": true, "ram_mb_per_proc": 18.75, "nelec": 52.0, "nh": 0.00074, "ranks": 32, "scale": "s1", "rep": 0, "kind": "partner"}
+{"name": "TiS2_1T_s2_k6", "wall_s": 26.64, "converged": true, "ram_mb_per_proc": 80.39, "nelec": 96.0, "nh": 0.0037, "ranks": 32, "scale": "s2", "rep": 0, "kind": "solo"}
+{"name": "TiS2_1T_s2_k6", "wall_s": 29.41, "converged": true, "ram_mb_per_proc": 80.39, "nelec": 96.0, "nh": 0.00408, "ranks": 32, "scale": "s2", "rep": 0, "partner": "MoSe2_2H_s2_k6", "kind": "cotenant"}
+{"name": "MoSe2_2H_s2_k6", "wall_s": 45.99, "converged": true, "ram_mb_per_proc": 84.25, "nelec": 208.0, "nh": 0.00639, "ranks": 32, "scale": "s2", "rep": 0, "kind": "partner"}
+{"name": "TiS2_1T_s3_k6", "wall_s": 140.76, "converged": true, "ram_mb_per_proc": 214.63, "nelec": 216.0, "nh": 0.01955, "ranks": 32, "scale": "s3", "rep": 0, "kind": "solo"}
+{"name": "TiS2_1T_s3_k6", "wall_s": 150.29, "converged": true, "ram_mb_per_proc": 214.63, "nelec": 216.0, "nh": 0.02087, "ranks": 32, "scale": "s3", "rep": 0, "partner": "MoSe2_2H_s3_k6", "kind": "cotenant"}
+{"name": "MoSe2_2H_s3_k6", "wall_s": 350.62, "converged": true, "ram_mb_per_proc": 252.67, "nelec": 468.0, "nh": 0.0487, "ranks": 32, "scale": "s3", "rep": 0, "kind": "partner"}
+{"name": "TiS2_1T_s1_k6", "wall_s": 3.07, "converged": true, "ram_mb_per_proc": 20.24, "nelec": 24.0, "nh": 0.00043, "ranks": 32, "scale": "s1", "rep": 1, "kind": "solo"}
+{"name": "TiS2_1T_s1_k6", "wall_s": 3.32, "converged": true, "ram_mb_per_proc": 20.24, "nelec": 24.0, "nh": 0.00046, "ranks": 32, "scale": "s1", "rep": 1, "partner": "MoSe2_2H_s1_k6", "kind": "cotenant"}
+{"name": "MoSe2_2H_s1_k6", "wall_s": 5.34, "converged": true, "ram_mb_per_proc": 18.75, "nelec": 52.0, "nh": 0.00074, "ranks": 32, "scale": "s1", "rep": 1, "kind": "partner"}
+{"name": "TiS2_1T_s2_k6", "wall_s": 26.47, "converged": true, "ram_mb_per_proc": 80.39, "nelec": 96.0, "nh": 0.00368, "ranks": 32, "scale": "s2", "rep": 1, "kind": "solo"}
+{"name": "TiS2_1T_s2_k6", "wall_s": 29.54, "converged": true, "ram_mb_per_proc": 80.39, "nelec": 96.0, "nh": 0.0041, "ranks": 32, "scale": "s2", "rep": 1, "partner": "MoSe2_2H_s2_k6", "kind": "cotenant"}
+{"name": "MoSe2_2H_s2_k6", "wall_s": 46.45, "converged": true, "ram_mb_per_proc": 84.25, "nelec": 208.0, "nh": 0.00645, "ranks": 32, "scale": "s2", "rep": 1, "kind": "partner"}
+{"name": "TiS2_1T_s3_k6", "wall_s": 141.67, "converged": true, "ram_mb_per_proc": 214.63, "nelec": 216.0, "nh": 0.01968, "ranks": 32, "scale": "s3", "rep": 1, "kind": "solo"}
+{"name": "TiS2_1T_s3_k6", "wall_s": 153.55, "converged": true, "ram_mb_per_proc": 214.63, "nelec": 216.0, "nh": 0.02133, "ranks": 32, "scale": "s3", "rep": 1, "partner": "MoSe2_2H_s3_k6", "kind": "cotenant"}
+{"name": "MoSe2_2H_s3_k6", "wall_s": 350.22, "converged": true, "ram_mb_per_proc": 252.67, "nelec": 468.0, "nh": 0.04864, "ranks": 32, "scale": "s3", "rep": 1, "kind": "partner"}
+{"name": "MoS2_3x3_Svac", "wall_s": 161.33, "converged": true, "ram_mb_per_proc": 247.58, "nelec": 462.0, "nh": 0.02241, "ranks": 32, "kind": "transfer"}
+{"name": "MoS2_WS2_hetero_2x2", "wall_s": 36.03, "converged": true, "ram_mb_per_proc": 140.83, "nelec": 208.0, "nh": 0.005, "ranks": 32, "kind": "transfer"}

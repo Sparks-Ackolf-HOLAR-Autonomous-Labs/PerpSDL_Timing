@@ -1,0 +1,277 @@
+# Case-study manifest — Section 20.2 of qe_privacy_tax_multi_agent_experiment.md
+# Rule (§20.2): missing values remain REQUIRED and must not be silently
+# replaced by defaults. Fields marked REQUIRED are set by the authors or must
+# be verified live (e.g. on CHPC) before being filled and frozen.
+#
+# FROZEN 2026-09-02 for prior_predictive_simulation mode, from the
+# parameters set in the study design. Live-mode CHPC fields remain REQUIRED
+# and no live job may be submitted until they are verified on the cluster
+# and frozen here.
+
+case_id: mpt-chpc-qe-mx2-001
+mode: prior_predictive_simulation_plus_live_dft   # extended 2026-09-08
+    # from pilot-only to an actual DFT campaign: live QE fidelity-ladder
+    # campaign on the 30 CC0 candidates on granite sparks-gpu-grn
+    # (dft_campaign/), node time limit 20160 minutes for the entire run.
+    # Simulated node-hours in the prior-predictive analyses remain
+    # simulated units.
+frozen_for_mode: prior_predictive_simulation
+frozen_date: "2026-09-02"
+choices_are_provisional: true       # per the study design
+
+scientific_task:
+  discovery_question: >
+    Identify nondominated 2D MX2 monolayer candidates with a relaxed,
+    numerically valid structure, a PBE-level screening gap of 1.0-2.0 eV,
+    no obvious Gamma-point phonon instability among finalists, and low
+    computational cost.
+  candidate_source_and_license: >
+    Locally generated idealized 1T and 2H MX2 prototypes (no external
+    structure database). Generated structures and metadata released under
+    CC0-1.0. Pseudopotentials retain their original licenses and are
+    listed separately (none are bundled in this repository).
+  candidate_count: 30
+  candidate_space:
+    metals: [Ti, Zr, Hf, Mo, W]
+    chalcogens: [S, Se, Te]
+    phases: ["1T", "2H"]
+  target_outcome_vector:
+    - relaxation_converged
+    - scf_converged
+    - final_maximum_force
+    - phase_energy_difference_within_composition
+    - pbe_band_gap_ev
+    - soc_band_gap_ev_for_finalists
+    - gamma_phonon_result_for_finalists
+    - scientific_uncertainty
+    - qe_calls
+    - node_hours
+    - wall_time
+    - peak_memory
+    - failure_count
+    - restart_count
+  validity_constraints:
+    - Gamma-point phonons are not proof of full dynamical stability.
+    - PBE gaps are screening quantities, not experimental predictions.
+    - Total energies must not be ranked directly across compositions.
+    - Pseudopotentials retain their original licenses.
+    - No gain may depend solely on relaxing validity requirements.
+  fidelity_ladder:
+    F0: Input, structure, pseudopotential, and resource validation.
+    F1: Coarse SCF or short relaxation for early rejection.
+    F2: Converged structural relaxation followed by production SCF.
+    F3: NSCF and band calculation; add SOC for promoted candidates.
+    F4: Gamma-point phonon check for selected finalists.
+  reference_and_validation_calculations: >
+    Prior-predictive mode: evaluator-only latent world ground truth plays
+    the reference role. For any future live pilot, reference/validation
+    calculations must be defined and frozen before submission (REQUIRED).
+
+quantum_espresso:
+  # Simulated-units mode: no QE binary is executed. All fields below are
+  # abstracted in the digital twin and MUST be verified before live mode.
+  verified_version_and_build: REQUIRED_FOR_LIVE_MODE
+  executable_workflow: REQUIRED_FOR_LIVE_MODE   # pw.x / ph.x via SLURM
+  functional_and_physics_options: PBE_screening_abstracted_in_twin
+  pseudopotential_manifest_with_hashes: REQUIRED_FOR_LIVE_MODE
+  convergence_protocol: abstracted_in_twin_frozen_in_code
+  input_output_schema: see_prior_predictive/simulator.py
+
+chpc:
+  # VERIFIED LIVE 2026-09-02 over two authenticated logins: notchpeak
+  # and granite1 (verification commands run over one authenticated
+  # connection). Sources: sacctmgr assoc/qos, scontrol show
+  # partition/node, sbatch --test-only, module spider + live module load,
+  # ls/df on scratch.
+  # Fields set by the authors stay REQUIRED.
+  verified_cluster: granite1.chpc.utah.edu   # primary target
+                                  # (chosen 2026-09-02);
+                                  # notchpeak/kingspeak facts verified
+                                  # earlier remain in git history
+  account: sparks                 # granite QoS list includes sparks-gpu-grn
+                                  # (sacctmgr assoc, verified live)
+  partition: sparks-gpu-grn       # group-owned; contains exactly one node
+  qos: sparks-gpu-grn             # MaxWall 14-00:00:00
+  node: grn061                    # 64 cores (1 socket, 2 threads/core),
+                                  # 380 GB RAM, 1x H100 NVL GPU,
+                                  # TmpDisk 7.2T, DefMemPerCPU=2000M
+  partition_notes: >
+    Single-node partition: the pilot's 2- and 4-node jobs are recast as
+    wider single-node jobs (16 MPI tasks per former node, max 64).
+    PreemptMode=CANCEL verified live: sbatch --test-only showed
+    sparks-gpu-grn jobs would PREEMPT (cancel) two running
+    granite-gpu-guest jobs on grn061. Expected for an owner partition,
+    but submissions cancel guests' work, which must be accepted before
+    authorizing.
+  fallback_partitions:            # only if a task needs more than grn061
+    - kingspeak                   # general allocation; QoS kingspeak,
+                                  # 3-day wall (verified earlier)
+    - lonepeak                    # general allocation
+    - notchpeak-shared-short      # 8h wall, per-user cpu=32 mem=128G
+  verified_qe_module: quantum-espresso/7.4   # verified on granite AND
+                                  # notchpeak; pw.x resolves after load
+                                  # (live load test on granite1)
+  verified_mpi_and_compiler_stack: "quantum-espresso/7.4 requires
+    openmpi/5.0.3 (or openmpi/5.0.3-nol) on granite as well (module
+    spider + live load); quantum-espresso/7.3.1 requires gcc/11.2.0 +
+    openmpi/5.0.3"
+  authorized_shared_scratch: /scratch/general/vast/$USER   # exists on
+                                  # granite (VAST, verified live)
+  live_node_hour_cap: 100   # pilot submission cap (MAX_NODE_HOURS),
+                                  # derived from the standing
+                                  # 20160-minute (336 nh) entire-run
+                                  # limit; actual measured pilot spend
+                                  # was 0.212 nh (81/81 converged)
+  live_node_time_limit_minutes_entire_run: 20160   # set 2026-09-08:
+                                  # node time limit of 20160 minutes for
+                                  # the entire run, used
+                                  # as the SLURM --time of the actual-DFT
+                                  # campaign job (dft_campaign/); equals
+                                  # the 14-day partition MaxWall on
+                                  # sparks-gpu-grn.
+  launch_method: sbatch via granite1 login node (pilot bundle in pilot/)
+  shared_and_local_storage_policy: scratch VAST for runs; results committed
+    back to this repo (CHPC purge policy applies to scratch)
+  module_or_container_manifest: "module load openmpi/5.0.3
+    quantum-espresso/7.4 (frozen for the pilot bundle)"
+  credentials_note: >
+    CHPC login uses keyboard-interactive authentication (password prompt,
+    then Duo option 1); plain password authentication is rejected by the
+    CHPC sshd.
+  note: >
+    Verified over authenticated logins on 2026-09-02 (notchpeak,
+    granite1) and again on 2026-09-08 (granite1).
+    On 2026-09-08 the actual-DFT campaign was authorized
+    (dft_campaign/, SLURM job 1913865 on grn061, --time=20160). Later on
+    2026-09-08 the 81-job pilot was authorized, SUBMITTED and COMPLETED
+    the same day
+    (jobs 1914400-1914481+1914495, partition empty, no guests preempted,
+    0.212 measured nh; see pilot/results/PILOT_RESULTS.md), plus the
+    scale-validation job 1914482 (scale_validation/) and the SOC
+    finalist job 1914274 (dft_campaign/soc/). Simulated node-hours in
+    the prior-predictive analyses remain SIMULATED UNITS.
+
+experiment:
+  topology_arms: [CTCE, DTDE, CTDE, CEDT]   # fixed by §20.2 and the study design
+  operational_contracts:
+    nested_levels: [P1, P2, P3, P4]   # §8; P0 only inside CTCE ceiling
+    P1: exact engineered descriptors and exact scores (identifiers removed)
+    P2: coarse class, size bins, quantized uncertainty, runtime/cost bins
+    P3: opaque IDs plus DP-noised scores/bins (default epsilon 4, delta 1e-6)
+    P4: single chosen opaque ID, success bit, agreed charge (NS-like limit)
+  education_contracts: >
+    Q0-Q3 simulated this round (extension approved 2026-09-02):
+    student stands in for a novice H operator; Q2 swept over hint budgets
+    {0,2,8}. kappa_S and b_E were NOT supplied, so the analysis sweeps
+    them instead of freezing values (prior_predictive/extensions.py).
+  paired_seeds: 30
+  maximum_rounds_per_campaign: 80
+  maximum_job_attempts_per_campaign: 100
+  simulated_node_hours_per_campaign_condition: 500
+  simulated_node_hour_cap_per_campaign_condition: 500   # HARD cap
+                                  # (set 2026-09-08):
+                                  # a job that would exceed the cap is
+                                  # refused, so 30 paired seeds never
+                                  # exceed 15,000 simulated node-hours
+                                  # per condition. Enforced via
+                                  # MPT_HARD_CAP=1 in simulator.py; this
+                                  # is a simulation budget, NOT live
+                                  # CHPC authorization.
+  max_simulated_node_hours_per_condition: 15000   # 30 seeds x 500
+  prior_predictive_worlds: 1000
+  stopping_rules:
+    - node-hour budget exhausted (500 simulated units; hard cap refuses
+      the breaching job)
+    - job-attempt limit reached (100)
+    - round limit reached (80)
+    - all candidates resolved (qualified or excluded)
+
+privacy:
+  r_protected_assets: candidate identities, composition/phase, acquisition
+    scores and history, gap estimates, target windows
+  h_protected_assets: build/hardware class, config performance surface and
+    ranking, contention/telemetry trace
+  recipients_and_retention: broker/coordinator only; transcripts retained
+    for the audit of this simulation round only
+  r_and_h_leakage_limits:
+    research_party_R:
+      membership_inference_auc_max: 0.60
+      composition_phase_inference_advantage_max: 0.10
+      exact_candidate_identity_accuracy_increase_max: 0.05
+    hpc_party_H:
+      telemetry_membership_inference_auc_max: 0.60
+      hardware_build_partition_inference_advantage_max: 0.10
+      protected_configuration_rank_extraction_correlation_max: 0.20
+    accounting_scope: cumulative_per_campaign
+  threat_and_collusion_models: honest-but-curious counterpart plus
+    transcript-observing broker; Bayes-style attackers with access to the
+    public candidate generator (upper-bound convention); collusion variants
+    deferred to a later round
+  differential_privacy_sensitivity_sweep:
+    epsilon_values: [1, 2, 4, 8]
+    delta: 1.0e-6
+    status: experimental sweep only; not accepted policy limits until both
+      parties approve
+
+# REDESIGNED METRICS ADOPTED (2026-09-09: fix the metric rather than
+# keep the frozen one). Fix = variance-cancelling paired design
+# instead of fixed percentage margins priced against scientific noise:
+#   R metric  PW60: the contract beats DTDE on node-hours-to-first-
+#             qualifier on the SAME world/seed in >= 60% of the 30
+#             paired campaigns (one-sided sign test).
+#   H metrics package margins: valid F2+ labels/nh >= 1.05x DTDE,
+#             failure rate <= DTDE + 0.04, memory-p95 no worse.
+# Validated on 300 fresh simulated worlds never used in metric
+# selection: ww = 0.920 (= selection-set value; no measurable selection
+# optimism) — metric_redesign/fresh_world_validation.json. The frozen
+# margins below are RETIRED as the operating definition and kept as a
+# reported secondary for continuity.
+redesigned_metrics:
+  r_metric: PW60 paired win-rate >= 0.60 (nh to first qualifier)
+  h_metrics: [labels_per_nh >= 1.05x, fail <= +0.04 abs, memfail_p95 no worse]
+  validation: metric_redesign/fresh_world_validation.json (0.920 fresh)
+  status: adopted; frozen into paired_comparison_1/PREREGISTRATION.md
+
+comparison_arms_note: >
+  2026-09-09: all four topologies (CTCE/DTDE/CTDE/CEDT) plus the
+  hybrid-mix arm (HYB: shared surrogate + broker execution), the ALT
+  negotiation baseline, and collusion variants are implemented and
+  graded (hybrid_arms/). HYB-P4 degenerates to CEDT-P4 by construction.
+
+reservation_gains:
+  research_party_R:
+    baseline: DTDE
+    requirement: >
+      RENEGOTIATED 2026-09-02: at least a 10% reduction in simulated node-hours to the
+      first qualifying candidate, OR at least one additional qualifying
+      F3/F4 candidate at the same budget. (Originally frozen at 20%; the
+      re-analysis reports both, plus a 5-20% sensitivity sweep, in
+      prior_predictive/results/gR_renegotiation.json.)
+    constraints:
+      - Scientific-validity rate must not decrease.
+      - No gain may depend solely on relaxing validity requirements.
+  hpc_party_H:
+    baseline: DTDE
+    requirements:
+      - At least 15% more valid F2-or-higher labels per node-hour.
+      - Failure rate may not increase by more than 0.02 absolute.
+      - P95 memory-limit failure rate may not increase.
+
+decision_rule:
+  win_win_probability_threshold: 0.90
+  sensitivity_confidence_levels: [0.80, 0.90, 0.95]
+  robustness: report worst accepted prior card (Axiom A7 ambiguity set)
+
+symbolic_regression:
+  input_variables_and_units: electrons per cell (count), k-points (count),
+    nodes/pools (count), contention (dimensionless 0-1), node-hours
+    (simulated units), memory (GB), gap (eV)
+  operator_grammar: dimensionally valid arithmetic, protected division,
+    small rational powers, exp/log, min/max (per §11.2; validated Stage 1)
+  prior_expression_ensemble: unit-consistent forms validated in Stage 1
+    (stage1_symbolic_recovery/), constants drawn per prior card; see
+    prior_predictive/simulator.py PriorCard definitions
+  train_validation_test_split: campaign-level (by world), never by round
+  complexity_and_stability_rules: Stage 1 validation-based complexity
+    selection carried forward; expression refit deferred to the twin-fit
+    stage after randomized microbenchmarks exist

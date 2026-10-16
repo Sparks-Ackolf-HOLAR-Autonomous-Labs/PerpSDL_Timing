@@ -1,0 +1,39 @@
+{
+ "contention": {
+  "s1": {
+   "solo_s": 3.12,
+   "cotenant_s": 3.31,
+   "factor": 1.0642
+  },
+  "s2": {
+   "solo_s": 26.55,
+   "cotenant_s": 29.48,
+   "factor": 1.11
+  },
+  "s3": {
+   "solo_s": 141.21,
+   "cotenant_s": 151.92,
+   "factor": 1.0758
+  }
+ },
+ "mx2_power_law": {
+  "exponent": 1.648,
+  "prefactor": 0.0124
+ },
+ "transfer": {
+  "MoS2_3x3_Svac": {
+   "nelec": 462.0,
+   "measured_s": 161.33,
+   "mx2_law_pred_s": 306.3,
+   "ratio_measured_over_pred": 0.527,
+   "converged": true
+  },
+  "MoS2_WS2_hetero_2x2": {
+   "nelec": 208.0,
+   "measured_s": 36.03,
+   "mx2_law_pred_s": 82.2,
+   "ratio_measured_over_pred": 0.438,
+   "converged": true
+  }
+ }
+}

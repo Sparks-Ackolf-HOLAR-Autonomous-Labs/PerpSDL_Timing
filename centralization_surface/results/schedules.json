@@ -1,0 +1,114 @@
+{
+ "meta": {
+  "worlds": 200,
+  "rounds": 80,
+  "seeds": 30,
+  "settings": [
+   [
+    "eps",
+    "P4",
+    0.5
+   ],
+   [
+    "tau",
+    "P2",
+    0.5
+   ]
+  ],
+  "note": "SIMULATED UNITS; schedules share a time-mean, differ by timing"
+ },
+ "summary": {
+  "eps@P4|mean=0.5": {
+   "static": {
+    "win_win": 0.25,
+    "labels_ratio": 1.056719225266957,
+    "leak_ok": 1.0,
+    "pw_rate": 0.5575,
+    "mean_qual": 1.8578333333333337,
+    "r_id_acc": 0.03333333333333333,
+    "h_rank_corr": 0.0,
+    "fail_rate": 0.02295134798380814,
+    "labels_per_nh": 0.027798433837857957
+   },
+   "ramp_up": {
+    "win_win": 0.12,
+    "labels_ratio": 1.0308899667030298,
+    "leak_ok": 1.0,
+    "pw_rate": 0.4703333333333334,
+    "mean_qual": 1.808166666666667,
+    "r_id_acc": 0.03333333333333333,
+    "h_rank_corr": 0.0,
+    "fail_rate": 0.022540066633774117,
+    "labels_per_nh": 0.027173558177786487
+   },
+   "ramp_down": {
+    "win_win": 0.27,
+    "labels_ratio": 1.084541642188267,
+    "leak_ok": 1.0,
+    "pw_rate": 0.5748333333333333,
+    "mean_qual": 1.9053333333333335,
+    "r_id_acc": 0.03333333333333333,
+    "h_rank_corr": 0.0,
+    "fail_rate": 0.023166488286026413,
+    "labels_per_nh": 0.028434276089779595
+   },
+   "mid_pulse": {
+    "win_win": 0.23,
+    "labels_ratio": 1.0529730391340761,
+    "leak_ok": 1.0,
+    "pw_rate": 0.5248333333333334,
+    "mean_qual": 1.8344999999999998,
+    "r_id_acc": 0.03333333333333333,
+    "h_rank_corr": 0.0,
+    "fail_rate": 0.02296697481063299,
+    "labels_per_nh": 0.027794460897102292
+   }
+  },
+  "tau@P2|mean=0.5": {
+   "static": {
+    "win_win": 0.0,
+    "labels_ratio": 1.013320296037092,
+    "leak_ok": 0.23,
+    "pw_rate": 0.35,
+    "mean_qual": 1.7494999999999998,
+    "r_id_acc": 0.08808932789589843,
+    "h_rank_corr": 0.11523457316654782,
+    "fail_rate": 0.021024291713213225,
+    "labels_per_nh": 0.02661234941013092
+   },
+   "ramp_up": {
+    "win_win": 0.0,
+    "labels_ratio": 1.013320296037092,
+    "leak_ok": 0.23,
+    "pw_rate": 0.35,
+    "mean_qual": 1.7494999999999998,
+    "r_id_acc": 0.08808932789589843,
+    "h_rank_corr": 0.11523457316654782,
+    "fail_rate": 0.021024291713213225,
+    "labels_per_nh": 0.02661234941013092
+   },
+   "ramp_down": {
+    "win_win": 0.0,
+    "labels_ratio": 1.013320296037092,
+    "leak_ok": 0.23,
+    "pw_rate": 0.35,
+    "mean_qual": 1.7494999999999998,
+    "r_id_acc": 0.08808932789589843,
+    "h_rank_corr": 0.11523457316654782,
+    "fail_rate": 0.021024291713213225,
+    "labels_per_nh": 0.02661234941013092
+   },
+   "mid_pulse": {
+    "win_win": 0.0,
+    "labels_ratio": 1.013320296037092,
+    "leak_ok": 0.23,
+    "pw_rate": 0.35,
+    "mean_qual": 1.7494999999999998,
+    "r_id_acc": 0.08808932789589843,
+    "h_rank_corr": 0.11523457316654782,
+    "fail_rate": 0.021024291713213225,
+    "labels_per_nh": 0.02661234941013092
+   }
+  }
+ }
+}

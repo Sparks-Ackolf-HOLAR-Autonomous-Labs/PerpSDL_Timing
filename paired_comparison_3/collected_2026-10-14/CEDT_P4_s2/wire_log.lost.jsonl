@@ -1,0 +1,2 @@
+{"arm": "CEDT_P4", "seed": 2, "opaque_id": "9145fb93f0", "cls": "f1", "mem_bit": 0, "t_start": 1790914907.4, "t_end": 1790919632.4, "wall_s": 4725.0, "billed_nh": 0.3281, "ok": true}
+{"arm": "CEDT_P4", "seed": 2, "opaque_id": "57ba8a018e", "cls": "f1", "mem_bit": 0, "t_start": 1790914907.4, "t_end": 1790919738.6, "wall_s": 4831.2, "billed_nh": 0.3355, "ok": true}

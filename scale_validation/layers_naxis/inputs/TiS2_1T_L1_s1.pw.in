@@ -1,0 +1,34 @@
+&CONTROL
+  calculation = 'scf'
+  prefix = 'TiS2_1T_L1_s1'
+  pseudo_dir = './pseudos'
+  outdir = './out'
+  disk_io = 'nowf'
+/
+&SYSTEM
+  ibrav = 4
+  a = 3.233000
+  c = 18.000000
+  nat = 3
+  ntyp = 2
+  ecutwfc = 45.0
+  ecutrho = 360.0
+  occupations = 'smearing'
+  smearing = 'cold'
+  degauss = 0.02
+/
+&ELECTRONS
+  mixing_beta = 0.3
+  conv_thr = 1.0d-8
+  diagonalization = 'david'
+  electron_maxstep = 80
+/
+ATOMIC_SPECIES
+  Ti  47.867  ti_pbe_v1.4.uspp.F.UPF
+  S  32.06  s_pbe_v1.4.uspp.F.UPF
+ATOMIC_POSITIONS crystal
+  Ti  0.0000000000  0.0000000000  0.5000000000
+  S  0.6666666667  0.3333333333  0.6045035835
+  S  0.3333333333  0.6666666667  0.3954964165
+K_POINTS automatic
+  6 6 1 0 0 0

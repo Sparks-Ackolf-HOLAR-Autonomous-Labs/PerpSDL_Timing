@@ -1,0 +1,187 @@
+{
+ "campaigns": [
+  {
+   "arm": "DTDE",
+   "seed": 8,
+   "billed": 8.3728,
+   "labels_f2": 3,
+   "billed_first_qual": null,
+   "qualifiers": [],
+   "fails": 2,
+   "makespan_s": 41040.9
+  },
+  {
+   "arm": "CEDT_P4",
+   "seed": 8,
+   "billed": 7.1585,
+   "labels_f2": 3,
+   "billed_first_qual": null,
+   "qualifiers": [],
+   "fails": 2,
+   "makespan_s": 41922.0
+  },
+  {
+   "arm": "CEDT_P4",
+   "seed": 9,
+   "billed": 3.034,
+   "labels_f2": 3,
+   "billed_first_qual": null,
+   "qualifiers": [],
+   "fails": 2,
+   "makespan_s": 17998.2
+  },
+  {
+   "arm": "DTDE",
+   "seed": 9,
+   "billed": 3.0604,
+   "labels_f2": 2,
+   "billed_first_qual": null,
+   "qualifiers": [],
+   "fails": 2,
+   "makespan_s": 15846.6
+  },
+  {
+   "arm": "DTDE",
+   "seed": 10,
+   "billed": 8.4081,
+   "labels_f2": 3,
+   "billed_first_qual": null,
+   "qualifiers": [],
+   "fails": 2,
+   "makespan_s": 56215.1
+  },
+  {
+   "arm": "CEDT_P4",
+   "seed": 10,
+   "billed": 4.4208,
+   "labels_f2": 2,
+   "billed_first_qual": null,
+   "qualifiers": [],
+   "fails": 2,
+   "makespan_s": 22732.2
+  },
+  {
+   "arm": "CEDT_P4",
+   "seed": 11,
+   "billed": 4.9824,
+   "labels_f2": 2,
+   "billed_first_qual": null,
+   "qualifiers": [],
+   "fails": 2,
+   "makespan_s": 36004.5
+  },
+  {
+   "arm": "DTDE",
+   "seed": 11,
+   "billed": 5.3025,
+   "labels_f2": 2,
+   "billed_first_qual": null,
+   "qualifiers": [],
+   "fails": 2,
+   "makespan_s": 33964.1
+  },
+  {
+   "arm": "DTDE",
+   "seed": 12,
+   "billed": 8.9333,
+   "labels_f2": 3,
+   "billed_first_qual": null,
+   "qualifiers": [],
+   "fails": 2,
+   "makespan_s": 50539.8
+  },
+  {
+   "arm": "CEDT_P4",
+   "seed": 12,
+   "billed": 8.2916,
+   "labels_f2": 3,
+   "billed_first_qual": null,
+   "qualifiers": [],
+   "fails": 1,
+   "makespan_s": 52892.4
+  },
+  {
+   "arm": "CEDT_P4",
+   "seed": 13,
+   "billed": 3.979,
+   "labels_f2": 2,
+   "billed_first_qual": null,
+   "qualifiers": [],
+   "fails": 2,
+   "makespan_s": 25205.2
+  },
+  {
+   "arm": "DTDE",
+   "seed": 13,
+   "billed": 5.5845,
+   "labels_f2": 3,
+   "billed_first_qual": null,
+   "qualifiers": [],
+   "fails": 2,
+   "makespan_s": 32421.7
+  },
+  {
+   "arm": "DTDE",
+   "seed": 14,
+   "billed": 5.4775,
+   "labels_f2": 3,
+   "billed_first_qual": null,
+   "qualifiers": [],
+   "fails": 2,
+   "makespan_s": 32631.6
+  },
+  {
+   "arm": "CEDT_P4",
+   "seed": 14,
+   "billed": 5.1711,
+   "labels_f2": 3,
+   "billed_first_qual": null,
+   "qualifiers": [],
+   "fails": 2,
+   "makespan_s": 33343.3
+  },
+  {
+   "arm": "CEDT_P4_UNMASKED",
+   "seed": 0,
+   "billed": 9.4876,
+   "labels_f2": 3,
+   "billed_first_qual": null,
+   "qualifiers": [],
+   "fails": 2,
+   "makespan_s": 51059.3
+  },
+  {
+   "arm": "CEDT_P4_UNMASKED",
+   "seed": 1,
+   "billed": 4.2816,
+   "labels_f2": 2,
+   "billed_first_qual": null,
+   "qualifiers": [],
+   "fails": 2,
+   "makespan_s": 26126.2
+  },
+  {
+   "arm": "CEDT_P4_UNMASKED",
+   "seed": 2,
+   "billed": 5.151,
+   "labels_f2": 3,
+   "billed_first_qual": null,
+   "qualifiers": [],
+   "fails": 1,
+   "makespan_s": 32622.7
+  }
+ ],
+ "billed_total": 101.097,
+ "calls": 136,
+ "quant": 600,
+ "window": [
+  8,
+  14
+ ],
+ "replay": [
+  0,
+  1,
+  2
+ ],
+ "wall_h": 167.38
+}

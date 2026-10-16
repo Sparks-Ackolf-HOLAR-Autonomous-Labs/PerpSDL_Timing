@@ -1,0 +1,1041 @@
+{
+ "campaigns": {
+  "CEDT_P4_s0": {
+   "host": "grn046",
+   "cluster": "granite",
+   "cpu": "AMD EPYC 9654P 96-Core Processor",
+   "slurm_job": "2089133"
+  },
+  "CEDT_P4_s1": {
+   "host": "grn045",
+   "cluster": "granite",
+   "cpu": "AMD EPYC 9654P 96-Core Processor",
+   "slurm_job": "2089135"
+  },
+  "CEDT_P4_s3": {
+   "host": "grn043",
+   "cluster": "granite",
+   "cpu": "AMD EPYC 9654P 96-Core Processor",
+   "slurm_job": "2089139"
+  },
+  "CEDT_P4_s4": {
+   "host": "grn035",
+   "cluster": "granite",
+   "cpu": "AMD EPYC 9654P 96-Core Processor",
+   "slurm_job": "2089141"
+  },
+  "CEDT_P4_s5": {
+   "host": "grn033",
+   "cluster": "granite",
+   "cpu": "AMD EPYC 9654P 96-Core Processor",
+   "slurm_job": "2089143"
+  },
+  "DTDE_s1": {
+   "host": "grn041",
+   "cluster": "granite",
+   "cpu": "AMD EPYC 9654P 96-Core Processor",
+   "slurm_job": "2089134"
+  },
+  "DTDE_s2": {
+   "host": "grn033",
+   "cluster": "granite",
+   "cpu": "AMD EPYC 9654P 96-Core Processor",
+   "slurm_job": "2089136"
+  },
+  "DTDE_s3": {
+   "host": "grn038",
+   "cluster": "granite",
+   "cpu": "AMD EPYC 9654P 96-Core Processor",
+   "slurm_job": "2089138"
+  },
+  "DTDE_s5": {
+   "host": "grn044",
+   "cluster": "granite",
+   "cpu": "AMD EPYC 9654P 96-Core Processor",
+   "slurm_job": "2089142"
+  },
+  "CEDT_P4_s6": {
+   "host": "grn041",
+   "cluster": "granite",
+   "cpu": "AMD EPYC 9654P 96-Core Processor",
+   "slurm_job": "2089145"
+  },
+  "CEDT_P4_s7": {
+   "host": "grn045",
+   "cluster": "granite",
+   "cpu": "AMD EPYC 9654P 96-Core Processor",
+   "slurm_job": "2089147"
+  },
+  "DTDE_s7": {
+   "host": "grn037",
+   "cluster": "granite",
+   "cpu": "AMD EPYC 9654P 96-Core Processor",
+   "slurm_job": "2089146"
+  },
+  "DTDE_s8": {
+   "host": "grn043",
+   "cluster": "granite",
+   "cpu": "AMD EPYC 9654P 96-Core Processor",
+   "slurm_job": "2089148"
+  },
+  "CEDT_P4_s2": {
+   "host": "grn033",
+   "cluster": "granite",
+   "cpu": "AMD EPYC 9654P 96-Core Processor",
+   "slurm_job": "2089137"
+  },
+  "DTDE_s11": {
+   "host": "grn037",
+   "cluster": "granite",
+   "cpu": "AMD EPYC 9654P 96-Core Processor",
+   "slurm_job": "2089154"
+  },
+  "DTDE_s14": {
+   "host": "grn043",
+   "cluster": "granite",
+   "cpu": "AMD EPYC 9654P 96-Core Processor",
+   "slurm_job": "2089160"
+  },
+  "CEDT_P4_s11": {
+   "host": "grn038",
+   "cluster": "granite",
+   "cpu": "AMD EPYC 9654P 96-Core Processor",
+   "slurm_job": "2089155"
+  },
+  "CEDT_P4_s13": {
+   "host": "grn021",
+   "cluster": "granite",
+   "cpu": "AMD EPYC 9654P 96-Core Processor",
+   "slurm_job": "2089159"
+  },
+  "CEDT_P4_s14": {
+   "host": "grn044",
+   "cluster": "granite",
+   "cpu": "AMD EPYC 9654P 96-Core Processor",
+   "slurm_job": "2089161"
+  },
+  "CEDT_P4_s8": {
+   "host": "grn016",
+   "cluster": "granite",
+   "cpu": "AMD EPYC 9554P 64-Core Processor",
+   "slurm_job": "2089149"
+  },
+  "CEDT_P4_s9": {
+   "host": "grn063",
+   "cluster": "granite",
+   "cpu": "AMD EPYC 9654P 96-Core Processor",
+   "slurm_job": "2089151"
+  },
+  "CTDE_P2_s0": {
+   "host": "grn064",
+   "cluster": "granite",
+   "cpu": "AMD EPYC 9654P 96-Core Processor",
+   "slurm_job": "2089710"
+  },
+  "CTDE_P2_s1": {
+   "host": "grn035",
+   "cluster": "granite",
+   "cpu": "AMD EPYC 9654P 96-Core Processor",
+   "slurm_job": "2089712"
+  },
+  "CTDE_P2_s2": {
+   "host": "grn037",
+   "cluster": "granite",
+   "cpu": "AMD EPYC 9654P 96-Core Processor",
+   "slurm_job": "2089714"
+  },
+  "CTDE_P2_s3": {
+   "host": "grn063",
+   "cluster": "granite",
+   "cpu": "AMD EPYC 9654P 96-Core Processor",
+   "slurm_job": "2089716"
+  },
+  "DTDE_s10": {
+   "host": "grn064",
+   "cluster": "granite",
+   "cpu": "AMD EPYC 9654P 96-Core Processor",
+   "slurm_job": "2089152"
+  },
+  "DTDE_s4": {
+   "host": "grn021",
+   "cluster": "granite",
+   "cpu": "AMD EPYC 9654P 96-Core Processor",
+   "slurm_job": "2089140"
+  },
+  "DTDE_s6": {
+   "host": "grn033",
+   "cluster": "granite",
+   "cpu": "AMD EPYC 9654P 96-Core Processor",
+   "slurm_job": "2089144"
+  },
+  "DTDE_s9": {
+   "host": "grn021",
+   "cluster": "granite",
+   "cpu": "AMD EPYC 9654P 96-Core Processor",
+   "slurm_job": "2089150"
+  },
+  "MIX50_s1": {
+   "host": "grn016",
+   "cluster": "granite",
+   "cpu": "AMD EPYC 9554P 64-Core Processor",
+   "slurm_job": "2089711"
+  },
+  "MIX50_s2": {
+   "host": "grn044",
+   "cluster": "granite",
+   "cpu": "AMD EPYC 9654P 96-Core Processor",
+   "slurm_job": "2089713"
+  },
+  "CEDT_P4_s10": {
+   "host": "notch490",
+   "cluster": "notchpeak",
+   "cpu": "AMD EPYC 9554 64-Core Processor",
+   "slurm_job": "16167441"
+  },
+  "CEDT_P4_s12": {
+   "host": "notch451",
+   "cluster": "notchpeak",
+   "cpu": "AMD EPYC 9334 32-Core Processor",
+   "slurm_job": "16167442"
+  },
+  "CTDE_P2_s10": {
+   "host": "notch488",
+   "cluster": "notchpeak",
+   "cpu": "AMD EPYC 9554 64-Core Processor",
+   "slurm_job": "16167473"
+  },
+  "CTDE_P2_s11": {
+   "host": "notch490",
+   "cluster": "notchpeak",
+   "cpu": "AMD EPYC 9554 64-Core Processor",
+   "slurm_job": "16167471"
+  },
+  "CTDE_P2_s12": {
+   "host": "notch493",
+   "cluster": "notchpeak",
+   "cpu": "AMD EPYC 9554 64-Core Processor",
+   "slurm_job": "16167469"
+  },
+  "CTDE_P2_s13": {
+   "host": "notch486",
+   "cluster": "notchpeak",
+   "cpu": "AMD EPYC 9554P 64-Core Processor",
+   "slurm_job": "16167467"
+  },
+  "CTDE_P2_s14": {
+   "host": "notch481",
+   "cluster": "notchpeak",
+   "cpu": "AMD EPYC 9554 64-Core Processor",
+   "slurm_job": "16167465"
+  },
+  "CTDE_P2_s4": {
+   "host": "notch493",
+   "cluster": "notchpeak",
+   "cpu": "AMD EPYC 9554 64-Core Processor",
+   "slurm_job": "16167486"
+  },
+  "CTDE_P2_s5": {
+   "host": "notch494",
+   "cluster": "notchpeak",
+   "cpu": "AMD EPYC 9554 64-Core Processor",
+   "slurm_job": "16167484"
+  },
+  "CTDE_P2_s6": {
+   "host": "notch487",
+   "cluster": "notchpeak",
+   "cpu": "AMD EPYC 9554 64-Core Processor",
+   "slurm_job": "16167482"
+  },
+  "CTDE_P2_s7": {
+   "host": "notch473",
+   "cluster": "notchpeak",
+   "cpu": "AMD EPYC 9654 96-Core Processor",
+   "slurm_job": "16167480"
+  },
+  "CTDE_P2_s8": {
+   "host": "notch487",
+   "cluster": "notchpeak",
+   "cpu": "AMD EPYC 9554 64-Core Processor",
+   "slurm_job": "16167477"
+  },
+  "CTDE_P2_s9": {
+   "host": "notch476",
+   "cluster": "notchpeak",
+   "cpu": "AMD EPYC 9654P 96-Core Processor",
+   "slurm_job": "16167475"
+  },
+  "DTDE_s0": {
+   "host": "notch449",
+   "cluster": "notchpeak",
+   "cpu": "AMD EPYC 9554P 64-Core Processor",
+   "slurm_job": "16167489"
+  },
+  "DTDE_s12": {
+   "host": "notch488",
+   "cluster": "notchpeak",
+   "cpu": "AMD EPYC 9554 64-Core Processor",
+   "slurm_job": "16167440"
+  },
+  "DTDE_s13": {
+   "host": "notch484",
+   "cluster": "notchpeak",
+   "cpu": "AMD EPYC 9554P 64-Core Processor",
+   "slurm_job": "16167443"
+  },
+  "MIX50_s0": {
+   "host": "notch480",
+   "cluster": "notchpeak",
+   "cpu": "AMD EPYC 9554 64-Core Processor",
+   "slurm_job": "16167439"
+  },
+  "MIX50_s10": {
+   "host": "notch488",
+   "cluster": "notchpeak",
+   "cpu": "AMD EPYC 9554 64-Core Processor",
+   "slurm_job": "16167474"
+  },
+  "MIX50_s11": {
+   "host": "notch489",
+   "cluster": "notchpeak",
+   "cpu": "AMD EPYC 9554 64-Core Processor",
+   "slurm_job": "16167472"
+  },
+  "MIX50_s12": {
+   "host": "notch491",
+   "cluster": "notchpeak",
+   "cpu": "AMD EPYC 9554 64-Core Processor",
+   "slurm_job": "16167470"
+  },
+  "MIX50_s13": {
+   "host": "notch485",
+   "cluster": "notchpeak",
+   "cpu": "AMD EPYC 9554P 64-Core Processor",
+   "slurm_job": "16167468"
+  },
+  "MIX50_s14": {
+   "host": "notch452",
+   "cluster": "notchpeak",
+   "cpu": "AMD EPYC 9334 32-Core Processor",
+   "slurm_job": "16167466"
+  },
+  "MIX50_s3": {
+   "host": "notch493",
+   "cluster": "notchpeak",
+   "cpu": "AMD EPYC 9554 64-Core Processor",
+   "slurm_job": "16167488"
+  },
+  "MIX50_s4": {
+   "host": "notch481",
+   "cluster": "notchpeak",
+   "cpu": "AMD EPYC 9554 64-Core Processor",
+   "slurm_job": "16167487"
+  },
+  "MIX50_s5": {
+   "host": "notch491",
+   "cluster": "notchpeak",
+   "cpu": "AMD EPYC 9554 64-Core Processor",
+   "slurm_job": "16167485"
+  },
+  "MIX50_s6": {
+   "host": "notch483",
+   "cluster": "notchpeak",
+   "cpu": "AMD EPYC 9554P 64-Core Processor",
+   "slurm_job": "16167483"
+  },
+  "MIX50_s7": {
+   "host": "notch489",
+   "cluster": "notchpeak",
+   "cpu": "AMD EPYC 9554 64-Core Processor",
+   "slurm_job": "16167481"
+  },
+  "MIX50_s8": {
+   "host": "notch484",
+   "cluster": "notchpeak",
+   "cpu": "AMD EPYC 9554P 64-Core Processor",
+   "slurm_job": "16167478"
+  },
+  "MIX50_s9": {
+   "host": "notch492",
+   "cluster": "notchpeak",
+   "cpu": "AMD EPYC 9554 64-Core Processor",
+   "slurm_job": "16167476"
+  }
+ },
+ "pairs": {
+  "CEDT_P4_s0": {
+   "sharing": {
+    "host": "grn046",
+    "cluster": "granite",
+    "cpu": "AMD EPYC 9654P 96-Core Processor",
+    "slurm_job": "2089133"
+   },
+   "dtde": {
+    "host": "notch449",
+    "cluster": "notchpeak",
+    "cpu": "AMD EPYC 9554P 64-Core Processor",
+    "slurm_job": "16167489"
+   },
+   "same_site": false
+  },
+  "CEDT_P4_s1": {
+   "sharing": {
+    "host": "grn045",
+    "cluster": "granite",
+    "cpu": "AMD EPYC 9654P 96-Core Processor",
+    "slurm_job": "2089135"
+   },
+   "dtde": {
+    "host": "grn041",
+    "cluster": "granite",
+    "cpu": "AMD EPYC 9654P 96-Core Processor",
+    "slurm_job": "2089134"
+   },
+   "same_site": true
+  },
+  "CEDT_P4_s2": {
+   "sharing": {
+    "host": "grn033",
+    "cluster": "granite",
+    "cpu": "AMD EPYC 9654P 96-Core Processor",
+    "slurm_job": "2089137"
+   },
+   "dtde": {
+    "host": "grn033",
+    "cluster": "granite",
+    "cpu": "AMD EPYC 9654P 96-Core Processor",
+    "slurm_job": "2089136"
+   },
+   "same_site": true
+  },
+  "CEDT_P4_s3": {
+   "sharing": {
+    "host": "grn043",
+    "cluster": "granite",
+    "cpu": "AMD EPYC 9654P 96-Core Processor",
+    "slurm_job": "2089139"
+   },
+   "dtde": {
+    "host": "grn038",
+    "cluster": "granite",
+    "cpu": "AMD EPYC 9654P 96-Core Processor",
+    "slurm_job": "2089138"
+   },
+   "same_site": true
+  },
+  "CEDT_P4_s4": {
+   "sharing": {
+    "host": "grn035",
+    "cluster": "granite",
+    "cpu": "AMD EPYC 9654P 96-Core Processor",
+    "slurm_job": "2089141"
+   },
+   "dtde": {
+    "host": "grn021",
+    "cluster": "granite",
+    "cpu": "AMD EPYC 9654P 96-Core Processor",
+    "slurm_job": "2089140"
+   },
+   "same_site": true
+  },
+  "CEDT_P4_s5": {
+   "sharing": {
+    "host": "grn033",
+    "cluster": "granite",
+    "cpu": "AMD EPYC 9654P 96-Core Processor",
+    "slurm_job": "2089143"
+   },
+   "dtde": {
+    "host": "grn044",
+    "cluster": "granite",
+    "cpu": "AMD EPYC 9654P 96-Core Processor",
+    "slurm_job": "2089142"
+   },
+   "same_site": true
+  },
+  "CEDT_P4_s6": {
+   "sharing": {
+    "host": "grn041",
+    "cluster": "granite",
+    "cpu": "AMD EPYC 9654P 96-Core Processor",
+    "slurm_job": "2089145"
+   },
+   "dtde": {
+    "host": "grn033",
+    "cluster": "granite",
+    "cpu": "AMD EPYC 9654P 96-Core Processor",
+    "slurm_job": "2089144"
+   },
+   "same_site": true
+  },
+  "CEDT_P4_s7": {
+   "sharing": {
+    "host": "grn045",
+    "cluster": "granite",
+    "cpu": "AMD EPYC 9654P 96-Core Processor",
+    "slurm_job": "2089147"
+   },
+   "dtde": {
+    "host": "grn037",
+    "cluster": "granite",
+    "cpu": "AMD EPYC 9654P 96-Core Processor",
+    "slurm_job": "2089146"
+   },
+   "same_site": true
+  },
+  "CEDT_P4_s8": {
+   "sharing": {
+    "host": "grn016",
+    "cluster": "granite",
+    "cpu": "AMD EPYC 9554P 64-Core Processor",
+    "slurm_job": "2089149"
+   },
+   "dtde": {
+    "host": "grn043",
+    "cluster": "granite",
+    "cpu": "AMD EPYC 9654P 96-Core Processor",
+    "slurm_job": "2089148"
+   },
+   "same_site": false
+  },
+  "CEDT_P4_s9": {
+   "sharing": {
+    "host": "grn063",
+    "cluster": "granite",
+    "cpu": "AMD EPYC 9654P 96-Core Processor",
+    "slurm_job": "2089151"
+   },
+   "dtde": {
+    "host": "grn021",
+    "cluster": "granite",
+    "cpu": "AMD EPYC 9654P 96-Core Processor",
+    "slurm_job": "2089150"
+   },
+   "same_site": true
+  },
+  "CEDT_P4_s10": {
+   "sharing": {
+    "host": "notch490",
+    "cluster": "notchpeak",
+    "cpu": "AMD EPYC 9554 64-Core Processor",
+    "slurm_job": "16167441"
+   },
+   "dtde": {
+    "host": "grn064",
+    "cluster": "granite",
+    "cpu": "AMD EPYC 9654P 96-Core Processor",
+    "slurm_job": "2089152"
+   },
+   "same_site": false
+  },
+  "CEDT_P4_s11": {
+   "sharing": {
+    "host": "grn038",
+    "cluster": "granite",
+    "cpu": "AMD EPYC 9654P 96-Core Processor",
+    "slurm_job": "2089155"
+   },
+   "dtde": {
+    "host": "grn037",
+    "cluster": "granite",
+    "cpu": "AMD EPYC 9654P 96-Core Processor",
+    "slurm_job": "2089154"
+   },
+   "same_site": true
+  },
+  "CEDT_P4_s12": {
+   "sharing": {
+    "host": "notch451",
+    "cluster": "notchpeak",
+    "cpu": "AMD EPYC 9334 32-Core Processor",
+    "slurm_job": "16167442"
+   },
+   "dtde": {
+    "host": "notch488",
+    "cluster": "notchpeak",
+    "cpu": "AMD EPYC 9554 64-Core Processor",
+    "slurm_job": "16167440"
+   },
+   "same_site": false
+  },
+  "CEDT_P4_s13": {
+   "sharing": {
+    "host": "grn021",
+    "cluster": "granite",
+    "cpu": "AMD EPYC 9654P 96-Core Processor",
+    "slurm_job": "2089159"
+   },
+   "dtde": {
+    "host": "notch484",
+    "cluster": "notchpeak",
+    "cpu": "AMD EPYC 9554P 64-Core Processor",
+    "slurm_job": "16167443"
+   },
+   "same_site": false
+  },
+  "CEDT_P4_s14": {
+   "sharing": {
+    "host": "grn044",
+    "cluster": "granite",
+    "cpu": "AMD EPYC 9654P 96-Core Processor",
+    "slurm_job": "2089161"
+   },
+   "dtde": {
+    "host": "grn043",
+    "cluster": "granite",
+    "cpu": "AMD EPYC 9654P 96-Core Processor",
+    "slurm_job": "2089160"
+   },
+   "same_site": true
+  },
+  "CTDE_P2_s0": {
+   "sharing": {
+    "host": "grn064",
+    "cluster": "granite",
+    "cpu": "AMD EPYC 9654P 96-Core Processor",
+    "slurm_job": "2089710"
+   },
+   "dtde": {
+    "host": "notch449",
+    "cluster": "notchpeak",
+    "cpu": "AMD EPYC 9554P 64-Core Processor",
+    "slurm_job": "16167489"
+   },
+   "same_site": false
+  },
+  "CTDE_P2_s1": {
+   "sharing": {
+    "host": "grn035",
+    "cluster": "granite",
+    "cpu": "AMD EPYC 9654P 96-Core Processor",
+    "slurm_job": "2089712"
+   },
+   "dtde": {
+    "host": "grn041",
+    "cluster": "granite",
+    "cpu": "AMD EPYC 9654P 96-Core Processor",
+    "slurm_job": "2089134"
+   },
+   "same_site": true
+  },
+  "CTDE_P2_s2": {
+   "sharing": {
+    "host": "grn037",
+    "cluster": "granite",
+    "cpu": "AMD EPYC 9654P 96-Core Processor",
+    "slurm_job": "2089714"
+   },
+   "dtde": {
+    "host": "grn033",
+    "cluster": "granite",
+    "cpu": "AMD EPYC 9654P 96-Core Processor",
+    "slurm_job": "2089136"
+   },
+   "same_site": true
+  },
+  "CTDE_P2_s3": {
+   "sharing": {
+    "host": "grn063",
+    "cluster": "granite",
+    "cpu": "AMD EPYC 9654P 96-Core Processor",
+    "slurm_job": "2089716"
+   },
+   "dtde": {
+    "host": "grn038",
+    "cluster": "granite",
+    "cpu": "AMD EPYC 9654P 96-Core Processor",
+    "slurm_job": "2089138"
+   },
+   "same_site": true
+  },
+  "CTDE_P2_s4": {
+   "sharing": {
+    "host": "notch493",
+    "cluster": "notchpeak",
+    "cpu": "AMD EPYC 9554 64-Core Processor",
+    "slurm_job": "16167486"
+   },
+   "dtde": {
+    "host": "grn021",
+    "cluster": "granite",
+    "cpu": "AMD EPYC 9654P 96-Core Processor",
+    "slurm_job": "2089140"
+   },
+   "same_site": false
+  },
+  "CTDE_P2_s5": {
+   "sharing": {
+    "host": "notch494",
+    "cluster": "notchpeak",
+    "cpu": "AMD EPYC 9554 64-Core Processor",
+    "slurm_job": "16167484"
+   },
+   "dtde": {
+    "host": "grn044",
+    "cluster": "granite",
+    "cpu": "AMD EPYC 9654P 96-Core Processor",
+    "slurm_job": "2089142"
+   },
+   "same_site": false
+  },
+  "CTDE_P2_s6": {
+   "sharing": {
+    "host": "notch487",
+    "cluster": "notchpeak",
+    "cpu": "AMD EPYC 9554 64-Core Processor",
+    "slurm_job": "16167482"
+   },
+   "dtde": {
+    "host": "grn033",
+    "cluster": "granite",
+    "cpu": "AMD EPYC 9654P 96-Core Processor",
+    "slurm_job": "2089144"
+   },
+   "same_site": false
+  },
+  "CTDE_P2_s7": {
+   "sharing": {
+    "host": "notch473",
+    "cluster": "notchpeak",
+    "cpu": "AMD EPYC 9654 96-Core Processor",
+    "slurm_job": "16167480"
+   },
+   "dtde": {
+    "host": "grn037",
+    "cluster": "granite",
+    "cpu": "AMD EPYC 9654P 96-Core Processor",
+    "slurm_job": "2089146"
+   },
+   "same_site": false
+  },
+  "CTDE_P2_s8": {
+   "sharing": {
+    "host": "notch487",
+    "cluster": "notchpeak",
+    "cpu": "AMD EPYC 9554 64-Core Processor",
+    "slurm_job": "16167477"
+   },
+   "dtde": {
+    "host": "grn043",
+    "cluster": "granite",
+    "cpu": "AMD EPYC 9654P 96-Core Processor",
+    "slurm_job": "2089148"
+   },
+   "same_site": false
+  },
+  "CTDE_P2_s9": {
+   "sharing": {
+    "host": "notch476",
+    "cluster": "notchpeak",
+    "cpu": "AMD EPYC 9654P 96-Core Processor",
+    "slurm_job": "16167475"
+   },
+   "dtde": {
+    "host": "grn021",
+    "cluster": "granite",
+    "cpu": "AMD EPYC 9654P 96-Core Processor",
+    "slurm_job": "2089150"
+   },
+   "same_site": false
+  },
+  "CTDE_P2_s10": {
+   "sharing": {
+    "host": "notch488",
+    "cluster": "notchpeak",
+    "cpu": "AMD EPYC 9554 64-Core Processor",
+    "slurm_job": "16167473"
+   },
+   "dtde": {
+    "host": "grn064",
+    "cluster": "granite",
+    "cpu": "AMD EPYC 9654P 96-Core Processor",
+    "slurm_job": "2089152"
+   },
+   "same_site": false
+  },
+  "CTDE_P2_s11": {
+   "sharing": {
+    "host": "notch490",
+    "cluster": "notchpeak",
+    "cpu": "AMD EPYC 9554 64-Core Processor",
+    "slurm_job": "16167471"
+   },
+   "dtde": {
+    "host": "grn037",
+    "cluster": "granite",
+    "cpu": "AMD EPYC 9654P 96-Core Processor",
+    "slurm_job": "2089154"
+   },
+   "same_site": false
+  },
+  "CTDE_P2_s12": {
+   "sharing": {
+    "host": "notch493",
+    "cluster": "notchpeak",
+    "cpu": "AMD EPYC 9554 64-Core Processor",
+    "slurm_job": "16167469"
+   },
+   "dtde": {
+    "host": "notch488",
+    "cluster": "notchpeak",
+    "cpu": "AMD EPYC 9554 64-Core Processor",
+    "slurm_job": "16167440"
+   },
+   "same_site": true
+  },
+  "CTDE_P2_s13": {
+   "sharing": {
+    "host": "notch486",
+    "cluster": "notchpeak",
+    "cpu": "AMD EPYC 9554P 64-Core Processor",
+    "slurm_job": "16167467"
+   },
+   "dtde": {
+    "host": "notch484",
+    "cluster": "notchpeak",
+    "cpu": "AMD EPYC 9554P 64-Core Processor",
+    "slurm_job": "16167443"
+   },
+   "same_site": true
+  },
+  "CTDE_P2_s14": {
+   "sharing": {
+    "host": "notch481",
+    "cluster": "notchpeak",
+    "cpu": "AMD EPYC 9554 64-Core Processor",
+    "slurm_job": "16167465"
+   },
+   "dtde": {
+    "host": "grn043",
+    "cluster": "granite",
+    "cpu": "AMD EPYC 9654P 96-Core Processor",
+    "slurm_job": "2089160"
+   },
+   "same_site": false
+  },
+  "MIX50_s0": {
+   "sharing": {
+    "host": "notch480",
+    "cluster": "notchpeak",
+    "cpu": "AMD EPYC 9554 64-Core Processor",
+    "slurm_job": "16167439"
+   },
+   "dtde": {
+    "host": "notch449",
+    "cluster": "notchpeak",
+    "cpu": "AMD EPYC 9554P 64-Core Processor",
+    "slurm_job": "16167489"
+   },
+   "same_site": false
+  },
+  "MIX50_s1": {
+   "sharing": {
+    "host": "grn016",
+    "cluster": "granite",
+    "cpu": "AMD EPYC 9554P 64-Core Processor",
+    "slurm_job": "2089711"
+   },
+   "dtde": {
+    "host": "grn041",
+    "cluster": "granite",
+    "cpu": "AMD EPYC 9654P 96-Core Processor",
+    "slurm_job": "2089134"
+   },
+   "same_site": false
+  },
+  "MIX50_s2": {
+   "sharing": {
+    "host": "grn044",
+    "cluster": "granite",
+    "cpu": "AMD EPYC 9654P 96-Core Processor",
+    "slurm_job": "2089713"
+   },
+   "dtde": {
+    "host": "grn033",
+    "cluster": "granite",
+    "cpu": "AMD EPYC 9654P 96-Core Processor",
+    "slurm_job": "2089136"
+   },
+   "same_site": true
+  },
+  "MIX50_s3": {
+   "sharing": {
+    "host": "notch493",
+    "cluster": "notchpeak",
+    "cpu": "AMD EPYC 9554 64-Core Processor",
+    "slurm_job": "16167488"
+   },
+   "dtde": {
+    "host": "grn038",
+    "cluster": "granite",
+    "cpu": "AMD EPYC 9654P 96-Core Processor",
+    "slurm_job": "2089138"
+   },
+   "same_site": false
+  },
+  "MIX50_s4": {
+   "sharing": {
+    "host": "notch481",
+    "cluster": "notchpeak",
+    "cpu": "AMD EPYC 9554 64-Core Processor",
+    "slurm_job": "16167487"
+   },
+   "dtde": {
+    "host": "grn021",
+    "cluster": "granite",
+    "cpu": "AMD EPYC 9654P 96-Core Processor",
+    "slurm_job": "2089140"
+   },
+   "same_site": false
+  },
+  "MIX50_s5": {
+   "sharing": {
+    "host": "notch491",
+    "cluster": "notchpeak",
+    "cpu": "AMD EPYC 9554 64-Core Processor",
+    "slurm_job": "16167485"
+   },
+   "dtde": {
+    "host": "grn044",
+    "cluster": "granite",
+    "cpu": "AMD EPYC 9654P 96-Core Processor",
+    "slurm_job": "2089142"
+   },
+   "same_site": false
+  },
+  "MIX50_s6": {
+   "sharing": {
+    "host": "notch483",
+    "cluster": "notchpeak",
+    "cpu": "AMD EPYC 9554P 64-Core Processor",
+    "slurm_job": "16167483"
+   },
+   "dtde": {
+    "host": "grn033",
+    "cluster": "granite",
+    "cpu": "AMD EPYC 9654P 96-Core Processor",
+    "slurm_job": "2089144"
+   },
+   "same_site": false
+  },
+  "MIX50_s7": {
+   "sharing": {
+    "host": "notch489",
+    "cluster": "notchpeak",
+    "cpu": "AMD EPYC 9554 64-Core Processor",
+    "slurm_job": "16167481"
+   },
+   "dtde": {
+    "host": "grn037",
+    "cluster": "granite",
+    "cpu": "AMD EPYC 9654P 96-Core Processor",
+    "slurm_job": "2089146"
+   },
+   "same_site": false
+  },
+  "MIX50_s8": {
+   "sharing": {
+    "host": "notch484",
+    "cluster": "notchpeak",
+    "cpu": "AMD EPYC 9554P 64-Core Processor",
+    "slurm_job": "16167478"
+   },
+   "dtde": {
+    "host": "grn043",
+    "cluster": "granite",
+    "cpu": "AMD EPYC 9654P 96-Core Processor",
+    "slurm_job": "2089148"
+   },
+   "same_site": false
+  },
+  "MIX50_s9": {
+   "sharing": {
+    "host": "notch492",
+    "cluster": "notchpeak",
+    "cpu": "AMD EPYC 9554 64-Core Processor",
+    "slurm_job": "16167476"
+   },
+   "dtde": {
+    "host": "grn021",
+    "cluster": "granite",
+    "cpu": "AMD EPYC 9654P 96-Core Processor",
+    "slurm_job": "2089150"
+   },
+   "same_site": false
+  },
+  "MIX50_s10": {
+   "sharing": {
+    "host": "notch488",
+    "cluster": "notchpeak",
+    "cpu": "AMD EPYC 9554 64-Core Processor",
+    "slurm_job": "16167474"
+   },
+   "dtde": {
+    "host": "grn064",
+    "cluster": "granite",
+    "cpu": "AMD EPYC 9654P 96-Core Processor",
+    "slurm_job": "2089152"
+   },
+   "same_site": false
+  },
+  "MIX50_s11": {
+   "sharing": {
+    "host": "notch489",
+    "cluster": "notchpeak",
+    "cpu": "AMD EPYC 9554 64-Core Processor",
+    "slurm_job": "16167472"
+   },
+   "dtde": {
+    "host": "grn037",
+    "cluster": "granite",
+    "cpu": "AMD EPYC 9654P 96-Core Processor",
+    "slurm_job": "2089154"
+   },
+   "same_site": false
+  },
+  "MIX50_s12": {
+   "sharing": {
+    "host": "notch491",
+    "cluster": "notchpeak",
+    "cpu": "AMD EPYC 9554 64-Core Processor",
+    "slurm_job": "16167470"
+   },
+   "dtde": {
+    "host": "notch488",
+    "cluster": "notchpeak",
+    "cpu": "AMD EPYC 9554 64-Core Processor",
+    "slurm_job": "16167440"
+   },
+   "same_site": true
+  },
+  "MIX50_s13": {
+   "sharing": {
+    "host": "notch485",
+    "cluster": "notchpeak",
+    "cpu": "AMD EPYC 9554P 64-Core Processor",
+    "slurm_job": "16167468"
+   },
+   "dtde": {
+    "host": "notch484",
+    "cluster": "notchpeak",
+    "cpu": "AMD EPYC 9554P 64-Core Processor",
+    "slurm_job": "16167443"
+   },
+   "same_site": true
+  },
+  "MIX50_s14": {
+   "sharing": {
+    "host": "notch452",
+    "cluster": "notchpeak",
+    "cpu": "AMD EPYC 9334 32-Core Processor",
+    "slurm_job": "16167466"
+   },
+   "dtde": {
+    "host": "grn043",
+    "cluster": "granite",
+    "cpu": "AMD EPYC 9654P 96-Core Processor",
+    "slurm_job": "2089160"
+   },
+   "same_site": false
+  }
+ }
+}

@@ -1,0 +1,11 @@
+{"arm": "CEDT_P4", "seed": 12, "opaque_id": "eadade5677", "cls": "f1", "mem_bit": 0, "t_start": 1791231820.9, "t_end": 1791236652.1, "wall_s": 4831.2, "billed_nh": 0.3355, "ok": true}
+{"arm": "CEDT_P4", "seed": 12, "opaque_id": "eadade5677", "cls": "f2", "mem_bit": 0, "t_start": 1791236655.7, "t_end": 1791244132.6, "wall_s": 7476.9, "billed_nh": 0.5947, "ok": true}
+{"arm": "CEDT_P4", "seed": 12, "opaque_id": "eadade5677", "cls": "f3", "mem_bit": 0, "t_start": 1791244133.0, "t_end": 1791250268.0, "wall_s": 6134.9, "billed_nh": 0.5121, "ok": true}
+{"arm": "CEDT_P4", "seed": 12, "opaque_id": "8c51127574", "cls": "f1", "mem_bit": 0, "t_start": 1791231820.9, "t_end": 1791251145.9, "wall_s": 19325.0, "billed_nh": 1.342, "ok": true}
+{"arm": "CEDT_P4", "seed": 12, "opaque_id": "4eb10dde7a", "cls": "f1", "mem_bit": 0, "t_start": 1791231820.9, "t_end": 1791251145.9, "wall_s": 19325.0, "billed_nh": 1.342, "ok": true}
+{"arm": "CEDT_P4", "seed": 12, "opaque_id": "3ca45d80b0", "cls": "f1", "mem_bit": 1, "t_start": 1791250269.8, "t_end": 1791269169.8, "wall_s": 18900.0, "billed_nh": 1.7864, "ok": true}
+{"arm": "CEDT_P4", "seed": 12, "opaque_id": "8c51127574", "cls": "f2", "mem_bit": 0, "t_start": 1791251150.7, "t_end": 1791276073.8, "wall_s": 24923.1, "billed_nh": 1.9822, "ok": true}
+{"arm": "CEDT_P4", "seed": 12, "opaque_id": "8c51127574", "cls": "f3", "mem_bit": 0, "t_start": 1791276075.1, "t_end": 1791294479.9, "wall_s": 18404.7, "billed_nh": 1.5364, "ok": true}
+{"arm": "CEDT_P4", "seed": 12, "opaque_id": "4eb10dde7a", "cls": "f2", "mem_bit": 0, "t_start": 1791269178.4, "t_end": 1791299086.1, "wall_s": 29907.7, "billed_nh": 2.3786, "ok": true}
+{"arm": "CEDT_P4", "seed": 12, "opaque_id": "4eb10dde7a", "cls": "f3", "mem_bit": 0, "t_start": 1791299088.6, "t_end": 1791317493.4, "wall_s": 18404.7, "billed_nh": 1.5364, "ok": true}
+{"arm": "CEDT_P4", "seed": 12, "opaque_id": "3ca45d80b0", "cls": "f2", "mem_bit": 1, "t_start": 1791294484.1, "t_end": 1791323734.1, "wall_s": 29250.0, "billed_nh": 3.2521, "ok": true}

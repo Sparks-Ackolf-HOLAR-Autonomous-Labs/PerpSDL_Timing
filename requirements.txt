@@ -1,0 +1,9 @@
+# Python packages for the figure generator and the analysis scripts
+# (Python 3.10 or later). Install with: pip install -r requirements.txt
+matplotlib>=3.8
+numpy>=1.26
+scipy>=1.11
+
+# Optional: needed only to re-run the computations named below.
+# httpx>=0.27    # language-model agent campaigns (needs an OpenAI-compatible model server); used in llm_agents/
+# pysr>=0.19    # symbolic-regression fit of the cost model (needs Julia); used in stage2_twin_fit/

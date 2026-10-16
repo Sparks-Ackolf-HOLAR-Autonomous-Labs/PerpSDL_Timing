@@ -1,0 +1,12 @@
+{"arm": "MIX50", "seed": 5, "opaque_id": "1a3c447b8e", "cls": "f1", "mem_bit": null, "size_bin": null, "t_start": 1791343846.3, "t_end": 1791347339.9, "wall_s": 3493.5, "billed_nh": 0.3302, "ok": true}
+{"arm": "MIX50", "seed": 5, "opaque_id": "3c493dd6e6", "cls": "f1", "mem_bit": null, "size_bin": null, "t_start": 1791343846.3, "t_end": 1791347900.5, "wall_s": 4054.1, "billed_nh": 0.3832, "ok": true}
+{"arm": "MIX50", "seed": 5, "opaque_id": "8b3f2a6bda", "cls": "f1", "mem_bit": 0, "size_bin": null, "t_start": 1791347339.9, "t_end": 1791352064.9, "wall_s": 4725.0, "billed_nh": 0.3281, "ok": true}
+{"arm": "MIX50", "seed": 5, "opaque_id": "1a3c447b8e", "cls": "f2", "mem_bit": 0, "size_bin": null, "t_start": 1791347339.9, "t_end": 1791353570.7, "wall_s": 6230.8, "billed_nh": 0.4955, "ok": true}
+{"arm": "MIX50", "seed": 5, "opaque_id": "3c493dd6e6", "cls": "f2", "mem_bit": null, "size_bin": null, "t_start": 1791352074.7, "t_end": 1791358891.6, "wall_s": 6816.9, "billed_nh": 0.7579, "ok": true}
+{"arm": "MIX50", "seed": 5, "opaque_id": "1a3c447b8e", "cls": "f3", "mem_bit": 0, "size_bin": null, "t_start": 1791353576.3, "t_end": 1791362011.8, "wall_s": 8435.5, "billed_nh": 0.7042, "ok": true}
+{"arm": "MIX50", "seed": 5, "opaque_id": "3c493dd6e6", "cls": "f3", "mem_bit": 0, "size_bin": null, "t_start": 1791358891.7, "t_end": 1791366091.7, "wall_s": 7200.0, "billed_nh": 0.6011, "ok": true}
+{"arm": "MIX50", "seed": 5, "opaque_id": "8b3f2a6bda", "cls": "f2", "mem_bit": null, "size_bin": null, "t_start": 1791362015.5, "t_end": 1791367581.7, "wall_s": 5566.2, "billed_nh": 0.6189, "ok": true}
+{"arm": "MIX50", "seed": 5, "opaque_id": "01d63439c1", "cls": "f1", "mem_bit": null, "size_bin": null, "t_start": 1791366100.2, "t_end": 1791370264.4, "wall_s": 4164.3, "billed_nh": 0.3936, "ok": true}
+{"arm": "MIX50", "seed": 5, "opaque_id": "8b3f2a6bda", "cls": "f3", "mem_bit": null, "size_bin": null, "t_start": 1791367581.7, "t_end": 1791371455.6, "wall_s": 3873.9, "billed_nh": 0.4522, "ok": true}
+{"arm": "MIX50", "seed": 5, "opaque_id": "01d63439c1", "cls": "f2", "mem_bit": 0, "size_bin": null, "t_start": 1791370264.4, "t_end": 1791377576.9, "wall_s": 7312.5, "billed_nh": 0.5816, "ok": true}
+{"arm": "MIX50", "seed": 5, "opaque_id": "01d63439c1", "cls": "f3", "mem_bit": null, "size_bin": null, "t_start": 1791377582.4, "t_end": 1791383778.7, "wall_s": 6196.3, "billed_nh": 0.7234, "ok": true}

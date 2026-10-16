@@ -1,0 +1,176 @@
+[
+ {
+  "name": "TiS2_1T",
+  "nat": 27,
+  "nelec": 216.0,
+  "gap_1x1_ev": 0.0608
+ },
+ {
+  "name": "TiS2_2H",
+  "nat": 54,
+  "nelec": 432.0,
+  "gap_1x1_ev": null
+ },
+ {
+  "name": "TiSe2_1T",
+  "nat": 27,
+  "nelec": 216.0,
+  "gap_1x1_ev": null
+ },
+ {
+  "name": "TiSe2_2H",
+  "nat": 54,
+  "nelec": 432.0,
+  "gap_1x1_ev": 0.456
+ },
+ {
+  "name": "TiTe2_1T",
+  "nat": 27,
+  "nelec": 216.0,
+  "gap_1x1_ev": null
+ },
+ {
+  "name": "TiTe2_2H",
+  "nat": 54,
+  "nelec": 432.0,
+  "gap_1x1_ev": 0.1242
+ },
+ {
+  "name": "ZrS2_1T",
+  "nat": 27,
+  "nelec": 216.0,
+  "gap_1x1_ev": 1.2007
+ },
+ {
+  "name": "ZrS2_2H",
+  "nat": 54,
+  "nelec": 432.0,
+  "gap_1x1_ev": null
+ },
+ {
+  "name": "ZrSe2_1T",
+  "nat": 27,
+  "nelec": 216.0,
+  "gap_1x1_ev": 0.4995
+ },
+ {
+  "name": "ZrSe2_2H",
+  "nat": 54,
+  "nelec": 432.0,
+  "gap_1x1_ev": 0.6199
+ },
+ {
+  "name": "ZrTe2_1T",
+  "nat": 27,
+  "nelec": 216.0,
+  "gap_1x1_ev": null
+ },
+ {
+  "name": "ZrTe2_2H",
+  "nat": 54,
+  "nelec": 432.0,
+  "gap_1x1_ev": null
+ },
+ {
+  "name": "HfS2_1T",
+  "nat": 27,
+  "nelec": 216.0,
+  "gap_1x1_ev": 1.3299
+ },
+ {
+  "name": "HfS2_2H",
+  "nat": 54,
+  "nelec": 432.0,
+  "gap_1x1_ev": 1.0143
+ },
+ {
+  "name": "HfSe2_1T",
+  "nat": 27,
+  "nelec": 216.0,
+  "gap_1x1_ev": 0.6456
+ },
+ {
+  "name": "HfTe2_1T",
+  "nat": 27,
+  "nelec": 216.0,
+  "gap_1x1_ev": null
+ },
+ {
+  "name": "HfTe2_2H",
+  "nat": 54,
+  "nelec": 432.0,
+  "gap_1x1_ev": 0.3042
+ },
+ {
+  "name": "MoS2_1T",
+  "nat": 27,
+  "nelec": 234.0,
+  "gap_1x1_ev": null
+ },
+ {
+  "name": "MoS2_2H",
+  "nat": 54,
+  "nelec": 468.0,
+  "gap_1x1_ev": 1.5571
+ },
+ {
+  "name": "MoSe2_1T",
+  "nat": 27,
+  "nelec": 234.0,
+  "gap_1x1_ev": null
+ },
+ {
+  "name": "MoSe2_2H",
+  "nat": 54,
+  "nelec": 468.0,
+  "gap_1x1_ev": 1.4488
+ },
+ {
+  "name": "MoTe2_1T",
+  "nat": 27,
+  "nelec": 234.0,
+  "gap_1x1_ev": null
+ },
+ {
+  "name": "MoTe2_2H",
+  "nat": 54,
+  "nelec": 468.0,
+  "gap_1x1_ev": 1.0346
+ },
+ {
+  "name": "WS2_1T",
+  "nat": 27,
+  "nelec": 234.0,
+  "gap_1x1_ev": null
+ },
+ {
+  "name": "WS2_2H",
+  "nat": 54,
+  "nelec": 468.0,
+  "gap_1x1_ev": 1.7698
+ },
+ {
+  "name": "WSe2_1T",
+  "nat": 27,
+  "nelec": 234.0,
+  "gap_1x1_ev": null
+ },
+ {
+  "name": "WSe2_2H",
+  "nat": 54,
+  "nelec": 468.0,
+  "gap_1x1_ev": 1.5508
+ },
+ {
+  "name": "WTe2_1T",
+  "nat": 27,
+  "nelec": 234.0,
+  "gap_1x1_ev": null
+ },
+ {
+  "name": "WTe2_2H",
+  "nat": 54,
+  "nelec": 468.0,
+  "gap_1x1_ev": 1.0267
+ }
+]

@@ -1,0 +1,27 @@
+{
+ "campaign": {
+  "arm": "DTDE",
+  "seed": 12,
+  "billed": 29.5486,
+  "labels_f2": 5,
+  "billed_first_qual": 1.8838,
+  "qualifiers": [
+   "HfS2_1T",
+   "HfS2_2H",
+   "MoTe2_2H",
+   "MoSe2_2H"
+  ],
+  "fails": 0,
+  "makespan_s": 150984.3,
+  "node": {
+   "host": "notch488",
+   "cpu_model": "AMD EPYC 9554 64-Core Processor",
+   "ncpu": 256,
+   "slurm_job": "16167440",
+   "restart_count": "2"
+  },
+  "mask": "none"
+ },
+ "billed_total": 29.549,
+ "calls": 15
+}

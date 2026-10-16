@@ -1,0 +1,37 @@
+&CONTROL
+  calculation = 'scf'
+  prefix = 'WTe2_2H'
+  pseudo_dir = './pseudos'
+  outdir = './out'
+  disk_io = 'nowf'
+/
+&SYSTEM
+  ibrav = 4
+  a = 3.66
+  c = 18.0
+  nat = 6
+  ntyp = 2
+  ecutwfc = 35.0
+  ecutrho = 280.0
+  occupations = 'smearing'
+  smearing = 'cold'
+  degauss = 0.02
+/
+&ELECTRONS
+  mixing_beta = 0.7
+  conv_thr = 1.0d-6
+  diagonalization = 'david'
+  electron_maxstep = 60
+/
+ATOMIC_SPECIES
+  W  183.84  w_pbe_v1.2.uspp.F.UPF
+  Te  127.6  te_pbe_v1.uspp.F.UPF
+ATOMIC_POSITIONS crystal
+  W  0.3333333333  0.6666666667  0.3500000000
+  Te  0.6666666667  0.3333333333  0.4683059436
+  Te  0.6666666667  0.3333333333  0.2316940564
+  W  0.6666666667  0.3333333333  0.6500000000
+  Te  0.3333333333  0.6666666667  0.7683059436
+  Te  0.3333333333  0.6666666667  0.5316940564
+K_POINTS automatic
+  6 6 1 0 0 0

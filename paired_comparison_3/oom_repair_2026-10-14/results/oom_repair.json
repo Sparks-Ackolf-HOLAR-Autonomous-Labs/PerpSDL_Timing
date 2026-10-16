@@ -1,0 +1,118 @@
+{
+ "node": {
+  "host": "notch492",
+  "cpu_model": "AMD EPYC 9554 64-Core Processor",
+  "ncpu": 256,
+  "slurm_job": "16167444",
+  "restart_count": "0"
+ },
+ "calls": [
+  {
+   "candidate": "ZrTe2_2H",
+   "stage": "f1",
+   "solver": "david",
+   "rc": 0,
+   "wall_s": 32354.7,
+   "peak_rank_rss_gb": 8.61,
+   "peak_job_rss_gb_while_running": 426.5,
+   "outcome": "converged",
+   "fail_kind": null,
+   "converged": true
+  },
+  {
+   "candidate": "ZrSe2_2H",
+   "stage": "f2",
+   "solver": "david",
+   "rc": 0,
+   "wall_s": 34410.9,
+   "peak_rank_rss_gb": 9.7,
+   "peak_job_rss_gb_while_running": 426.5,
+   "outcome": "converged",
+   "fail_kind": null,
+   "converged": true
+  },
+  {
+   "candidate": "TiSe2_2H",
+   "stage": "f2",
+   "solver": "david",
+   "rc": 0,
+   "wall_s": 49772.1,
+   "peak_rank_rss_gb": 8.7,
+   "peak_job_rss_gb_while_running": 426.5,
+   "outcome": "converged",
+   "fail_kind": null,
+   "converged": true
+  },
+  {
+   "candidate": "TiSe2_2H",
+   "stage": "f3",
+   "solver": "david",
+   "rc": 0,
+   "wall_s": 25935.2,
+   "peak_rank_rss_gb": 8.17,
+   "peak_job_rss_gb_while_running": 129.9,
+   "outcome": "converged",
+   "fail_kind": null,
+   "gap_ev": 0.4927
+  }
+ ],
+ "repairs": {
+  "ZrTe2_2H": {
+   "arm": "CEDT_P4",
+   "seed": 3,
+   "candidate": "ZrTe2_2H",
+   "stage": "f1",
+   "prereq": [],
+   "slurm_job_orig": "2089139",
+   "solver": "david",
+   "rc": 0,
+   "wall_s": 32354.7,
+   "peak_rank_rss_gb": 8.61,
+   "peak_job_rss_gb_while_running": 426.5,
+   "outcome": "converged",
+   "fail_kind": null,
+   "converged": true,
+   "ok": true
+  },
+  "ZrSe2_2H": {
+   "arm": "CEDT_P4",
+   "seed": 4,
+   "candidate": "ZrSe2_2H",
+   "stage": "f2",
+   "prereq": [],
+   "slurm_job_orig": "2089141",
+   "solver": "david",
+   "rc": 0,
+   "wall_s": 34410.9,
+   "peak_rank_rss_gb": 9.7,
+   "peak_job_rss_gb_while_running": 426.5,
+   "outcome": "converged",
+   "fail_kind": null,
+   "converged": true,
+   "ok": true
+  },
+  "TiSe2_2H": {
+   "arm": "CEDT_P4",
+   "seed": 7,
+   "candidate": "TiSe2_2H",
+   "stage": "f3",
+   "prereq": [
+    "f2"
+   ],
+   "slurm_job_orig": "2089147",
+   "solver": "david",
+   "rc": 0,
+   "wall_s": 25935.2,
+   "peak_rank_rss_gb": 8.17,
+   "peak_job_rss_gb_while_running": 129.9,
+   "outcome": "converged",
+   "fail_kind": null,
+   "gap_ev": 0.4927,
+   "ok": true
+  }
+ },
+ "peak_job_rss_gb": 426.5,
+ "t_start": 1791584464.250367,
+ "elapsed_s": 75708.4,
+ "done": true
+}

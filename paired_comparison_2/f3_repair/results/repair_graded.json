@@ -1,0 +1,527 @@
+{
+ "grading": "repair (measured 8x8 F3 gaps, corrected billing)",
+ "n_pairs": 15,
+ "cedt_wins": 5,
+ "pw": 0.333,
+ "pw60_pass_repair": false,
+ "sign_p": 0.9408,
+ "pairs": [
+  {
+   "seed": 0,
+   "dtde_first": 7.995,
+   "cedt_first": 8.0873,
+   "cedt_win": false,
+   "dtde_first_qualifier": "HfS2_2H",
+   "cedt_first_qualifier": "HfS2_2H"
+  },
+  {
+   "seed": 1,
+   "dtde_first": null,
+   "cedt_first": null,
+   "cedt_win": false,
+   "dtde_first_qualifier": null,
+   "cedt_first_qualifier": null
+  },
+  {
+   "seed": 2,
+   "dtde_first": 1.4627,
+   "cedt_first": 1.4159,
+   "cedt_win": true,
+   "dtde_first_qualifier": "ZrS2_1T",
+   "cedt_first_qualifier": "ZrS2_1T"
+  },
+  {
+   "seed": 3,
+   "dtde_first": null,
+   "cedt_first": null,
+   "cedt_win": false,
+   "dtde_first_qualifier": null,
+   "cedt_first_qualifier": null
+  },
+  {
+   "seed": 4,
+   "dtde_first": null,
+   "cedt_first": null,
+   "cedt_win": false,
+   "dtde_first_qualifier": null,
+   "cedt_first_qualifier": null
+  },
+  {
+   "seed": 5,
+   "dtde_first": null,
+   "cedt_first": null,
+   "cedt_win": false,
+   "dtde_first_qualifier": null,
+   "cedt_first_qualifier": null
+  },
+  {
+   "seed": 6,
+   "dtde_first": null,
+   "cedt_first": null,
+   "cedt_win": false,
+   "dtde_first_qualifier": null,
+   "cedt_first_qualifier": null
+  },
+  {
+   "seed": 7,
+   "dtde_first": 8.085,
+   "cedt_first": 9.1144,
+   "cedt_win": false,
+   "dtde_first_qualifier": "WSe2_2H",
+   "cedt_first_qualifier": "WSe2_2H"
+  },
+  {
+   "seed": 8,
+   "dtde_first": 7.8482,
+   "cedt_first": 7.2126,
+   "cedt_win": true,
+   "dtde_first_qualifier": "MoS2_2H",
+   "cedt_first_qualifier": "MoS2_2H"
+  },
+  {
+   "seed": 9,
+   "dtde_first": null,
+   "cedt_first": 2.0517,
+   "cedt_win": true,
+   "dtde_first_qualifier": null,
+   "cedt_first_qualifier": "HfS2_1T"
+  },
+  {
+   "seed": 10,
+   "dtde_first": 5.6566,
+   "cedt_first": 1.7658,
+   "cedt_win": true,
+   "dtde_first_qualifier": "HfS2_1T",
+   "cedt_first_qualifier": "HfS2_1T"
+  },
+  {
+   "seed": 11,
+   "dtde_first": null,
+   "cedt_first": null,
+   "cedt_win": false,
+   "dtde_first_qualifier": null,
+   "cedt_first_qualifier": null
+  },
+  {
+   "seed": 12,
+   "dtde_first": 1.6265,
+   "cedt_first": 1.2639,
+   "cedt_win": true,
+   "dtde_first_qualifier": "HfS2_1T",
+   "cedt_first_qualifier": "HfS2_1T"
+  },
+  {
+   "seed": 13,
+   "dtde_first": null,
+   "cedt_first": null,
+   "cedt_win": false,
+   "dtde_first_qualifier": null,
+   "cedt_first_qualifier": null
+  },
+  {
+   "seed": 14,
+   "dtde_first": null,
+   "cedt_first": null,
+   "cedt_win": false,
+   "dtde_first_qualifier": null,
+   "cedt_first_qualifier": null
+  }
+ ],
+ "h_ratio_asrun": 1.1332,
+ "h_ratio_corrected": 1.2068,
+ "campaigns": [
+  {
+   "arm": "DTDE",
+   "seed": 0,
+   "billed_asrun": 10.9417,
+   "billed_corrected": 14.8359,
+   "labels_f2": 3,
+   "repair_first_qual": 7.995,
+   "repair_qualifiers": [
+    "HfS2_2H"
+   ],
+   "fails_corrected": 0,
+   "f3_substituted": 2
+  },
+  {
+   "arm": "CEDT_P4",
+   "seed": 0,
+   "billed_asrun": 9.7733,
+   "billed_corrected": 11.622,
+   "labels_f2": 3,
+   "repair_first_qual": 8.0873,
+   "repair_qualifiers": [
+    "HfS2_2H"
+   ],
+   "fails_corrected": 0,
+   "f3_substituted": 2
+  },
+  {
+   "arm": "CEDT_P4",
+   "seed": 1,
+   "billed_asrun": 4.5877,
+   "billed_corrected": 5.6746,
+   "labels_f2": 2,
+   "repair_first_qual": null,
+   "repair_qualifiers": [],
+   "fails_corrected": 0,
+   "f3_substituted": 2
+  },
+  {
+   "arm": "DTDE",
+   "seed": 1,
+   "billed_asrun": 4.6935,
+   "billed_corrected": 5.848,
+   "labels_f2": 2,
+   "repair_first_qual": null,
+   "repair_qualifiers": [],
+   "fails_corrected": 0,
+   "f3_substituted": 2
+  },
+  {
+   "arm": "DTDE",
+   "seed": 2,
+   "billed_asrun": 5.2968,
+   "billed_corrected": 6.5179,
+   "labels_f2": 3,
+   "repair_first_qual": 1.4627,
+   "repair_qualifiers": [
+    "ZrS2_1T"
+   ],
+   "fails_corrected": 0,
+   "f3_substituted": 2
+  },
+  {
+   "arm": "CEDT_P4",
+   "seed": 2,
+   "billed_asrun": 5.2914,
+   "billed_corrected": 5.6337,
+   "labels_f2": 3,
+   "repair_first_qual": 1.4159,
+   "repair_qualifiers": [
+    "ZrS2_1T"
+   ],
+   "fails_corrected": 0,
+   "f3_substituted": 1
+  },
+  {
+   "arm": "CEDT_P4",
+   "seed": 3,
+   "billed_asrun": 5.8337,
+   "billed_corrected": 6.9234,
+   "labels_f2": 3,
+   "repair_first_qual": null,
+   "repair_qualifiers": [],
+   "fails_corrected": 0,
+   "f3_substituted": 2
+  },
+  {
+   "arm": "DTDE",
+   "seed": 3,
+   "billed_asrun": 6.8674,
+   "billed_corrected": 8.2391,
+   "labels_f2": 3,
+   "repair_first_qual": null,
+   "repair_qualifiers": [],
+   "fails_corrected": 0,
+   "f3_substituted": 2
+  },
+  {
+   "arm": "DTDE",
+   "seed": 4,
+   "billed_asrun": 8.8528,
+   "billed_corrected": 11.1451,
+   "labels_f2": 3,
+   "repair_first_qual": null,
+   "repair_qualifiers": [],
+   "fails_corrected": 0,
+   "f3_substituted": 2
+  },
+  {
+   "arm": "CEDT_P4",
+   "seed": 4,
+   "billed_asrun": 8.9682,
+   "billed_corrected": 9.3188,
+   "labels_f2": 3,
+   "repair_first_qual": null,
+   "repair_qualifiers": [],
+   "fails_corrected": 0,
+   "f3_substituted": 1
+  },
+  {
+   "arm": "CEDT_P4",
+   "seed": 5,
+   "billed_asrun": 2.5456,
+   "billed_corrected": 3.4755,
+   "labels_f2": 3,
+   "repair_first_qual": null,
+   "repair_qualifiers": [],
+   "fails_corrected": 0,
+   "f3_substituted": 2
+  },
+  {
+   "arm": "DTDE",
+   "seed": 5,
+   "billed_asrun": 2.7295,
+   "billed_corrected": 4.4415,
+   "labels_f2": 2,
+   "repair_first_qual": null,
+   "repair_qualifiers": [],
+   "fails_corrected": 0,
+   "f3_substituted": 2
+  },
+  {
+   "arm": "DTDE",
+   "seed": 6,
+   "billed_asrun": 6.0118,
+   "billed_corrected": 7.1664,
+   "labels_f2": 2,
+   "repair_first_qual": null,
+   "repair_qualifiers": [],
+   "fails_corrected": 0,
+   "f3_substituted": 2
+  },
+  {
+   "arm": "CEDT_P4",
+   "seed": 6,
+   "billed_asrun": 6.259,
+   "billed_corrected": 7.3476,
+   "labels_f2": 2,
+   "repair_first_qual": null,
+   "repair_qualifiers": [],
+   "fails_corrected": 0,
+   "f3_substituted": 2
+  },
+  {
+   "arm": "CEDT_P4",
+   "seed": 7,
+   "billed_asrun": 8.544,
+   "billed_corrected": 11.882,
+   "labels_f2": 3,
+   "repair_first_qual": 9.1144,
+   "repair_qualifiers": [
+    "WSe2_2H"
+   ],
+   "fails_corrected": 0,
+   "f3_substituted": 2
+  },
+  {
+   "arm": "DTDE",
+   "seed": 7,
+   "billed_asrun": 10.145,
+   "billed_corrected": 13.803,
+   "labels_f2": 3,
+   "repair_first_qual": 8.085,
+   "repair_qualifiers": [
+    "WSe2_2H"
+   ],
+   "fails_corrected": 0,
+   "f3_substituted": 2
+  },
+  {
+   "arm": "DTDE",
+   "seed": 8,
+   "billed_asrun": 8.3728,
+   "billed_corrected": 10.6406,
+   "labels_f2": 3,
+   "repair_first_qual": 7.8482,
+   "repair_qualifiers": [
+    "MoS2_2H"
+   ],
+   "fails_corrected": 0,
+   "f3_substituted": 2
+  },
+  {
+   "arm": "CEDT_P4",
+   "seed": 8,
+   "billed_asrun": 7.1585,
+   "billed_corrected": 9.2166,
+   "labels_f2": 3,
+   "repair_first_qual": 7.2126,
+   "repair_qualifiers": [
+    "MoS2_2H"
+   ],
+   "fails_corrected": 0,
+   "f3_substituted": 2
+  },
+  {
+   "arm": "CEDT_P4",
+   "seed": 9,
+   "billed_asrun": 3.034,
+   "billed_corrected": 3.9086,
+   "labels_f2": 3,
+   "repair_first_qual": 2.0517,
+   "repair_qualifiers": [
+    "HfS2_1T"
+   ],
+   "fails_corrected": 0,
+   "f3_substituted": 2
+  },
+  {
+   "arm": "DTDE",
+   "seed": 9,
+   "billed_asrun": 3.0604,
+   "billed_corrected": 4.3799,
+   "labels_f2": 2,
+   "repair_first_qual": null,
+   "repair_qualifiers": [],
+   "fails_corrected": 0,
+   "f3_substituted": 2
+  },
+  {
+   "arm": "DTDE",
+   "seed": 10,
+   "billed_asrun": 8.4081,
+   "billed_corrected": 9.4784,
+   "labels_f2": 3,
+   "repair_first_qual": 5.6566,
+   "repair_qualifiers": [
+    "HfS2_1T"
+   ],
+   "fails_corrected": 0,
+   "f3_substituted": 2
+  },
+  {
+   "arm": "CEDT_P4",
+   "seed": 10,
+   "billed_asrun": 4.4208,
+   "billed_corrected": 5.2693,
+   "labels_f2": 2,
+   "repair_first_qual": 1.7658,
+   "repair_qualifiers": [
+    "HfS2_1T"
+   ],
+   "fails_corrected": 0,
+   "f3_substituted": 2
+  },
+  {
+   "arm": "CEDT_P4",
+   "seed": 11,
+   "billed_asrun": 4.9824,
+   "billed_corrected": 5.9497,
+   "labels_f2": 2,
+   "repair_first_qual": null,
+   "repair_qualifiers": [],
+   "fails_corrected": 0,
+   "f3_substituted": 2
+  },
+  {
+   "arm": "DTDE",
+   "seed": 11,
+   "billed_asrun": 5.3025,
+   "billed_corrected": 6.3361,
+   "labels_f2": 2,
+   "repair_first_qual": null,
+   "repair_qualifiers": [],
+   "fails_corrected": 0,
+   "f3_substituted": 2
+  },
+  {
+   "arm": "DTDE",
+   "seed": 12,
+   "billed_asrun": 8.9333,
+   "billed_corrected": 11.2831,
+   "labels_f2": 3,
+   "repair_first_qual": 1.6265,
+   "repair_qualifiers": [
+    "HfS2_1T"
+   ],
+   "fails_corrected": 0,
+   "f3_substituted": 2
+  },
+  {
+   "arm": "CEDT_P4",
+   "seed": 12,
+   "billed_asrun": 8.2916,
+   "billed_corrected": 8.6836,
+   "labels_f2": 3,
+   "repair_first_qual": 1.2639,
+   "repair_qualifiers": [
+    "HfS2_1T"
+   ],
+   "fails_corrected": 0,
+   "f3_substituted": 1
+  },
+  {
+   "arm": "CEDT_P4",
+   "seed": 13,
+   "billed_asrun": 3.979,
+   "billed_corrected": 4.6896,
+   "labels_f2": 2,
+   "repair_first_qual": null,
+   "repair_qualifiers": [],
+   "fails_corrected": 0,
+   "f3_substituted": 2
+  },
+  {
+   "arm": "DTDE",
+   "seed": 13,
+   "billed_asrun": 5.5845,
+   "billed_corrected": 6.6445,
+   "labels_f2": 3,
+   "repair_first_qual": null,
+   "repair_qualifiers": [],
+   "fails_corrected": 0,
+   "f3_substituted": 2
+  },
+  {
+   "arm": "DTDE",
+   "seed": 14,
+   "billed_asrun": 5.4775,
+   "billed_corrected": 6.4445,
+   "labels_f2": 3,
+   "repair_first_qual": null,
+   "repair_qualifiers": [],
+   "fails_corrected": 0,
+   "f3_substituted": 2
+  },
+  {
+   "arm": "CEDT_P4",
+   "seed": 14,
+   "billed_asrun": 5.1711,
+   "billed_corrected": 5.8148,
+   "labels_f2": 3,
+   "repair_first_qual": null,
+   "repair_qualifiers": [],
+   "fails_corrected": 0,
+   "f3_substituted": 2
+  },
+  {
+   "arm": "CEDT_P4_UNMASKED",
+   "seed": 0,
+   "billed_asrun": 9.4876,
+   "billed_corrected": 11.3838,
+   "labels_f2": 3,
+   "repair_first_qual": 7.907,
+   "repair_qualifiers": [
+    "HfS2_2H"
+   ],
+   "fails_corrected": 0,
+   "f3_substituted": 2
+  },
+  {
+   "arm": "CEDT_P4_UNMASKED",
+   "seed": 1,
+   "billed_asrun": 4.2816,
+   "billed_corrected": 5.4362,
+   "labels_f2": 2,
+   "repair_first_qual": null,
+   "repair_qualifiers": [],
+   "fails_corrected": 0,
+   "f3_substituted": 2
+  },
+  {
+   "arm": "CEDT_P4_UNMASKED",
+   "seed": 2,
+   "billed_asrun": 5.151,
+   "billed_corrected": 5.5174,
+   "labels_f2": 3,
+   "repair_first_qual": 1.386,
+   "repair_qualifiers": [
+    "ZrS2_1T"
+   ],
+   "fails_corrected": 0,
+   "f3_substituted": 1
+  }
+ ]
+}

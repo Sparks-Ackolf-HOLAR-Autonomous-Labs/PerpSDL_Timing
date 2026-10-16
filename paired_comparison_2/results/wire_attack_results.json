@@ -1,0 +1,28 @@
+{
+ "n_candidates": 29,
+ "prior_identity_acc": 0.0345,
+ "identity_limit": 0.0845,
+ "membership_auc_limit": 0.6,
+ "unresolved_ids": 0,
+ "CEDT_P4": {
+  "identity_acc": 0.5849,
+  "identity_n": 53,
+  "identity_breach": true,
+  "membership_auc": 0.9348,
+  "membership_breach": true
+ },
+ "CEDT_P4_UNMASKED": {
+  "identity_acc": 0.1818,
+  "identity_n": 11,
+  "identity_breach": true,
+  "membership_auc": 1.0,
+  "membership_breach": true
+ },
+ "DTDE": {
+  "identity_acc": 0.78,
+  "identity_n": 50,
+  "identity_breach": true,
+  "membership_auc": 0.9893,
+  "membership_breach": true
+ }
+}

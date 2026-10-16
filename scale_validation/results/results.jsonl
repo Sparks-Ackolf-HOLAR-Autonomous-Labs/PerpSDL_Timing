@@ -1,0 +1,8 @@
+{"name": "MoSe2_2H_s1_k6", "rc": 0, "wall_s": 5, "converged": 1, "nelec": "52.00", "nk": "7", "ranks": 32, "npool": 2}
+{"name": "MoSe2_2H_s2_k12", "rc": 0, "wall_s": 85, "converged": 1, "nelec": "208.00", "nk": "19", "ranks": 32, "npool": 4}
+{"name": "MoSe2_2H_s2_k6", "rc": 0, "wall_s": 46, "converged": 1, "nelec": "208.00", "nk": "7", "ranks": 32, "npool": 2}
+{"name": "MoSe2_2H_s3_k6", "rc": 0, "wall_s": 356, "converged": 1, "nelec": "468.00", "nk": "7", "ranks": 32, "npool": 2}
+{"name": "MoSe2_2H_s4_k3", "rc": 0, "wall_s": 695, "converged": 1, "nelec": "832.00", "nk": "3", "ranks": 32, "npool": 1}
+{"name": "TiS2_1T_s1_k6", "rc": 0, "wall_s": 4, "converged": 1, "nelec": "24.00", "nk": "7", "ranks": 32, "npool": 2}
+{"name": "TiS2_1T_s2_k6", "rc": 0, "wall_s": 28, "converged": 1, "nelec": "96.00", "nk": "7", "ranks": 32, "npool": 2}
+{"name": "TiS2_1T_s3_k6", "rc": 0, "wall_s": 151, "converged": 1, "nelec": "216.00", "nk": "7", "ranks": 32, "npool": 2}

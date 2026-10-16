@@ -1,0 +1,52 @@
+{
+ "S1": {
+  "value": -0.004,
+  "rule": ">= 0.10",
+  "pass_": false
+ },
+ "S2": {
+  "value": 0.9466666666666667,
+  "rule": ">= 0.80",
+  "pass_": true
+ },
+ "S3": {
+  "value": 0.98,
+  "rule": "min over arms of P(id_f > 0.175) >= 0.95",
+  "pass_": true
+ },
+ "S4": {
+  "value": {
+   "id_drop": 0.184,
+   "cofire_gain_open": 1.189,
+   "cofire_gain_ampoule": 1.264
+  },
+  "rule": "id drop >= 0.15 and ampoule gain > open gain",
+  "pass_": true
+ },
+ "S5": {
+  "value": {
+   "furnace": 0.506,
+   "deposition": 0.494,
+   "join": 0.94
+  },
+  "rule": "each alone <= 0.60, join >= 0.85",
+  "pass_": true
+ },
+ "S6": {
+  "value": {
+   "P2": 0.795,
+   "P3": 0.704,
+   "DTDE": 0.754
+  },
+  "rule": "P2 >= 0.5 and P3 >= 0.2",
+  "pass_": true
+ },
+ "S7": {
+  "value": {
+   "max_absolute": 0.0,
+   "max_rebased_tau0": 0.36666666666666664
+  },
+  "rule": "absolute = 0 everywhere and rebased tau=0 max >= 0.5",
+  "pass_": false
+ }
+}

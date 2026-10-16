@@ -1,0 +1,25 @@
+{
+ "campaign": {
+  "arm": "MIX50",
+  "seed": 10,
+  "billed": 30.8798,
+  "labels_f2": 5,
+  "billed_first_qual": 8.5723,
+  "qualifiers": [
+   "HfS2_1T"
+  ],
+  "fails": 0,
+  "makespan_s": 163594.3,
+  "node": {
+   "host": "notch488",
+   "cpu_model": "AMD EPYC 9554 64-Core Processor",
+   "ncpu": 256,
+   "slurm_job": "16167474",
+   "restart_count": "1"
+  },
+  "mask": "prop"
+ },
+ "logbook_end": null,
+ "billed_total": 30.88,
+ "calls": 15
+}

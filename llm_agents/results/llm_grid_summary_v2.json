@@ -1,0 +1,287 @@
+{
+ "config": {
+  "budget": 250.0,
+  "rounds": 40,
+  "model": "Qwen/Qwen3-4B-Instruct-2507"
+ },
+ "summary": {
+  "CEDT_P4": {
+   "n_pairs": 18,
+   "qual_count": {
+    "scripted": 0.8888888888888888,
+    "llm": 0.6111111111111112,
+    "delta_mean": -0.2777777777777778,
+    "delta_se": 0.21090461176813796,
+    "llm_wins": 2,
+    "ties": 11
+   },
+   "found": {
+    "scripted": 0.4444444444444444,
+    "llm": 0.4444444444444444,
+    "delta_mean": 0.0,
+    "delta_se": 0.08084520834544434,
+    "llm_wins": 1,
+    "ties": 16
+   },
+   "nh_first": {
+    "scripted": 223.49245234215158,
+    "llm": 223.91221772898442,
+    "delta_mean": 0.4197653868328454,
+    "delta_se": 14.534475526973502,
+    "llm_wins": 5,
+    "ties": 9
+   },
+   "labels_per_nh": {
+    "scripted": 0.03150899202858776,
+    "llm": 0.03266390949600103,
+    "delta_mean": 0.0011549174674132733,
+    "delta_se": 0.002770846719876458,
+    "llm_wins": 11,
+    "ties": 0
+   },
+   "fail_rate": {
+    "scripted": 0.0022222222222222222,
+    "llm": 0.003958333333333334,
+    "delta_mean": 0.001736111111111111,
+    "delta_se": 0.0036703675742345942,
+    "llm_wins": 2,
+    "ties": 15
+   },
+   "memfail_rate": {
+    "scripted": 0.0,
+    "llm": 0.0022222222222222222,
+    "delta_mean": 0.0022222222222222222,
+    "delta_se": 0.0022222222222222222,
+    "llm_wins": 1,
+    "ties": 17
+   },
+   "validity": {
+    "scripted": 0.9944444444444444,
+    "llm": 0.9944444444444444,
+    "delta_mean": 0.0,
+    "delta_se": 0.008084520834544431,
+    "llm_wins": 1,
+    "ties": 16
+   },
+   "nh_used": {
+    "scripted": 295.03790657200693,
+    "llm": 283.3062911939196,
+    "delta_mean": -11.731615378087387,
+    "delta_se": 11.094982124290931,
+    "llm_wins": 5,
+    "ties": 0
+   },
+   "rounds": {
+    "scripted": 24.11111111111111,
+    "llm": 27.333333333333332,
+    "delta_mean": 3.2222222222222223,
+    "delta_se": 1.1731070290771843,
+    "llm_wins": 13,
+    "ties": 2
+   }
+  },
+  "CTDE_P2": {
+   "n_pairs": 18,
+   "qual_count": {
+    "scripted": 0.5,
+    "llm": 0.5,
+    "delta_mean": 0.0,
+    "delta_se": 0.16169041669088868,
+    "llm_wins": 2,
+    "ties": 13
+   },
+   "found": {
+    "scripted": 0.3888888888888889,
+    "llm": 0.2777777777777778,
+    "delta_mean": -0.1111111111111111,
+    "delta_se": 0.11111111111111112,
+    "llm_wins": 1,
+    "ties": 14
+   },
+   "nh_first": {
+    "scripted": 222.83278027302742,
+    "llm": 215.84068771560007,
+    "delta_mean": -6.992092557427363,
+    "delta_se": 12.996546902098519,
+    "llm_wins": 3,
+    "ties": 10
+   },
+   "labels_per_nh": {
+    "scripted": 0.03169844294403165,
+    "llm": 0.03368737279307528,
+    "delta_mean": 0.0019889298490436244,
+    "delta_se": 0.0027342716323886427,
+    "llm_wins": 10,
+    "ties": 0
+   },
+   "fail_rate": {
+    "scripted": 0.006581196581196582,
+    "llm": 0.001388888888888889,
+    "delta_mean": -0.005192307692307692,
+    "delta_se": 0.0039684247528152805,
+    "llm_wins": 1,
+    "ties": 14
+   },
+   "memfail_rate": {
+    "scripted": 0.00435897435897436,
+    "llm": 0.001388888888888889,
+    "delta_mean": -0.00297008547008547,
+    "delta_se": 0.003403911918245597,
+    "llm_wins": 1,
+    "ties": 15
+   },
+   "validity": {
+    "scripted": 0.9944444444444444,
+    "llm": 0.9976851851851853,
+    "delta_mean": 0.0032407407407407415,
+    "delta_se": 0.006142924060828557,
+    "llm_wins": 1,
+    "ties": 16
+   },
+   "nh_used": {
+    "scripted": 274.6676262345261,
+    "llm": 292.24442440102064,
+    "delta_mean": 17.576798166494598,
+    "delta_se": 10.154145253873697,
+    "llm_wins": 10,
+    "ties": 0
+   },
+   "rounds": {
+    "scripted": 23.77777777777778,
+    "llm": 25.27777777777778,
+    "delta_mean": 1.5,
+    "delta_se": 0.9676127891899329,
+    "llm_wins": 10,
+    "ties": 1
+   }
+  },
+  "DTDE_P4": {
+   "n_pairs": 18,
+   "qual_count": {
+    "scripted": 0.6666666666666666,
+    "llm": 0.5555555555555556,
+    "delta_mean": -0.1111111111111111,
+    "delta_se": 0.17875548145329864,
+    "llm_wins": 3,
+    "ties": 11
+   },
+   "found": {
+    "scripted": 0.3888888888888889,
+    "llm": 0.4444444444444444,
+    "delta_mean": 0.05555555555555555,
+    "delta_se": 0.12711536169135115,
+    "llm_wins": 3,
+    "ties": 13
+   },
+   "nh_first": {
+    "scripted": 238.3432009345435,
+    "llm": 228.75624560298886,
+    "delta_mean": -9.586955331554643,
+    "delta_se": 19.859203470668287,
+    "llm_wins": 5,
+    "ties": 8
+   },
+   "labels_per_nh": {
+    "scripted": 0.028253301288445738,
+    "llm": 0.031448047864824254,
+    "delta_mean": 0.0031947465763785144,
+    "delta_se": 0.0025676514004345278,
+    "llm_wins": 11,
+    "ties": 0
+   },
+   "fail_rate": {
+    "scripted": 0.00641658752769864,
+    "llm": 0.010172983944535668,
+    "delta_mean": 0.0037563964168370293,
+    "delta_se": 0.005080194846292229,
+    "llm_wins": 5,
+    "ties": 11
+   },
+   "memfail_rate": {
+    "scripted": 0.004194365305476417,
+    "llm": 0.007858169129720852,
+    "delta_mean": 0.0036638038242444377,
+    "delta_se": 0.0038660665821693982,
+    "llm_wins": 4,
+    "ties": 13
+   },
+   "validity": {
+    "scripted": 0.9944444444444444,
+    "llm": 1.0,
+    "delta_mean": 0.005555555555555554,
+    "delta_se": 0.005555555555555554,
+    "llm_wins": 1,
+    "ties": 17
+   },
+   "nh_used": {
+    "scripted": 299.0206435996613,
+    "llm": 280.2407860738283,
+    "delta_mean": -18.779857525833094,
+    "delta_se": 16.69094470026863,
+    "llm_wins": 6,
+    "ties": 0
+   },
+   "rounds": {
+    "scripted": 23.27777777777778,
+    "llm": 27.333333333333332,
+    "delta_mean": 4.055555555555555,
+    "delta_se": 0.7561176302226252,
+    "llm_wins": 16,
+    "ties": 0
+   }
+  }
+ },
+ "telemetry": {
+  "n_llm_campaigns": 54,
+  "llm_calls": {
+   "R": 944,
+   "H": 712
+  },
+  "interactive_tool_calls": {
+   "rank_candidates": 470,
+   "config_montecarlo": 299
+  },
+  "delegated_rounds": {
+   "R": 965,
+   "H": 1026
+  },
+  "llm_decisions": {
+   "R": 474,
+   "H": 413
+  },
+  "tool_informed": {
+   "R": 470,
+   "H": 299
+  },
+  "direct_decisions": {
+   "R": 4,
+   "H": 114
+  },
+  "overrides": {
+   "R": 156,
+   "H": 299
+  },
+  "fallbacks": {
+   "R": 0,
+   "H": 0
+  },
+  "auto_accepts": {
+   "R": 0,
+   "H": 0
+  },
+  "delegate_choices": {
+   "R": {
+    "rank_candidates(thompson)": 264,
+    "rank_candidates(ucb)": 101
+   },
+   "H": {
+    "config_montecarlo(n_draws=50,quantile=0.95)": 149,
+    "config_montecarlo(n_draws=100,quantile=0.95)": 131,
+    "config_optimizer(mem_margin=1.2,risk_weight=0.5)": 68,
+    "config_optimizer(mem_margin=1.1,risk_weight=0.5)": 19,
+    "config_optimizer(mem_margin=1.3,risk_weight=0.5)": 2,
+    "config_optimizer(mem_margin=1.5,risk_weight=0.5)": 2
+   }
+  }
+ }
+}

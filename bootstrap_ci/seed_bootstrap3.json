@@ -1,0 +1,78 @@
+{
+ "B": 10000,
+ "interval": "percentile 95%, cluster bootstrap over held-out seeds",
+ "identity_limit": 0.0845,
+ "auc_limit": 0.6,
+ "arms": {
+  "DTDE": {
+   "n_seeds": 15,
+   "identity": {
+    "point": 0.75,
+    "lo": 0.6279,
+    "hi": 0.8605
+   },
+   "auc": {
+    "point": 0.9447,
+    "lo": 0.9034,
+    "hi": 0.9754
+   }
+  },
+  "CEDT_P4": {
+   "n_seeds": 15,
+   "identity": {
+    "point": 0.4839,
+    "lo": 0.3913,
+    "hi": 0.5761
+   },
+   "auc": {
+    "point": 0.8256,
+    "lo": 0.7722,
+    "hi": 0.8749
+   }
+  },
+  "CTDE_P2": {
+   "n_seeds": 15,
+   "identity": {
+    "point": 0.2184,
+    "lo": 0.1348,
+    "hi": 0.3177
+   },
+   "auc": {
+    "point": 0.6721,
+    "lo": 0.613,
+    "hi": 0.7347
+   }
+  },
+  "MIX50_routed": {
+   "n_seeds": 15,
+   "identity": {
+    "point": 0.1739,
+    "lo": 0.0895,
+    "hi": 0.2698
+   },
+   "auc": {
+    "point": 0.7216,
+    "lo": 0.6395,
+    "hi": 0.7997
+   }
+  }
+ },
+ "T3_identity_difference_CEDT_minus_DTDE": {
+  "point": -0.2661,
+  "lo": -0.4154,
+  "hi": -0.0921
+ },
+ "T1_cross_cluster": {
+  "n_seeds": 10,
+  "identity": {
+   "point": 0.4655,
+   "lo": 0.2632,
+   "hi": 0.6727
+  },
+  "auc": {
+   "point": 0.8324,
+   "lo": 0.7313,
+   "hi": 0.9135
+  }
+ }
+}

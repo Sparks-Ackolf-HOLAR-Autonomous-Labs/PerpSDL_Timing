@@ -1,0 +1,43 @@
+&CONTROL
+  calculation = 'scf'
+  prefix = 'MoSe2_2H_L2_s1'
+  pseudo_dir = './pseudos'
+  outdir = './out'
+  disk_io = 'nowf'
+/
+&SYSTEM
+  ibrav = 4
+  a = 3.342800
+  c = 30.489899
+  nat = 12
+  ntyp = 2
+  ecutwfc = 40.0
+  ecutrho = 320.0
+  occupations = 'smearing'
+  smearing = 'cold'
+  degauss = 0.02
+/
+&ELECTRONS
+  mixing_beta = 0.3
+  conv_thr = 1.0d-8
+  diagonalization = 'david'
+  electron_maxstep = 80
+/
+ATOMIC_SPECIES
+  Mo  95.95  mo_pbe_v1.uspp.F.UPF
+  Se  78.971  se_pbe_v1.uspp.F.UPF
+ATOMIC_POSITIONS crystal
+  Mo  0.3333333333  0.6666666667  0.2066258046
+  Se  0.6666666667  0.3333333333  0.2704157727
+  Se  0.6666666667  0.3333333333  0.1428358364
+  Mo  0.6666666667  0.3333333333  0.3837336371
+  Se  0.3333333333  0.6666666667  0.4475236052
+  Se  0.3333333333  0.6666666667  0.3199436689
+  Mo  0.3333333333  0.6666666667  0.6162663629
+  Se  0.6666666667  0.3333333333  0.6800563311
+  Se  0.6666666667  0.3333333333  0.5524763948
+  Mo  0.6666666667  0.3333333333  0.7933741954
+  Se  0.3333333333  0.6666666667  0.8571641636
+  Se  0.3333333333  0.6666666667  0.7295842273
+K_POINTS automatic
+  6 6 1 0 0 0

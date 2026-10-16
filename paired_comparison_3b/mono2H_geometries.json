@@ -1,0 +1,383 @@
+{
+ "HfS2_2H": {
+  "relaxed": true,
+  "a_angstrom": 3.535057,
+  "c_angstrom": 20.0,
+  "species": "  Hf  178.49  hf_pbe_v1.uspp.F.UPF\n  S  32.06  s_pbe_v1.4.uspp.F.UPF",
+  "motif": [
+   [
+    "Hf",
+    0.3333333333,
+    0.6666666667,
+    0.5
+   ],
+   [
+    "S",
+    0.6666666667,
+    0.3333333333,
+    0.5783981067
+   ],
+   [
+    "S",
+    0.6666666667,
+    0.3333333333,
+    0.4216018933
+   ]
+  ],
+  "source": "stacking_study granite-guest job 2088961, <name>_mono2H/f2.out (vc-relax, PBE, GBRV)"
+ },
+ "HfSe2_2H": {
+  "relaxed": true,
+  "a_angstrom": 3.668624,
+  "c_angstrom": 20.0,
+  "species": "  Hf  178.49  hf_pbe_v1.uspp.F.UPF\n  Se  78.971  se_pbe_v1.uspp.F.UPF",
+  "motif": [
+   [
+    "Hf",
+    0.3333333333,
+    0.6666666667,
+    0.5
+   ],
+   [
+    "Se",
+    0.6666666667,
+    0.3333333333,
+    0.5841796353
+   ],
+   [
+    "Se",
+    0.6666666667,
+    0.3333333333,
+    0.4158203647
+   ]
+  ],
+  "source": "stacking_study granite-guest job 2088961, <name>_mono2H/f2.out (vc-relax, PBE, GBRV)"
+ },
+ "HfTe2_2H": {
+  "relaxed": true,
+  "a_angstrom": 3.900658,
+  "c_angstrom": 20.0,
+  "species": "  Hf  178.49  hf_pbe_v1.uspp.F.UPF\n  Te  127.6  te_pbe_v1.uspp.F.UPF",
+  "motif": [
+   [
+    "Hf",
+    0.3333333333,
+    0.6666666667,
+    0.5
+   ],
+   [
+    "Te",
+    0.6666666667,
+    0.3333333333,
+    0.5928755631
+   ],
+   [
+    "Te",
+    0.6666666667,
+    0.3333333333,
+    0.4071244369
+   ]
+  ],
+  "source": "stacking_study granite-guest job 2088961, <name>_mono2H/f2.out (vc-relax, PBE, GBRV)"
+ },
+ "MoS2_2H": {
+  "relaxed": true,
+  "a_angstrom": 3.181654,
+  "c_angstrom": 20.0,
+  "species": "  Mo  95.95  mo_pbe_v1.uspp.F.UPF\n  S  32.06  s_pbe_v1.4.uspp.F.UPF",
+  "motif": [
+   [
+    "Mo",
+    0.3333333333,
+    0.6666666667,
+    0.5
+   ],
+   [
+    "S",
+    0.6666666667,
+    0.3333333333,
+    0.5781390466
+   ],
+   [
+    "S",
+    0.6666666667,
+    0.3333333333,
+    0.4218609534
+   ]
+  ],
+  "source": "stacking_study granite-guest job 2088961, <name>_mono2H/f2.out (vc-relax, PBE, GBRV)"
+ },
+ "MoSe2_2H": {
+  "relaxed": true,
+  "a_angstrom": 3.31637,
+  "c_angstrom": 20.0,
+  "species": "  Mo  95.95  mo_pbe_v1.uspp.F.UPF\n  Se  78.971  se_pbe_v1.uspp.F.UPF",
+  "motif": [
+   [
+    "Mo",
+    0.3333333333,
+    0.6666666667,
+    0.5
+   ],
+   [
+    "Se",
+    0.6666666667,
+    0.3333333333,
+    0.5834820353
+   ],
+   [
+    "Se",
+    0.6666666667,
+    0.3333333333,
+    0.4165179647
+   ]
+  ],
+  "source": "stacking_study granite-guest job 2088961, <name>_mono2H/f2.out (vc-relax, PBE, GBRV)"
+ },
+ "MoTe2_2H": {
+  "relaxed": true,
+  "a_angstrom": 3.564439,
+  "c_angstrom": 20.0,
+  "species": "  Mo  95.95  mo_pbe_v1.uspp.F.UPF\n  Te  127.6  te_pbe_v1.uspp.F.UPF",
+  "motif": [
+   [
+    "Mo",
+    0.3333333333,
+    0.6666666667,
+    0.5
+   ],
+   [
+    "Te",
+    0.6666666667,
+    0.3333333333,
+    0.5906268306
+   ],
+   [
+    "Te",
+    0.6666666667,
+    0.3333333333,
+    0.4093731694
+   ]
+  ],
+  "source": "stacking_study granite-guest job 2088961, <name>_mono2H/f2.out (vc-relax, PBE, GBRV)"
+ },
+ "TiS2_2H": {
+  "relaxed": false
+ },
+ "TiSe2_2H": {
+  "relaxed": true,
+  "a_angstrom": 3.484273,
+  "c_angstrom": 20.0,
+  "species": "  Ti  47.867  ti_pbe_v1.4.uspp.F.UPF\n  Se  78.971  se_pbe_v1.uspp.F.UPF",
+  "motif": [
+   [
+    "Ti",
+    0.3333333333,
+    0.6666666667,
+    0.5
+   ],
+   [
+    "Se",
+    0.6666666667,
+    0.3333333333,
+    0.5812801831
+   ],
+   [
+    "Se",
+    0.6666666667,
+    0.3333333333,
+    0.4187198169
+   ]
+  ],
+  "source": "stacking_study granite-guest job 2088961, <name>_mono2H/f2.out (vc-relax, PBE, GBRV)"
+ },
+ "TiTe2_2H": {
+  "relaxed": true,
+  "a_angstrom": 3.742672,
+  "c_angstrom": 20.0,
+  "species": "  Ti  47.867  ti_pbe_v1.4.uspp.F.UPF\n  Te  127.6  te_pbe_v1.uspp.F.UPF",
+  "motif": [
+   [
+    "Ti",
+    0.3333333333,
+    0.6666666667,
+    0.5
+   ],
+   [
+    "Te",
+    0.6666666667,
+    0.3333333333,
+    0.589585274
+   ],
+   [
+    "Te",
+    0.6666666667,
+    0.3333333333,
+    0.410414726
+   ]
+  ],
+  "source": "stacking_study granite-guest job 2088961, <name>_mono2H/f2.out (vc-relax, PBE, GBRV)"
+ },
+ "WS2_2H": {
+  "relaxed": true,
+  "a_angstrom": 3.181632,
+  "c_angstrom": 20.0,
+  "species": "  W  183.84  w_pbe_v1.2.uspp.F.UPF\n  S  32.06  s_pbe_v1.4.uspp.F.UPF",
+  "motif": [
+   [
+    "W",
+    0.3333333333,
+    0.6666666667,
+    0.5
+   ],
+   [
+    "S",
+    0.6666666667,
+    0.3333333333,
+    0.5787319693
+   ],
+   [
+    "S",
+    0.6666666667,
+    0.3333333333,
+    0.4212680307
+   ]
+  ],
+  "source": "stacking_study granite-guest job 2088961, <name>_mono2H/f2.out (vc-relax, PBE, GBRV)"
+ },
+ "WSe2_2H": {
+  "relaxed": true,
+  "a_angstrom": 3.313157,
+  "c_angstrom": 20.0,
+  "species": "  W  183.84  w_pbe_v1.2.uspp.F.UPF\n  Se  78.971  se_pbe_v1.uspp.F.UPF",
+  "motif": [
+   [
+    "W",
+    0.3333333333,
+    0.6666666667,
+    0.5
+   ],
+   [
+    "Se",
+    0.6666666667,
+    0.3333333333,
+    0.5841046692
+   ],
+   [
+    "Se",
+    0.6666666667,
+    0.3333333333,
+    0.4158953308
+   ]
+  ],
+  "source": "stacking_study granite-guest job 2088961, <name>_mono2H/f2.out (vc-relax, PBE, GBRV)"
+ },
+ "WTe2_2H": {
+  "relaxed": true,
+  "a_angstrom": 3.560304,
+  "c_angstrom": 20.0,
+  "species": "  W  183.84  w_pbe_v1.2.uspp.F.UPF\n  Te  127.6  te_pbe_v1.uspp.F.UPF",
+  "motif": [
+   [
+    "W",
+    0.3333333333,
+    0.6666666667,
+    0.5
+   ],
+   [
+    "Te",
+    0.6666666667,
+    0.3333333333,
+    0.5910958658
+   ],
+   [
+    "Te",
+    0.6666666667,
+    0.3333333333,
+    0.4089041342
+   ]
+  ],
+  "source": "stacking_study granite-guest job 2088961, <name>_mono2H/f2.out (vc-relax, PBE, GBRV)"
+ },
+ "ZrS2_2H": {
+  "relaxed": true,
+  "a_angstrom": 3.574063,
+  "c_angstrom": 20.0,
+  "species": "  Zr  91.224  zr_pbe_v1.uspp.F.UPF\n  S  32.06  s_pbe_v1.4.uspp.F.UPF",
+  "motif": [
+   [
+    "Zr",
+    0.3333333333,
+    0.6666666667,
+    0.5
+   ],
+   [
+    "S",
+    0.6666666667,
+    0.3333333333,
+    0.5785772498
+   ],
+   [
+    "S",
+    0.6666666667,
+    0.3333333333,
+    0.4214227502
+   ]
+  ],
+  "source": "stacking_study granite-guest job 2088961, <name>_mono2H/f2.out (vc-relax, PBE, GBRV)"
+ },
+ "ZrSe2_2H": {
+  "relaxed": true,
+  "a_angstrom": 3.703041,
+  "c_angstrom": 20.0,
+  "species": "  Zr  91.224  zr_pbe_v1.uspp.F.UPF\n  Se  78.971  se_pbe_v1.uspp.F.UPF",
+  "motif": [
+   [
+    "Zr",
+    0.3333333333,
+    0.6666666667,
+    0.5
+   ],
+   [
+    "Se",
+    0.6666666667,
+    0.3333333333,
+    0.5844677349
+   ],
+   [
+    "Se",
+    0.6666666667,
+    0.3333333333,
+    0.4155322651
+   ]
+  ],
+  "source": "stacking_study granite-guest job 2088961, <name>_mono2H/f2.out (vc-relax, PBE, GBRV)"
+ },
+ "ZrTe2_2H": {
+  "relaxed": true,
+  "a_angstrom": 3.921586,
+  "c_angstrom": 20.0,
+  "species": "  Zr  91.224  zr_pbe_v1.uspp.F.UPF\n  Te  127.6  te_pbe_v1.uspp.F.UPF",
+  "motif": [
+   [
+    "Zr",
+    0.3333333333,
+    0.6666666667,
+    0.5
+   ],
+   [
+    "Te",
+    0.6666666667,
+    0.3333333333,
+    0.5934902643
+   ],
+   [
+    "Te",
+    0.6666666667,
+    0.3333333333,
+    0.4065097357
+   ]
+  ],
+  "source": "stacking_study granite-guest job 2088961, <name>_mono2H/f2.out (vc-relax, PBE, GBRV)"
+ }
+}

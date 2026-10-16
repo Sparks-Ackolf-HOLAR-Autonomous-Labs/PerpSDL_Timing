@@ -1,0 +1,2 @@
+{"arm": "CTDE_P2", "seed": 10, "opaque_id": "2b20f6749d", "cls": "f1", "mem_bit": null, "size_bin": "small", "t_start": 1791653319.7, "t_end": 1791659796.1, "wall_s": 6476.4, "billed_nh": 0.5449, "ok": true}
+{"arm": "CTDE_P2", "seed": 10, "opaque_id": "2b20f6749d", "cls": "f2", "mem_bit": null, "size_bin": "small", "t_start": 1791659796.2, "t_end": 1791669515.7, "wall_s": 9719.6, "billed_nh": 0.9677, "ok": true}

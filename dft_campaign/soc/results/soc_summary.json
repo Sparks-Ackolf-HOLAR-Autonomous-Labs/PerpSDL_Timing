@@ -1,0 +1,362 @@
+{
+ "finalists": 9,
+ "soc_gaps": {
+  "HfS2_1T": 1.3106,
+  "HfS2_2H": 1.0356,
+  "MoS2_2H": 1.5519,
+  "MoSe2_2H": 1.3502,
+  "MoTe2_2H": 0.928,
+  "WS2_2H": 1.5682,
+  "WSe2_2H": 1.2617,
+  "WTe2_2H": 0.7382,
+  "ZrS2_1T": 1.1515
+ },
+ "total_node_hours": 0.079,
+ "qe_calls": 18,
+ "budget_cap_hit": false,
+ "wall_hours": 0.126,
+ "records": [
+  {
+   "candidate": "HfS2_1T",
+   "phase": "1T",
+   "metal": "Hf",
+   "chalcogen": "S",
+   "pbe_gap_ev_scalar_rel": 1.3299,
+   "stages": {
+    "SOC_SCF": {
+     "ok": true,
+     "rc": 0,
+     "wall_s": 35.1,
+     "node_hours": 0.0024,
+     "peak_rank_rss_gb": 0.288,
+     "out": "/scratch/general/vast/<uNID>/mpt_soc/work/HfS2_1T/socscf.out",
+     "scf_converged": true,
+     "job_done": true,
+     "etot_ry": -833.51826572,
+     "nelec": 24.0
+    },
+    "SOC_NSCF": {
+     "ok": true,
+     "rc": 0,
+     "wall_s": 37.0,
+     "node_hours": 0.0026,
+     "peak_rank_rss_gb": 0.205,
+     "out": "/scratch/general/vast/<uNID>/mpt_soc/work/HfS2_1T/socnscf.out",
+     "vbm_ev": -2.0059,
+     "cbm_ev": -0.6953,
+     "gap_ev": 1.3106,
+     "metallic": false
+    }
+   },
+   "failures": 0,
+   "restarts": 0,
+   "soc_gap_ev": 1.3106,
+   "soc_metallic": false,
+   "soc_shift_ev": -0.0193
+  },
+  {
+   "candidate": "HfS2_2H",
+   "phase": "2H",
+   "metal": "Hf",
+   "chalcogen": "S",
+   "pbe_gap_ev_scalar_rel": 1.0143,
+   "stages": {
+    "SOC_SCF": {
+     "ok": true,
+     "rc": 0,
+     "wall_s": 64.8,
+     "node_hours": 0.0045,
+     "peak_rank_rss_gb": 0.309,
+     "out": "/scratch/general/vast/<uNID>/mpt_soc/work/HfS2_2H/socscf.out",
+     "scf_converged": true,
+     "job_done": true,
+     "etot_ry": -1666.9387228,
+     "nelec": 48.0
+    },
+    "SOC_NSCF": {
+     "ok": true,
+     "rc": 0,
+     "wall_s": 84.8,
+     "node_hours": 0.0059,
+     "peak_rank_rss_gb": 0.198,
+     "out": "/scratch/general/vast/<uNID>/mpt_soc/work/HfS2_2H/socnscf.out",
+     "vbm_ev": 2.5897,
+     "cbm_ev": 3.6253,
+     "gap_ev": 1.0356,
+     "metallic": false
+    }
+   },
+   "failures": 0,
+   "restarts": 0,
+   "soc_gap_ev": 1.0356,
+   "soc_metallic": false,
+   "soc_shift_ev": 0.0213
+  },
+  {
+   "candidate": "MoS2_2H",
+   "phase": "2H",
+   "metal": "Mo",
+   "chalcogen": "S",
+   "pbe_gap_ev_scalar_rel": 1.5571,
+   "stages": {
+    "SOC_SCF": {
+     "ok": true,
+     "rc": 0,
+     "wall_s": 52.2,
+     "node_hours": 0.0036,
+     "peak_rank_rss_gb": 0.266,
+     "out": "/scratch/general/vast/<uNID>/mpt_soc/work/MoS2_2H/socscf.out",
+     "scf_converged": true,
+     "job_done": true,
+     "etot_ry": -994.30156329,
+     "nelec": 52.0
+    },
+    "SOC_NSCF": {
+     "ok": true,
+     "rc": 0,
+     "wall_s": 57.4,
+     "node_hours": 0.004,
+     "peak_rank_rss_gb": 0.173,
+     "out": "/scratch/general/vast/<uNID>/mpt_soc/work/MoS2_2H/socnscf.out",
+     "vbm_ev": 5.2124,
+     "cbm_ev": 6.7643,
+     "gap_ev": 1.5519,
+     "metallic": false
+    }
+   },
+   "failures": 0,
+   "restarts": 0,
+   "soc_gap_ev": 1.5519,
+   "soc_metallic": false,
+   "soc_shift_ev": -0.0052
+  },
+  {
+   "candidate": "MoSe2_2H",
+   "phase": "2H",
+   "metal": "Mo",
+   "chalcogen": "Se",
+   "pbe_gap_ev_scalar_rel": 1.4488,
+   "stages": {
+    "SOC_SCF": {
+     "ok": true,
+     "rc": 0,
+     "wall_s": 49.6,
+     "node_hours": 0.0034,
+     "peak_rank_rss_gb": 0.275,
+     "out": "/scratch/general/vast/<uNID>/mpt_soc/work/MoSe2_2H/socscf.out",
+     "scf_converged": true,
+     "job_done": true,
+     "etot_ry": -1487.0804244,
+     "nelec": 52.0
+    },
+    "SOC_NSCF": {
+     "ok": true,
+     "rc": 0,
+     "wall_s": 46.4,
+     "node_hours": 0.0032,
+     "peak_rank_rss_gb": 0.178,
+     "out": "/scratch/general/vast/<uNID>/mpt_soc/work/MoSe2_2H/socnscf.out",
+     "vbm_ev": 5.7858,
+     "cbm_ev": 7.136,
+     "gap_ev": 1.3502,
+     "metallic": false
+    }
+   },
+   "failures": 0,
+   "restarts": 0,
+   "soc_gap_ev": 1.3502,
+   "soc_metallic": false,
+   "soc_shift_ev": -0.0986
+  },
+  {
+   "candidate": "MoTe2_2H",
+   "phase": "2H",
+   "metal": "Mo",
+   "chalcogen": "Te",
+   "pbe_gap_ev_scalar_rel": 1.0346,
+   "stages": {
+    "SOC_SCF": {
+     "ok": true,
+     "rc": 0,
+     "wall_s": 71.3,
+     "node_hours": 0.005,
+     "peak_rank_rss_gb": 0.314,
+     "out": "/scratch/general/vast/<uNID>/mpt_soc/work/MoTe2_2H/socscf.out",
+     "scf_converged": true,
+     "job_done": true,
+     "etot_ry": -2183.55281653,
+     "nelec": 52.0
+    },
+    "SOC_NSCF": {
+     "ok": true,
+     "rc": 0,
+     "wall_s": 86.7,
+     "node_hours": 0.006,
+     "peak_rank_rss_gb": 0.208,
+     "out": "/scratch/general/vast/<uNID>/mpt_soc/work/MoTe2_2H/socnscf.out",
+     "vbm_ev": 6.401,
+     "cbm_ev": 7.329,
+     "gap_ev": 0.928,
+     "metallic": false
+    }
+   },
+   "failures": 0,
+   "restarts": 0,
+   "soc_gap_ev": 0.928,
+   "soc_metallic": false,
+   "soc_shift_ev": -0.1066
+  },
+  {
+   "candidate": "WS2_2H",
+   "phase": "2H",
+   "metal": "W",
+   "chalcogen": "S",
+   "pbe_gap_ev_scalar_rel": 1.7698,
+   "stages": {
+    "SOC_SCF": {
+     "ok": true,
+     "rc": 0,
+     "wall_s": 106.3,
+     "node_hours": 0.0074,
+     "peak_rank_rss_gb": 0.267,
+     "out": "/scratch/general/vast/<uNID>/mpt_soc/work/WS2_2H/socscf.out",
+     "scf_converged": true,
+     "job_done": true,
+     "etot_ry": -1795.93542548,
+     "nelec": 52.0
+    },
+    "SOC_NSCF": {
+     "ok": true,
+     "rc": 0,
+     "wall_s": 70.3,
+     "node_hours": 0.0049,
+     "peak_rank_rss_gb": 0.174,
+     "out": "/scratch/general/vast/<uNID>/mpt_soc/work/WS2_2H/socnscf.out",
+     "vbm_ev": 5.8398,
+     "cbm_ev": 7.408,
+     "gap_ev": 1.5682,
+     "metallic": false
+    }
+   },
+   "failures": 0,
+   "restarts": 0,
+   "soc_gap_ev": 1.5682,
+   "soc_metallic": false,
+   "soc_shift_ev": -0.2016
+  },
+  {
+   "candidate": "WSe2_2H",
+   "phase": "2H",
+   "metal": "W",
+   "chalcogen": "Se",
+   "pbe_gap_ev_scalar_rel": 1.5508,
+   "stages": {
+    "SOC_SCF": {
+     "ok": true,
+     "rc": 0,
+     "wall_s": 68.6,
+     "node_hours": 0.0048,
+     "peak_rank_rss_gb": 0.275,
+     "out": "/scratch/general/vast/<uNID>/mpt_soc/work/WSe2_2H/socscf.out",
+     "scf_converged": true,
+     "job_done": true,
+     "etot_ry": -2288.68333803,
+     "nelec": 52.0
+    },
+    "SOC_NSCF": {
+     "ok": true,
+     "rc": 0,
+     "wall_s": 58.3,
+     "node_hours": 0.004,
+     "peak_rank_rss_gb": 0.178,
+     "out": "/scratch/general/vast/<uNID>/mpt_soc/work/WSe2_2H/socnscf.out",
+     "vbm_ev": 6.4444,
+     "cbm_ev": 7.7061,
+     "gap_ev": 1.2617,
+     "metallic": false
+    }
+   },
+   "failures": 0,
+   "restarts": 0,
+   "soc_gap_ev": 1.2617,
+   "soc_metallic": false,
+   "soc_shift_ev": -0.2891
+  },
+  {
+   "candidate": "WTe2_2H",
+   "phase": "2H",
+   "metal": "W",
+   "chalcogen": "Te",
+   "pbe_gap_ev_scalar_rel": 1.0267,
+   "stages": {
+    "SOC_SCF": {
+     "ok": true,
+     "rc": 0,
+     "wall_s": 89.2,
+     "node_hours": 0.0062,
+     "peak_rank_rss_gb": 0.315,
+     "out": "/scratch/general/vast/<uNID>/mpt_soc/work/WTe2_2H/socscf.out",
+     "scf_converged": true,
+     "job_done": true,
+     "etot_ry": -2985.1183977,
+     "nelec": 52.0
+    },
+    "SOC_NSCF": {
+     "ok": true,
+     "rc": 0,
+     "wall_s": 96.7,
+     "node_hours": 0.0067,
+     "peak_rank_rss_gb": 0.208,
+     "out": "/scratch/general/vast/<uNID>/mpt_soc/work/WTe2_2H/socnscf.out",
+     "vbm_ev": 6.9885,
+     "cbm_ev": 7.7267,
+     "gap_ev": 0.7382,
+     "metallic": false
+    }
+   },
+   "failures": 0,
+   "restarts": 0,
+   "soc_gap_ev": 0.7382,
+   "soc_metallic": false,
+   "soc_shift_ev": -0.2885
+  },
+  {
+   "candidate": "ZrS2_1T",
+   "phase": "1T",
+   "metal": "Zr",
+   "chalcogen": "S",
+   "pbe_gap_ev_scalar_rel": 1.2007,
+   "stages": {
+    "SOC_SCF": {
+     "ok": true,
+     "rc": 0,
+     "wall_s": 29.8,
+     "node_hours": 0.0021,
+     "peak_rank_rss_gb": 0.292,
+     "out": "/scratch/general/vast/<uNID>/mpt_soc/work/ZrS2_1T/socscf.out",
+     "scf_converged": true,
+     "job_done": true,
+     "etot_ry": -440.52131749,
+     "nelec": 24.0
+    },
+    "SOC_NSCF": {
+     "ok": true,
+     "rc": 0,
+     "wall_s": 35.3,
+     "node_hours": 0.0025,
+     "peak_rank_rss_gb": 0.207,
+     "out": "/scratch/general/vast/<uNID>/mpt_soc/work/ZrS2_1T/socnscf.out",
+     "vbm_ev": -2.0949,
+     "cbm_ev": -0.9434,
+     "gap_ev": 1.1515,
+     "metallic": false
+    }
+   },
+   "failures": 0,
+   "restarts": 0,
+   "soc_gap_ev": 1.1515,
+   "soc_metallic": false,
+   "soc_shift_ev": -0.0492
+  }
+ ]
+}

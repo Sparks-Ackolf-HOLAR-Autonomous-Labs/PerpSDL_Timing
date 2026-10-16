@@ -1,0 +1,20 @@
+{
+ "n_candidates": 27,
+ "prior_identity_acc": 0.037037037037037035,
+ "identity_limit": 0.08703703703703704,
+ "membership_auc_limit": 0.6,
+ "CEDT_P4": {
+  "identity_acc": 0.9625,
+  "identity_n": 80,
+  "identity_breach": true,
+  "membership_auc": 1.0,
+  "membership_breach": true
+ },
+ "DTDE": {
+  "identity_acc": 0.9625,
+  "identity_n": 80,
+  "identity_breach": true,
+  "membership_auc": 1.0,
+  "membership_breach": true
+ }
+}

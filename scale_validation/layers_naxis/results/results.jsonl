@@ -1,0 +1,17 @@
+{"name": "MoSe2_2H_L1_s1", "rc": 0, "wall_s": 4, "converged": 1, "nelec": "52.00", "nat": "6", "scf_iters": 15, "etot_ry": "-453.01014950", "ranks": 32, "npool": 2}
+{"name": "MoSe2_2H_L1_s2", "rc": 0, "wall_s": 67, "converged": 1, "nelec": "208.00", "nat": "24", "scf_iters": 17, "etot_ry": "-1812.04199851", "ranks": 32, "npool": 2}
+{"name": "MoSe2_2H_L1_s2_e+2pct", "rc": 0, "wall_s": 62, "converged": 1, "nelec": "208.00", "nat": "24", "scf_iters": 16, "etot_ry": "-1811.99851910", "ranks": 32, "npool": 2}
+{"name": "MoSe2_2H_L1_s2_e-2pct", "rc": 0, "wall_s": 62, "converged": 1, "nelec": "208.00", "nat": "24", "scf_iters": 16, "etot_ry": "-1812.04903895", "ranks": 32, "npool": 2}
+{"name": "MoSe2_2H_L2_s1", "rc": 0, "wall_s": 12, "converged": 1, "nelec": "104.00", "nat": "12", "scf_iters": 18, "etot_ry": "-906.01999232", "ranks": 32, "npool": 2}
+{"name": "MoSe2_2H_L2_s2", "rc": 0, "wall_s": 294, "converged": 1, "nelec": "416.00", "nat": "48", "scf_iters": 21, "etot_ry": "-3624.08294258", "ranks": 32, "npool": 2}
+{"name": "MoSe2_2H_L3_s1", "rc": 0, "wall_s": 34, "converged": 1, "nelec": "156.00", "nat": "18", "scf_iters": 25, "etot_ry": "-1359.02982572", "ranks": 32, "npool": 2}
+{"name": "TiS2_1T_L1_s1", "rc": 0, "wall_s": 4, "converged": 1, "nelec": "24.00", "nat": "3", "scf_iters": 21, "etot_ry": "-167.60903647", "ranks": 32, "npool": 2}
+{"name": "TiS2_1T_L1_s2", "rc": 0, "wall_s": 37, "converged": 1, "nelec": "96.00", "nat": "12", "scf_iters": 23, "etot_ry": "-670.43496313", "ranks": 32, "npool": 2}
+{"name": "TiS2_1T_L1_s2_e+2pct", "rc": 0, "wall_s": 36, "converged": 1, "nelec": "96.00", "nat": "12", "scf_iters": 22, "etot_ry": "-670.41597793", "ranks": 32, "npool": 2}
+{"name": "TiS2_1T_L1_s2_e-2pct", "rc": 0, "wall_s": 40, "converged": 1, "nelec": "96.00", "nat": "12", "scf_iters": 24, "etot_ry": "-670.44230579", "ranks": 32, "npool": 2}
+{"name": "TiS2_1T_L2_s1", "rc": 0, "wall_s": 8, "converged": 1, "nelec": "48.00", "nat": "6", "scf_iters": 25, "etot_ry": "-335.21862349", "ranks": 32, "npool": 2}
+{"name": "TiS2_1T_L2_s2", "rc": 0, "wall_s": 114, "converged": 1, "nelec": "192.00", "nat": "24", "scf_iters": 24, "etot_ry": "-1340.87231326", "ranks": 32, "npool": 2}
+{"name": "TiS2_1T_L3_s1", "rc": 0, "wall_s": 17, "converged": 1, "nelec": "72.00", "nat": "9", "scf_iters": 31, "etot_ry": "-502.82818495", "ranks": 32, "npool": 2}
+{"name": "TiS2_1T_L3_s2", "rc": 0, "wall_s": 290, "converged": 1, "nelec": "288.00", "nat": "36", "scf_iters": 29, "etot_ry": "-2011.30957465", "ranks": 32, "npool": 2}
+{"name": "WTe2_2H_L1_s1", "rc": 0, "wall_s": 6, "converged": 1, "nelec": "52.00", "nat": "6", "scf_iters": 20, "etot_ry": "-423.35134014", "ranks": 32, "npool": 2}
+{"name": "WTe2_2H_L1_s2", "rc": 0, "wall_s": 62, "converged": 1, "nelec": "208.00", "nat": "24", "scf_iters": 17, "etot_ry": "-1693.41873563", "ranks": 32, "npool": 2}

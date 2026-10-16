@@ -1,0 +1,49 @@
+{
+ "measured_fit": {
+  "p_e": 1.202,
+  "A": {
+   "F1": 0.000398,
+   "F2": 0.009462,
+   "F3": 0.000906,
+   "F4": 0.015754
+  },
+  "resid_sd_log": 0.342,
+  "r2": 0.953,
+  "n": 98
+ },
+ "measured_mem": {
+  "mem_m0": -0.006,
+  "mem_p": 0.5,
+  "mem_base": 0.1381,
+  "r2": 0.009,
+  "n": 89,
+  "note": "per-rank RSS at 16 ranks/4 pools; the twin's mem_per_node divides by nodes*pools^0.4 which this single-config dataset cannot identify"
+ },
+ "prior_card": {
+  "p_e": 2.5,
+  "p_k": 1.0,
+  "AF": {
+   "F1": 1.2,
+   "F2": 12.0,
+   "F3": 8.0,
+   "F4SCF": 8.0,
+   "F4": 40.0
+  },
+  "mem_m0": 30.0,
+  "mem_p": 2.0,
+  "mem_base": 8.0
+ },
+ "prior_over_measured_A": {
+  "F1": 3015.1,
+  "F2": 1268.2,
+  "F3": 8830.0,
+  "F4": 2539.0
+ },
+ "min_call_node_hours": 0.0002,
+ "identifiability": {
+  "p_k": "NOT identifiable: one fixed k-grid per stage (nk confounded with A_stage); prior p_k=1.0 carried",
+  "parallel_efficiency": "NOT identifiable: single config (16 ranks, 4 pools); pilot bundle remains the instrument",
+  "contention": "NOT identifiable: dedicated allocation, no co-tenant variation observed"
+ },
+ "soc_rows_available": 18
+}

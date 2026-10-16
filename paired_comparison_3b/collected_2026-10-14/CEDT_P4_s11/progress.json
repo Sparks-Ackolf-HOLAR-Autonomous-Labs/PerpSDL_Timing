@@ -1,0 +1,25 @@
+{
+ "campaign": {
+  "arm": "CEDT_P4",
+  "seed": 11,
+  "billed": 8.6039,
+  "labels_f2": 5,
+  "billed_first_qual": 2.6881,
+  "qualifiers": [
+   "ZrS2_1T"
+  ],
+  "fails": 0,
+  "makespan_s": 42836.7,
+  "node": {
+   "host": "notch485",
+   "cpu_model": "AMD EPYC 9554P 64-Core Processor",
+   "ncpu": 128,
+   "slurm_job": "16167451",
+   "restart_count": "0"
+  },
+  "mask": "prop"
+ },
+ "logbook_end": null,
+ "billed_total": 8.604,
+ "calls": 16
+}

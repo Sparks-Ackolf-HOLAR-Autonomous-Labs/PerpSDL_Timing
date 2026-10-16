@@ -1,0 +1,14 @@
+TiSe2_2H missing
+TiTe2_2H missing
+ZrS2_2H missing
+ZrSe2_2H missing
+ZrTe2_1T missing
+ZrTe2_2H missing
+HfSe2_1T missing
+MoSe2_2H missing
+MoTe2_2H missing
+WS2_2H missing
+WTe2_2H missing
+MoS2_1T repeat
+ZrS2_1T repeat
+WS2_1T repeat

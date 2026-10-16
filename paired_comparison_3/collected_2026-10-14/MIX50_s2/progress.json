@@ -1,0 +1,26 @@
+{
+ "campaign": {
+  "arm": "MIX50",
+  "seed": 2,
+  "billed": 13.5309,
+  "labels_f2": 5,
+  "billed_first_qual": 1.5339,
+  "qualifiers": [
+   "ZrS2_1T",
+   "WSe2_2H"
+  ],
+  "fails": 0,
+  "makespan_s": 68332.7,
+  "node": {
+   "host": "grn044",
+   "cpu_model": "AMD EPYC 9654P 96-Core Processor",
+   "ncpu": 192,
+   "slurm_job": "2089713",
+   "restart_count": "0"
+  },
+  "mask": "prop"
+ },
+ "logbook_end": null,
+ "billed_total": 13.531,
+ "calls": 16
+}

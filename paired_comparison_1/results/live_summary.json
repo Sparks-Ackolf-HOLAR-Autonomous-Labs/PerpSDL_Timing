@@ -1,0 +1,274 @@
+{
+ "campaigns": [
+  {
+   "arm": "DTDE",
+   "seed": 0,
+   "calls": 24,
+   "nh": 0.5092,
+   "labels_f2": 8,
+   "nh_first_qual": 0.2194,
+   "qualifiers": [
+    "WSe2_2H",
+    "MoTe2_2H",
+    "ZrS2_1T"
+   ],
+   "fails": 3
+  },
+  {
+   "arm": "CEDT_P4",
+   "seed": 0,
+   "calls": 24,
+   "nh": 0.5252,
+   "labels_f2": 8,
+   "nh_first_qual": 0.2401,
+   "qualifiers": [
+    "WSe2_2H",
+    "MoTe2_2H"
+   ],
+   "fails": 3
+  },
+  {
+   "arm": "CEDT_P4",
+   "seed": 1,
+   "calls": 24,
+   "nh": 0.4181,
+   "labels_f2": 8,
+   "nh_first_qual": 0.1489,
+   "qualifiers": [
+    "MoSe2_2H"
+   ],
+   "fails": 0
+  },
+  {
+   "arm": "DTDE",
+   "seed": 1,
+   "calls": 24,
+   "nh": 0.4033,
+   "labels_f2": 8,
+   "nh_first_qual": 0.1504,
+   "qualifiers": [
+    "MoSe2_2H"
+   ],
+   "fails": 1
+  },
+  {
+   "arm": "DTDE",
+   "seed": 2,
+   "calls": 24,
+   "nh": 0.4814,
+   "labels_f2": 8,
+   "nh_first_qual": 0.4208,
+   "qualifiers": [
+    "MoSe2_2H"
+   ],
+   "fails": 0
+  },
+  {
+   "arm": "CEDT_P4",
+   "seed": 2,
+   "calls": 24,
+   "nh": 0.4722,
+   "labels_f2": 8,
+   "nh_first_qual": 0.4123,
+   "qualifiers": [
+    "MoSe2_2H"
+   ],
+   "fails": 0
+  },
+  {
+   "arm": "CEDT_P4",
+   "seed": 3,
+   "calls": 24,
+   "nh": 0.6303,
+   "labels_f2": 8,
+   "nh_first_qual": 0.3169,
+   "qualifiers": [
+    "HfS2_2H",
+    "WSe2_2H",
+    "MoS2_2H"
+   ],
+   "fails": 1
+  },
+  {
+   "arm": "DTDE",
+   "seed": 3,
+   "calls": 24,
+   "nh": 0.6576,
+   "labels_f2": 8,
+   "nh_first_qual": 0.2486,
+   "qualifiers": [
+    "ZrS2_1T",
+    "HfS2_2H",
+    "WSe2_2H",
+    "MoS2_2H"
+   ],
+   "fails": 0
+  },
+  {
+   "arm": "DTDE",
+   "seed": 4,
+   "calls": 24,
+   "nh": 0.4568,
+   "labels_f2": 8,
+   "nh_first_qual": 0.1908,
+   "qualifiers": [
+    "MoS2_2H",
+    "WS2_2H",
+    "HfS2_1T"
+   ],
+   "fails": 0
+  },
+  {
+   "arm": "CEDT_P4",
+   "seed": 4,
+   "calls": 24,
+   "nh": 0.446,
+   "labels_f2": 8,
+   "nh_first_qual": 0.1877,
+   "qualifiers": [
+    "MoS2_2H",
+    "WS2_2H",
+    "HfS2_1T"
+   ],
+   "fails": 0
+  },
+  {
+   "arm": "CEDT_P4",
+   "seed": 5,
+   "calls": 24,
+   "nh": 0.3705,
+   "labels_f2": 8,
+   "nh_first_qual": 0.2438,
+   "qualifiers": [
+    "WS2_2H"
+   ],
+   "fails": 2
+  },
+  {
+   "arm": "DTDE",
+   "seed": 5,
+   "calls": 24,
+   "nh": 0.3602,
+   "labels_f2": 8,
+   "nh_first_qual": 0.2414,
+   "qualifiers": [
+    "WS2_2H",
+    "ZrS2_1T"
+   ],
+   "fails": 2
+  },
+  {
+   "arm": "DTDE",
+   "seed": 6,
+   "calls": 24,
+   "nh": 0.462,
+   "labels_f2": 8,
+   "nh_first_qual": 0.2849,
+   "qualifiers": [
+    "WSe2_2H"
+   ],
+   "fails": 1
+  },
+  {
+   "arm": "CEDT_P4",
+   "seed": 6,
+   "calls": 24,
+   "nh": 0.4744,
+   "labels_f2": 8,
+   "nh_first_qual": 0.2799,
+   "qualifiers": [
+    "WSe2_2H"
+   ],
+   "fails": 0
+  },
+  {
+   "arm": "CEDT_P4",
+   "seed": 7,
+   "calls": 24,
+   "nh": 0.5407,
+   "labels_f2": 8,
+   "nh_first_qual": 0.1484,
+   "qualifiers": [
+    "MoSe2_2H",
+    "HfS2_2H",
+    "HfS2_1T",
+    "WSe2_2H"
+   ],
+   "fails": 0
+  },
+  {
+   "arm": "DTDE",
+   "seed": 7,
+   "calls": 24,
+   "nh": 0.5382,
+   "labels_f2": 8,
+   "nh_first_qual": 0.1295,
+   "qualifiers": [
+    "MoSe2_2H",
+    "HfS2_2H",
+    "HfS2_1T",
+    "WSe2_2H"
+   ],
+   "fails": 1
+  },
+  {
+   "arm": "DTDE",
+   "seed": 8,
+   "calls": 24,
+   "nh": 0.4488,
+   "labels_f2": 8,
+   "nh_first_qual": 0.034,
+   "qualifiers": [
+    "HfS2_1T",
+    "ZrS2_1T",
+    "WS2_2H"
+   ],
+   "fails": 0
+  },
+  {
+   "arm": "CEDT_P4",
+   "seed": 8,
+   "calls": 24,
+   "nh": 0.4328,
+   "labels_f2": 8,
+   "nh_first_qual": 0.0324,
+   "qualifiers": [
+    "HfS2_1T",
+    "WS2_2H"
+   ],
+   "fails": 1
+  },
+  {
+   "arm": "CEDT_P4",
+   "seed": 9,
+   "calls": 24,
+   "nh": 0.3832,
+   "labels_f2": 8,
+   "nh_first_qual": 0.0325,
+   "qualifiers": [
+    "HfS2_1T",
+    "MoS2_2H",
+    "HfS2_2H"
+   ],
+   "fails": 0
+  },
+  {
+   "arm": "DTDE",
+   "seed": 9,
+   "calls": 24,
+   "nh": 0.3995,
+   "labels_f2": 8,
+   "nh_first_qual": 0.0339,
+   "qualifiers": [
+    "HfS2_1T",
+    "MoS2_2H",
+    "HfS2_2H"
+   ],
+   "fails": 0
+  }
+ ],
+ "total_nh": 9.411,
+ "total_calls": 480,
+ "seeds": 10,
+ "wall_h": 19.82
+}

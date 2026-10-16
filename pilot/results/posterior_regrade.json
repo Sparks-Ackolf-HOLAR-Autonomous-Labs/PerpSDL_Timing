@@ -1,0 +1,95 @@
+{
+ "worlds": 300,
+ "posterior_card": {
+  "s_mu": 0.42501891141938225,
+  "s_sd": 0.05,
+  "quirk_sd": 0.06071302960329846,
+  "pm_lo": 0.05,
+  "pm_hi": 0.3,
+  "burst_lo": 0.05,
+  "burst_hi": 0.25,
+  "beta0_mu": -4.2,
+  "beta0_sd": 0.4,
+  "atk": 1.0
+ },
+ "results": {
+  "scale_10": {
+   "frozen": {
+    "CTCE_P0": 0.0,
+    "DTDE_P4": 0.0,
+    "CTDE_P1": 0.0,
+    "CTDE_P2": 0.0,
+    "CTDE_P3": 0.0,
+    "CTDE_P4": 0.0,
+    "CEDT_P1": 0.0,
+    "CEDT_P2": 0.0,
+    "CEDT_P3": 0.0,
+    "CEDT_P4": 0.07
+   },
+   "package": {
+    "CTCE_P0": 0.0,
+    "DTDE_P4": 0.0,
+    "CTDE_P1": 0.0,
+    "CTDE_P2": 0.0,
+    "CTDE_P3": 0.0,
+    "CTDE_P4": 0.0,
+    "CEDT_P1": 0.0,
+    "CEDT_P2": 0.0,
+    "CEDT_P3": 0.0,
+    "CEDT_P4": 0.7133333333333334
+   }
+  },
+  "scale_100": {
+   "frozen": {
+    "CTCE_P0": 0.0,
+    "DTDE_P4": 0.0,
+    "CTDE_P1": 0.0,
+    "CTDE_P2": 0.0,
+    "CTDE_P3": 0.0,
+    "CTDE_P4": 0.0,
+    "CEDT_P1": 0.0,
+    "CEDT_P2": 0.0,
+    "CEDT_P3": 0.0,
+    "CEDT_P4": 0.19
+   },
+   "package": {
+    "CTCE_P0": 0.0,
+    "DTDE_P4": 0.0,
+    "CTDE_P1": 0.0,
+    "CTDE_P2": 0.0,
+    "CTDE_P3": 0.0,
+    "CTDE_P4": 0.0,
+    "CEDT_P1": 0.0,
+    "CEDT_P2": 0.0,
+    "CEDT_P3": 0.0,
+    "CEDT_P4": 0.8166666666666667
+   }
+  },
+  "scale_300": {
+   "frozen": {
+    "CTCE_P0": 0.0,
+    "DTDE_P4": 0.0,
+    "CTDE_P1": 0.0,
+    "CTDE_P2": 0.0,
+    "CTDE_P3": 0.0,
+    "CTDE_P4": 0.0,
+    "CEDT_P1": 0.0,
+    "CEDT_P2": 0.0,
+    "CEDT_P3": 0.0,
+    "CEDT_P4": 0.20333333333333334
+   },
+   "package": {
+    "CTCE_P0": 0.0,
+    "DTDE_P4": 0.0,
+    "CTDE_P1": 0.0,
+    "CTDE_P2": 0.0,
+    "CTDE_P3": 0.0,
+    "CTDE_P4": 0.0,
+    "CEDT_P1": 0.0,
+    "CEDT_P2": 0.0,
+    "CEDT_P3": 0.0,
+    "CEDT_P4": 0.8133333333333334
+   }
+  }
+ }
+}

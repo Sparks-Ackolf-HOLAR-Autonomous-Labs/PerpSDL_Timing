@@ -1,0 +1,16 @@
+{"arm": "CEDT_P4", "seed": 0, "opaque_id": "99999b5d1c", "cls": "f1", "mem_bit": 0, "size_bin": null, "t_start": 1791563927.3, "t_end": 1791568652.3, "wall_s": 4725.0, "billed_nh": 0.3281, "ok": true}
+{"arm": "CEDT_P4", "seed": 0, "opaque_id": "a1d92c3ae5", "cls": "f1", "mem_bit": 0, "size_bin": null, "t_start": 1791563927.3, "t_end": 1791569563.7, "wall_s": 5636.4, "billed_nh": 0.3914, "ok": true}
+{"arm": "CEDT_P4", "seed": 0, "opaque_id": "ff82fa28e5", "cls": "f1", "mem_bit": 1, "size_bin": null, "t_start": 1791563927.3, "t_end": 1791571979.4, "wall_s": 8052.1, "billed_nh": 0.7157, "ok": true}
+{"arm": "CEDT_P4", "seed": 0, "opaque_id": "99999b5d1c", "cls": "f2", "mem_bit": 0, "size_bin": null, "t_start": 1791568661.5, "t_end": 1791575974.0, "wall_s": 7312.5, "billed_nh": 0.5575, "ok": true}
+{"arm": "CEDT_P4", "seed": 0, "opaque_id": "a1d92c3ae5", "cls": "f2", "mem_bit": 0, "size_bin": null, "t_start": 1791569572.4, "t_end": 1791578295.5, "wall_s": 8723.1, "billed_nh": 0.6651, "ok": true}
+{"arm": "CEDT_P4", "seed": 0, "opaque_id": "99999b5d1c", "cls": "f3", "mem_bit": 0, "size_bin": null, "t_start": 1791575978.8, "t_end": 1791582278.8, "wall_s": 6300.0, "billed_nh": 0.5043, "ok": true}
+{"arm": "CEDT_P4", "seed": 0, "opaque_id": "a1d92c3ae5", "cls": "f3", "mem_bit": 0, "size_bin": null, "t_start": 1791578301.2, "t_end": 1791585969.8, "wall_s": 7668.6, "billed_nh": 0.6138, "ok": true}
+{"arm": "CEDT_P4", "seed": 0, "opaque_id": "c32bd687d9", "cls": "f1", "mem_bit": 0, "size_bin": null, "t_start": 1791582285.8, "t_end": 1791587922.2, "wall_s": 5636.4, "billed_nh": 0.3914, "ok": true}
+{"arm": "CEDT_P4", "seed": 0, "opaque_id": "c32bd687d9", "cls": "f2", "mem_bit": 0, "size_bin": null, "t_start": 1791587931.4, "t_end": 1791595408.3, "wall_s": 7476.9, "billed_nh": 0.5701, "ok": true}
+{"arm": "CEDT_P4", "seed": 0, "opaque_id": "ff82fa28e5", "cls": "f2", "mem_bit": 1, "size_bin": null, "t_start": 1791582285.8, "t_end": 1791595993.5, "wall_s": 13707.7, "billed_nh": 1.4339, "ok": true}
+{"arm": "CEDT_P4", "seed": 0, "opaque_id": "ff82fa28e5", "cls": "f3", "mem_bit": 1, "size_bin": null, "t_start": 1791595999.3, "t_end": 1791601367.3, "wall_s": 5368.0, "billed_nh": 0.5898, "ok": true}
+{"arm": "CEDT_P4", "seed": 0, "opaque_id": "c32bd687d9", "cls": "f3", "mem_bit": 0, "size_bin": null, "t_start": 1791595408.7, "t_end": 1791603844.2, "wall_s": 8435.5, "billed_nh": 0.6752, "ok": true}
+{"arm": "CEDT_P4", "seed": 0, "opaque_id": "23f55e6abd", "cls": "f1", "mem_bit": 1, "size_bin": null, "t_start": 1791601375.2, "t_end": 1791607045.2, "wall_s": 5670.0, "billed_nh": 0.504, "ok": true}
+{"arm": "CEDT_P4", "seed": 0, "opaque_id": "ac1ae56b04", "cls": "f1", "mem_bit": 0, "size_bin": null, "t_start": 1791603848.3, "t_end": 1791608573.3, "wall_s": 4725.0, "billed_nh": 0.3281, "ok": true}
+{"arm": "CEDT_P4", "seed": 0, "opaque_id": "4571debeff", "cls": "f1", "mem_bit": 1, "size_bin": null, "t_start": 1791603848.3, "t_end": 1791608679.5, "wall_s": 4831.2, "billed_nh": 0.4294, "ok": true}
+{"arm": "CEDT_P4", "seed": 0, "opaque_id": "23f55e6abd", "cls": "f2", "mem_bit": 1, "size_bin": null, "t_start": 1791608582.8, "t_end": 1791615895.3, "wall_s": 7312.5, "billed_nh": 0.7649, "ok": true}

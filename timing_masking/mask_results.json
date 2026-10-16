@@ -1,0 +1,274 @@
+{
+ "n_candidates": 27,
+ "prior_identity": 0.037,
+ "identity_limit": 0.087,
+ "membership_auc_limit": 0.6,
+ "sweep": [
+  {
+   "mask": "none",
+   "param": 0,
+   "cost_inflation": 0.0,
+   "worst_identity_acc": 0.9625,
+   "worst_membership_auc": 1.0,
+   "identity_pass": false,
+   "membership_pass": false,
+   "per_arm": {
+    "CEDT_P4": {
+     "identity_acc": 0.9625,
+     "membership_auc": 1.0
+    },
+    "DTDE": {
+     "identity_acc": 0.9625,
+     "membership_auc": 1.0
+    }
+   }
+  },
+  {
+   "mask": "quant",
+   "param": 5,
+   "cost_inflation": 0.0177,
+   "worst_identity_acc": 0.9625,
+   "worst_membership_auc": 0.9997,
+   "identity_pass": false,
+   "membership_pass": false,
+   "per_arm": {
+    "CEDT_P4": {
+     "identity_acc": 0.9625,
+     "membership_auc": 0.9997
+    },
+    "DTDE": {
+     "identity_acc": 0.9625,
+     "membership_auc": 0.9955
+    }
+   }
+  },
+  {
+   "mask": "quant",
+   "param": 15,
+   "cost_inflation": 0.0496,
+   "worst_identity_acc": 0.95,
+   "worst_membership_auc": 0.9965,
+   "identity_pass": false,
+   "membership_pass": false,
+   "per_arm": {
+    "CEDT_P4": {
+     "identity_acc": 0.95,
+     "membership_auc": 0.9965
+    },
+    "DTDE": {
+     "identity_acc": 0.8875,
+     "membership_auc": 0.9648
+    }
+   }
+  },
+  {
+   "mask": "quant",
+   "param": 30,
+   "cost_inflation": 0.1119,
+   "worst_identity_acc": 0.8,
+   "worst_membership_auc": 0.9539,
+   "identity_pass": false,
+   "membership_pass": false,
+   "per_arm": {
+    "CEDT_P4": {
+     "identity_acc": 0.8,
+     "membership_auc": 0.9539
+    },
+    "DTDE": {
+     "identity_acc": 0.725,
+     "membership_auc": 0.8675
+    }
+   }
+  },
+  {
+   "mask": "quant",
+   "param": 60,
+   "cost_inflation": 0.2019,
+   "worst_identity_acc": 0.575,
+   "worst_membership_auc": 0.8842,
+   "identity_pass": false,
+   "membership_pass": false,
+   "per_arm": {
+    "CEDT_P4": {
+     "identity_acc": 0.575,
+     "membership_auc": 0.8842
+    },
+    "DTDE": {
+     "identity_acc": 0.5,
+     "membership_auc": 0.7907
+    }
+   }
+  },
+  {
+   "mask": "quant",
+   "param": 120,
+   "cost_inflation": 0.3558,
+   "worst_identity_acc": 0.2625,
+   "worst_membership_auc": 0.7053,
+   "identity_pass": false,
+   "membership_pass": false,
+   "per_arm": {
+    "CEDT_P4": {
+     "identity_acc": 0.25,
+     "membership_auc": 0.7053
+    },
+    "DTDE": {
+     "identity_acc": 0.2625,
+     "membership_auc": 0.6763
+    }
+   }
+  },
+  {
+   "mask": "quant",
+   "param": 300,
+   "cost_inflation": 1.2414,
+   "worst_identity_acc": 0.1125,
+   "worst_membership_auc": 0.55,
+   "identity_pass": false,
+   "membership_pass": true,
+   "per_arm": {
+    "CEDT_P4": {
+     "identity_acc": 0.1125,
+     "membership_auc": 0.5184
+    },
+    "DTDE": {
+     "identity_acc": 0.1125,
+     "membership_auc": 0.55
+    }
+   }
+  },
+  {
+   "mask": "quant",
+   "param": 600,
+   "cost_inflation": 3.037,
+   "worst_identity_acc": 0.05,
+   "worst_membership_auc": 0.5,
+   "identity_pass": true,
+   "membership_pass": true,
+   "per_arm": {
+    "CEDT_P4": {
+     "identity_acc": 0.05,
+     "membership_auc": 0.5
+    },
+    "DTDE": {
+     "identity_acc": 0.05,
+     "membership_auc": 0.5
+    }
+   }
+  },
+  {
+   "mask": "quant",
+   "param": 1200,
+   "cost_inflation": 7.0741,
+   "worst_identity_acc": 0.05,
+   "worst_membership_auc": 0.5,
+   "identity_pass": true,
+   "membership_pass": true,
+   "per_arm": {
+    "CEDT_P4": {
+     "identity_acc": 0.05,
+     "membership_auc": 0.5
+    },
+    "DTDE": {
+     "identity_acc": 0.05,
+     "membership_auc": 0.5
+    }
+   }
+  },
+  {
+   "mask": "quant",
+   "param": 3600,
+   "cost_inflation": 23.2222,
+   "worst_identity_acc": 0.05,
+   "worst_membership_auc": 0.5,
+   "identity_pass": true,
+   "membership_pass": true,
+   "per_arm": {
+    "CEDT_P4": {
+     "identity_acc": 0.05,
+     "membership_auc": 0.5
+    },
+    "DTDE": {
+     "identity_acc": 0.05,
+     "membership_auc": 0.5
+    }
+   }
+  },
+  {
+   "mask": "pad",
+   "param": 90,
+   "cost_inflation": 0.9494,
+   "worst_identity_acc": 0.2875,
+   "worst_membership_auc": 0.552,
+   "identity_pass": false,
+   "membership_pass": true,
+   "per_arm": {
+    "CEDT_P4": {
+     "identity_acc": 0.2875,
+     "membership_auc": 0.552
+    },
+    "DTDE": {
+     "identity_acc": 0.25,
+     "membership_auc": 0.5042
+    }
+   }
+  },
+  {
+   "mask": "pad",
+   "param": 95,
+   "cost_inflation": 1.246,
+   "worst_identity_acc": 0.2,
+   "worst_membership_auc": 0.4818,
+   "identity_pass": false,
+   "membership_pass": true,
+   "per_arm": {
+    "CEDT_P4": {
+     "identity_acc": 0.2,
+     "membership_auc": 0.4818
+    },
+    "DTDE": {
+     "identity_acc": 0.125,
+     "membership_auc": 0.4794
+    }
+   }
+  },
+  {
+   "mask": "pad",
+   "param": 99,
+   "cost_inflation": 1.5111,
+   "worst_identity_acc": 0.075,
+   "worst_membership_auc": 0.5013,
+   "identity_pass": true,
+   "membership_pass": true,
+   "per_arm": {
+    "CEDT_P4": {
+     "identity_acc": 0.075,
+     "membership_auc": 0.5013
+    },
+    "DTDE": {
+     "identity_acc": 0.075,
+     "membership_auc": 0.4992
+    }
+   }
+  },
+  {
+   "mask": "pad",
+   "param": 100,
+   "cost_inflation": 1.5348,
+   "worst_identity_acc": 0.05,
+   "worst_membership_auc": 0.5,
+   "identity_pass": true,
+   "membership_pass": true,
+   "per_arm": {
+    "CEDT_P4": {
+     "identity_acc": 0.05,
+     "membership_auc": 0.5
+    },
+    "DTDE": {
+     "identity_acc": 0.05,
+     "membership_auc": 0.5
+    }
+   }
+  }
+ ]
+}

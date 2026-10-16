@@ -1,0 +1,269 @@
+{
+ "B": 10000,
+ "interval": "percentile 95%, cluster bootstrap over held-out seeds",
+ "comparison1": {
+  "n_seeds": 10,
+  "CEDT_P4": {
+   "identity": {
+    "point": 0.9625,
+    "lo": 0.9125,
+    "hi": 1.0
+   },
+   "auc": {
+    "point": 1.0,
+    "lo": 1.0,
+    "hi": 1.0
+   }
+  },
+  "DTDE": {
+   "identity": {
+    "point": 0.9625,
+    "lo": 0.9125,
+    "hi": 1.0
+   },
+   "auc": {
+    "point": 1.0,
+    "lo": 1.0,
+    "hi": 1.0
+   }
+  }
+ },
+ "masking": [
+  {
+   "mask": "quant",
+   "param": 5,
+   "worse_arm": {
+    "identity": {
+     "point": 0.9625,
+     "lo": 0.9,
+     "hi": 1.0
+    },
+    "auc": {
+     "point": 0.9997,
+     "lo": 0.9992,
+     "hi": 1.0
+    }
+   }
+  },
+  {
+   "mask": "quant",
+   "param": 15,
+   "worse_arm": {
+    "identity": {
+     "point": 0.95,
+     "lo": 0.9,
+     "hi": 1.0
+    },
+    "auc": {
+     "point": 0.9965,
+     "lo": 0.9922,
+     "hi": 0.9997
+    }
+   }
+  },
+  {
+   "mask": "quant",
+   "param": 30,
+   "worse_arm": {
+    "identity": {
+     "point": 0.8,
+     "lo": 0.75,
+     "hi": 0.85
+    },
+    "auc": {
+     "point": 0.9539,
+     "lo": 0.9381,
+     "hi": 0.9701
+    }
+   }
+  },
+  {
+   "mask": "quant",
+   "param": 60,
+   "worse_arm": {
+    "identity": {
+     "point": 0.575,
+     "lo": 0.5,
+     "hi": 0.65
+    },
+    "auc": {
+     "point": 0.8842,
+     "lo": 0.8526,
+     "hi": 0.9184
+    }
+   }
+  },
+  {
+   "mask": "quant",
+   "param": 120,
+   "worse_arm": {
+    "identity": {
+     "point": 0.2625,
+     "lo": 0.175,
+     "hi": 0.3625
+    },
+    "auc": {
+     "point": 0.7053,
+     "lo": 0.6763,
+     "hi": 0.7395
+    }
+   }
+  },
+  {
+   "mask": "quant",
+   "param": 300,
+   "worse_arm": {
+    "identity": {
+     "point": 0.1125,
+     "lo": 0.0625,
+     "hi": 0.1625
+    },
+    "auc": {
+     "point": 0.55,
+     "lo": 0.5132,
+     "hi": 0.6
+    }
+   }
+  },
+  {
+   "mask": "quant",
+   "param": 600,
+   "worse_arm": {
+    "identity": {
+     "point": 0.05,
+     "lo": 0.0125,
+     "hi": 0.0875
+    },
+    "auc": {
+     "point": 0.5,
+     "lo": 0.5,
+     "hi": 0.5
+    }
+   }
+  },
+  {
+   "mask": "quant",
+   "param": 1200,
+   "worse_arm": {
+    "identity": {
+     "point": 0.05,
+     "lo": 0.0125,
+     "hi": 0.0875
+    },
+    "auc": {
+     "point": 0.5,
+     "lo": 0.5,
+     "hi": 0.5
+    }
+   }
+  },
+  {
+   "mask": "quant",
+   "param": 3600,
+   "worse_arm": {
+    "identity": {
+     "point": 0.05,
+     "lo": 0.0125,
+     "hi": 0.0875
+    },
+    "auc": {
+     "point": 0.5,
+     "lo": 0.5,
+     "hi": 0.5
+    }
+   }
+  },
+  {
+   "mask": "pad",
+   "param": 90,
+   "worse_arm": {
+    "identity": {
+     "point": 0.2875,
+     "lo": 0.1875,
+     "hi": 0.3875
+    },
+    "auc": {
+     "point": 0.552,
+     "lo": 0.4978,
+     "hi": 0.6069
+    }
+   }
+  },
+  {
+   "mask": "pad",
+   "param": 95,
+   "worse_arm": {
+    "identity": {
+     "point": 0.2,
+     "lo": 0.125,
+     "hi": 0.2625
+    },
+    "auc": {
+     "point": 0.4818,
+     "lo": 0.4393,
+     "hi": 0.5379
+    }
+   }
+  },
+  {
+   "mask": "pad",
+   "param": 99,
+   "worse_arm": {
+    "identity": {
+     "point": 0.075,
+     "lo": 0.0375,
+     "hi": 0.1125
+    },
+    "auc": {
+     "point": 0.5013,
+     "lo": 0.4726,
+     "hi": 0.5377
+    }
+   }
+  },
+  {
+   "mask": "pad",
+   "param": 100,
+   "worse_arm": {
+    "identity": {
+     "point": 0.05,
+     "lo": 0.0125,
+     "hi": 0.0875
+    },
+    "auc": {
+     "point": 0.5,
+     "lo": 0.5,
+     "hi": 0.5
+    }
+   }
+  }
+ ],
+ "comparison2": {
+  "DTDE": {
+   "n_seeds": 15,
+   "identity": {
+    "point": 0.78,
+    "lo": 0.68,
+    "hi": 0.875
+   },
+   "auc": {
+    "point": 0.9893,
+    "lo": 0.979,
+    "hi": 0.9989
+   }
+  },
+  "CEDT_P4": {
+   "n_seeds": 15,
+   "identity": {
+    "point": 0.5849,
+    "lo": 0.4423,
+    "hi": 0.7193
+   },
+   "auc": {
+    "point": 0.9348,
+    "lo": 0.9103,
+    "hi": 0.9587
+   }
+  }
+ }
+}

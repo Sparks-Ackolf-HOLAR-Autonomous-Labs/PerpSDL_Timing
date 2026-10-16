@@ -1,0 +1,15 @@
+{
+  "n_jobs": 81,
+  "n_configs": 5,
+  "p1_style_config_visible": {
+    "mean": 0.969,
+    "q05": 0.9,
+    "q95": 1.0
+  },
+  "p4_style_timing_only": {
+    "mean": 0.736,
+    "q05": 0.638,
+    "q95": 0.824
+  },
+  "limit": 0.2
+}

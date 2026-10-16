@@ -1,0 +1,74 @@
+{
+ "No3": {
+  "campaigns": 60,
+  "CEDT_P4": {
+   "pairs": 15,
+   "H_all": 1.069,
+   "wins_all": 6,
+   "same_cpu_pairs": 10,
+   "H_same_cpu": 1.102,
+   "wins_same_cpu": 2,
+   "first_qualifiers": [
+    "HfS2_1T",
+    "HfS2_2H",
+    "MoS2_2H",
+    "MoSe2_2H",
+    "MoTe2_2H",
+    "WSe2_2H",
+    "ZrS2_1T"
+   ]
+  },
+  "MIX50": {
+   "pairs": 15,
+   "H_all": 0.959,
+   "wins_all": 3,
+   "same_cpu_pairs": 3,
+   "H_same_cpu": 1.167,
+   "wins_same_cpu": 1,
+   "first_qualifiers": [
+    "HfS2_1T",
+    "HfS2_2H",
+    "MoSe2_2H",
+    "MoTe2_2H",
+    "WSe2_2H",
+    "ZrS2_1T"
+   ]
+  },
+  "CTDE_P2": {
+   "pairs": 15,
+   "H_all": 0.929,
+   "wins_all": 2,
+   "same_cpu_pairs": 6,
+   "H_same_cpu": 0.953,
+   "wins_same_cpu": 2,
+   "first_qualifiers": [
+    "HfS2_1T",
+    "HfS2_2H",
+    "MoSe2_2H",
+    "MoTe2_2H",
+    "WSe2_2H",
+    "ZrS2_1T"
+   ]
+  }
+ },
+ "No3b": {
+  "campaigns": 30,
+  "CEDT_P4": {
+   "pairs": 15,
+   "H_all": 0.905,
+   "wins_all": 4,
+   "same_cpu_pairs": 7,
+   "H_same_cpu": 0.978,
+   "wins_same_cpu": 2,
+   "first_qualifiers": [
+    "HfS2_1T",
+    "HfS2_2H",
+    "MoS2_2H",
+    "MoSe2_2H",
+    "MoTe2_2H",
+    "WSe2_2H",
+    "ZrS2_1T"
+   ]
+  }
+ }
+}

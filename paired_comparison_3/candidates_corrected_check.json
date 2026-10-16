@@ -1,0 +1,262 @@
+[
+ {
+  "arm": "CEDT_P4",
+  "seed": 0,
+  "live": [
+   13.0488,
+   "HfS2_2H"
+  ],
+  "q_single_layer": [
+   13.05,
+   "HfS2_2H"
+  ],
+  "q_bilayer_AA": [
+   null,
+   null
+  ],
+  "q_bilayer_3R": [
+   null,
+   null
+  ]
+ },
+ {
+  "arm": "CEDT_P4",
+  "seed": 1,
+  "live": [
+   null,
+   null
+  ],
+  "q_single_layer": [
+   null,
+   null
+  ],
+  "q_bilayer_AA": [
+   null,
+   null
+  ],
+  "q_bilayer_3R": [
+   null,
+   null
+  ]
+ },
+ {
+  "arm": "CEDT_P4",
+  "seed": 3,
+  "live": [
+   null,
+   null
+  ],
+  "q_single_layer": [
+   null,
+   null
+  ],
+  "q_bilayer_AA": [
+   null,
+   null
+  ],
+  "q_bilayer_3R": [
+   null,
+   null
+  ]
+ },
+ {
+  "arm": "CEDT_P4",
+  "seed": 4,
+  "live": [
+   13.0592,
+   "MoTe2_2H"
+  ],
+  "q_single_layer": [
+   13.06,
+   "MoTe2_2H"
+  ],
+  "q_bilayer_AA": [
+   null,
+   null
+  ],
+  "q_bilayer_3R": [
+   null,
+   null
+  ]
+ },
+ {
+  "arm": "CEDT_P4",
+  "seed": 5,
+  "live": [
+   null,
+   null
+  ],
+  "q_single_layer": [
+   null,
+   null
+  ],
+  "q_bilayer_AA": [
+   null,
+   null
+  ],
+  "q_bilayer_3R": [
+   null,
+   null
+  ]
+ },
+ {
+  "arm": "CEDT_P4",
+  "seed": 6,
+  "live": [
+   null,
+   null
+  ],
+  "q_single_layer": [
+   null,
+   null
+  ],
+  "q_bilayer_AA": [
+   null,
+   null
+  ],
+  "q_bilayer_3R": [
+   null,
+   null
+  ]
+ },
+ {
+  "arm": "CEDT_P4",
+  "seed": 7,
+  "live": [
+   13.4768,
+   "WSe2_2H"
+  ],
+  "q_single_layer": [
+   13.48,
+   "WSe2_2H"
+  ],
+  "q_bilayer_AA": [
+   13.48,
+   "WSe2_2H"
+  ],
+  "q_bilayer_3R": [
+   13.48,
+   "WSe2_2H"
+  ]
+ },
+ {
+  "arm": "DTDE",
+  "seed": 1,
+  "live": [
+   null,
+   null
+  ],
+  "q_single_layer": [
+   null,
+   null
+  ],
+  "q_bilayer_AA": [
+   null,
+   null
+  ],
+  "q_bilayer_3R": [
+   null,
+   null
+  ]
+ },
+ {
+  "arm": "DTDE",
+  "seed": 2,
+  "live": [
+   2.7893,
+   "ZrS2_1T"
+  ],
+  "q_single_layer": [
+   2.79,
+   "ZrS2_1T"
+  ],
+  "q_bilayer_AA": [
+   2.79,
+   "ZrS2_1T"
+  ],
+  "q_bilayer_3R": [
+   2.79,
+   "ZrS2_1T"
+  ]
+ },
+ {
+  "arm": "DTDE",
+  "seed": 3,
+  "live": [
+   23.3157,
+   "HfS2_2H"
+  ],
+  "q_single_layer": [
+   23.32,
+   "HfS2_2H"
+  ],
+  "q_bilayer_AA": [
+   null,
+   null
+  ],
+  "q_bilayer_3R": [
+   null,
+   null
+  ]
+ },
+ {
+  "arm": "DTDE",
+  "seed": 5,
+  "live": [
+   null,
+   null
+  ],
+  "q_single_layer": [
+   null,
+   null
+  ],
+  "q_bilayer_AA": [
+   null,
+   null
+  ],
+  "q_bilayer_3R": [
+   null,
+   null
+  ]
+ },
+ {
+  "arm": "DTDE",
+  "seed": 7,
+  "live": [
+   8.2633,
+   "WSe2_2H"
+  ],
+  "q_single_layer": [
+   8.26,
+   "WSe2_2H"
+  ],
+  "q_bilayer_AA": [
+   8.26,
+   "WSe2_2H"
+  ],
+  "q_bilayer_3R": [
+   8.26,
+   "WSe2_2H"
+  ]
+ },
+ {
+  "arm": "DTDE",
+  "seed": 8,
+  "live": [
+   11.0116,
+   "HfS2_2H"
+  ],
+  "q_single_layer": [
+   11.01,
+   "HfS2_2H"
+  ],
+  "q_bilayer_AA": [
+   12.77,
+   "MoS2_2H"
+  ],
+  "q_bilayer_3R": [
+   12.77,
+   "MoS2_2H"
+  ]
+ }
+]

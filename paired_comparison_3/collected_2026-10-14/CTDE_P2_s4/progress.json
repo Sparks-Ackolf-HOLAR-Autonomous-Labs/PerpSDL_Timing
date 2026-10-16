@@ -1,0 +1,32 @@
+{
+ "campaign": {
+  "arm": "CTDE_P2",
+  "seed": 4,
+  "billed": 27.2238,
+  "labels_f2": 5,
+  "billed_first_qual": 15.4428,
+  "qualifiers": [
+   "MoTe2_2H"
+  ],
+  "fails": 0,
+  "makespan_s": 133736.4,
+  "node": {
+   "host": "notch493",
+   "cpu_model": "AMD EPYC 9554 64-Core Processor",
+   "ncpu": 256,
+   "slurm_job": "16167486",
+   "restart_count": "0"
+  },
+  "mask": "none"
+ },
+ "logbook_end": {
+  "large:f1": 142.7,
+  "large:f2": 168.6,
+  "small:f1": 104.6,
+  "small:f2": 123.8,
+  "small:f3": 63.4,
+  "large:f3": 146.6
+ },
+ "billed_total": 27.224,
+ "calls": 15
+}

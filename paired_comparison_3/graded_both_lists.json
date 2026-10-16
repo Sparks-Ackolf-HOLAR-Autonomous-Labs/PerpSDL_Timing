@@ -1,0 +1,1130 @@
+{
+ "campaigns_collected": 60,
+ "H": {
+  "DTDE": {
+   "campaigns": 15,
+   "labels_f2": 80,
+   "billed": 316.481,
+   "labels_per_pcnh": 0.2528,
+   "fails": 0
+  },
+  "CEDT_P4": {
+   "campaigns": 15,
+   "labels_f2": 81,
+   "billed": 299.68,
+   "labels_per_pcnh": 0.2703,
+   "fails": 3,
+   "ratio_vs_DTDE": 1.069,
+   "paired_seeds_only": {
+    "seeds": [
+     0,
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9,
+     10,
+     11,
+     12,
+     13,
+     14
+    ],
+    "labels_per_pcnh": 0.2703,
+    "dtde_labels_per_pcnh": 0.2528,
+    "ratio_vs_DTDE": 1.069
+   }
+  },
+  "MIX50": {
+   "campaigns": 15,
+   "labels_f2": 79,
+   "billed": 325.906,
+   "labels_per_pcnh": 0.2424,
+   "fails": 0,
+   "ratio_vs_DTDE": 0.959,
+   "paired_seeds_only": {
+    "seeds": [
+     0,
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9,
+     10,
+     11,
+     12,
+     13,
+     14
+    ],
+    "labels_per_pcnh": 0.2424,
+    "dtde_labels_per_pcnh": 0.2528,
+    "ratio_vs_DTDE": 0.959
+   }
+  },
+  "CTDE_P2": {
+   "campaigns": 15,
+   "labels_f2": 80,
+   "billed": 340.727,
+   "labels_per_pcnh": 0.2348,
+   "fails": 0,
+   "ratio_vs_DTDE": 0.929,
+   "paired_seeds_only": {
+    "seeds": [
+     0,
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9,
+     10,
+     11,
+     12,
+     13,
+     14
+    ],
+    "labels_per_pcnh": 0.2348,
+    "dtde_labels_per_pcnh": 0.2528,
+    "ratio_vs_DTDE": 0.929
+   }
+  }
+ },
+ "R": {
+  "CEDT_P4": {
+   "a_as_run": {
+    "n_pairs": 15,
+    "wins": 6,
+    "both_none": 5,
+    "pw": 0.4,
+    "pw60_pass": false,
+    "sign_p": 0.8491,
+    "pairs": {
+     "0": [
+      13.0488,
+      11.4349,
+      "loss"
+     ],
+     "1": [
+      null,
+      null,
+      "both none"
+     ],
+     "2": [
+      2.9805,
+      2.7893,
+      "loss"
+     ],
+     "3": [
+      null,
+      23.3157,
+      "loss"
+     ],
+     "4": [
+      13.0592,
+      14.7114,
+      "win"
+     ],
+     "5": [
+      null,
+      null,
+      "both none"
+     ],
+     "6": [
+      null,
+      null,
+      "both none"
+     ],
+     "7": [
+      13.4768,
+      8.2633,
+      "loss"
+     ],
+     "8": [
+      10.8098,
+      11.0116,
+      "win"
+     ],
+     "9": [
+      2.917,
+      6.5309,
+      "win"
+     ],
+     "10": [
+      2.781,
+      5.7943,
+      "win"
+     ],
+     "11": [
+      null,
+      null,
+      "both none"
+     ],
+     "12": [
+      1.3224,
+      1.8838,
+      "win"
+     ],
+     "13": [
+      23.155,
+      23.4787,
+      "win"
+     ],
+     "14": [
+      null,
+      null,
+      "both none"
+     ]
+    }
+   },
+   "b_single_layer": {
+    "n_pairs": 15,
+    "wins": 5,
+    "both_none": 4,
+    "pw": 0.333,
+    "pw60_pass": false,
+    "sign_p": 0.9408,
+    "pairs": {
+     "0": [
+      13.049,
+      11.435,
+      "loss"
+     ],
+     "1": [
+      null,
+      null,
+      "both none"
+     ],
+     "2": [
+      2.98,
+      2.789,
+      "loss"
+     ],
+     "3": [
+      null,
+      23.316,
+      "loss"
+     ],
+     "4": [
+      13.059,
+      14.711,
+      "win"
+     ],
+     "5": [
+      null,
+      null,
+      "both none"
+     ],
+     "6": [
+      null,
+      null,
+      "both none"
+     ],
+     "7": [
+      13.477,
+      8.263,
+      "loss"
+     ],
+     "8": [
+      10.81,
+      11.012,
+      "win"
+     ],
+     "9": [
+      2.917,
+      6.531,
+      "win"
+     ],
+     "10": [
+      2.781,
+      5.794,
+      "win"
+     ],
+     "11": [
+      null,
+      null,
+      "both none"
+     ],
+     "12": [
+      1.322,
+      1.884,
+      "win"
+     ],
+     "13": [
+      10.045,
+      9.855,
+      "loss"
+     ],
+     "14": [
+      11.067,
+      10.572,
+      "loss"
+     ]
+    }
+   },
+   "c_bilayer_AA": {
+    "n_pairs": 15,
+    "wins": 4,
+    "both_none": 7,
+    "pw": 0.267,
+    "pw60_pass": false,
+    "sign_p": 0.9824,
+    "pairs": {
+     "0": [
+      null,
+      null,
+      "both none"
+     ],
+     "1": [
+      null,
+      null,
+      "both none"
+     ],
+     "2": [
+      2.98,
+      2.789,
+      "loss"
+     ],
+     "3": [
+      null,
+      null,
+      "both none"
+     ],
+     "4": [
+      null,
+      null,
+      "both none"
+     ],
+     "5": [
+      null,
+      null,
+      "both none"
+     ],
+     "6": [
+      null,
+      null,
+      "both none"
+     ],
+     "7": [
+      13.477,
+      8.263,
+      "loss"
+     ],
+     "8": [
+      10.81,
+      12.766,
+      "win"
+     ],
+     "9": [
+      2.917,
+      6.531,
+      "win"
+     ],
+     "10": [
+      2.781,
+      5.794,
+      "win"
+     ],
+     "11": [
+      null,
+      null,
+      "both none"
+     ],
+     "12": [
+      1.322,
+      1.884,
+      "win"
+     ],
+     "13": [
+      10.045,
+      9.855,
+      "loss"
+     ],
+     "14": [
+      11.067,
+      10.572,
+      "loss"
+     ]
+    }
+   },
+   "c_bilayer_3R": {
+    "n_pairs": 15,
+    "wins": 4,
+    "both_none": 7,
+    "pw": 0.267,
+    "pw60_pass": false,
+    "sign_p": 0.9824,
+    "pairs": {
+     "0": [
+      null,
+      null,
+      "both none"
+     ],
+     "1": [
+      null,
+      null,
+      "both none"
+     ],
+     "2": [
+      2.98,
+      2.789,
+      "loss"
+     ],
+     "3": [
+      null,
+      null,
+      "both none"
+     ],
+     "4": [
+      null,
+      null,
+      "both none"
+     ],
+     "5": [
+      null,
+      null,
+      "both none"
+     ],
+     "6": [
+      null,
+      null,
+      "both none"
+     ],
+     "7": [
+      13.477,
+      8.263,
+      "loss"
+     ],
+     "8": [
+      10.81,
+      12.766,
+      "win"
+     ],
+     "9": [
+      2.917,
+      6.531,
+      "win"
+     ],
+     "10": [
+      2.781,
+      5.794,
+      "win"
+     ],
+     "11": [
+      null,
+      null,
+      "both none"
+     ],
+     "12": [
+      1.322,
+      1.884,
+      "win"
+     ],
+     "13": [
+      10.045,
+      9.855,
+      "loss"
+     ],
+     "14": [
+      11.067,
+      10.572,
+      "loss"
+     ]
+    }
+   }
+  },
+  "MIX50": {
+   "a_as_run": {
+    "n_pairs": 15,
+    "wins": 3,
+    "both_none": 5,
+    "pw": 0.2,
+    "pw60_pass": false,
+    "sign_p": 0.9963,
+    "pairs": {
+     "0": [
+      12.9636,
+      11.4349,
+      "loss"
+     ],
+     "1": [
+      null,
+      null,
+      "both none"
+     ],
+     "2": [
+      1.5339,
+      2.7893,
+      "win"
+     ],
+     "3": [
+      23.686,
+      23.3157,
+      "loss"
+     ],
+     "4": [
+      16.6412,
+      14.7114,
+      "loss"
+     ],
+     "5": [
+      null,
+      null,
+      "both none"
+     ],
+     "6": [
+      null,
+      null,
+      "both none"
+     ],
+     "7": [
+      18.3475,
+      8.2633,
+      "loss"
+     ],
+     "8": [
+      10.8586,
+      11.0116,
+      "win"
+     ],
+     "9": [
+      5.9253,
+      6.5309,
+      "win"
+     ],
+     "10": [
+      8.5723,
+      5.7943,
+      "loss"
+     ],
+     "11": [
+      null,
+      null,
+      "both none"
+     ],
+     "12": [
+      2.7402,
+      1.8838,
+      "loss"
+     ],
+     "13": [
+      23.7065,
+      23.4787,
+      "loss"
+     ],
+     "14": [
+      null,
+      null,
+      "both none"
+     ]
+    }
+   },
+   "b_single_layer": {
+    "n_pairs": 15,
+    "wins": 3,
+    "both_none": 4,
+    "pw": 0.2,
+    "pw60_pass": false,
+    "sign_p": 0.9963,
+    "pairs": {
+     "0": [
+      12.964,
+      11.435,
+      "loss"
+     ],
+     "1": [
+      null,
+      null,
+      "both none"
+     ],
+     "2": [
+      1.534,
+      2.789,
+      "win"
+     ],
+     "3": [
+      23.686,
+      23.316,
+      "loss"
+     ],
+     "4": [
+      16.641,
+      14.711,
+      "loss"
+     ],
+     "5": [
+      null,
+      null,
+      "both none"
+     ],
+     "6": [
+      null,
+      null,
+      "both none"
+     ],
+     "7": [
+      18.348,
+      8.263,
+      "loss"
+     ],
+     "8": [
+      10.859,
+      11.012,
+      "win"
+     ],
+     "9": [
+      5.925,
+      6.531,
+      "win"
+     ],
+     "10": [
+      8.572,
+      5.794,
+      "loss"
+     ],
+     "11": [
+      null,
+      null,
+      "both none"
+     ],
+     "12": [
+      2.74,
+      1.884,
+      "loss"
+     ],
+     "13": [
+      10.207,
+      9.855,
+      "loss"
+     ],
+     "14": [
+      11.233,
+      10.572,
+      "loss"
+     ]
+    }
+   },
+   "c_bilayer_AA": {
+    "n_pairs": 15,
+    "wins": 2,
+    "both_none": 7,
+    "pw": 0.133,
+    "pw60_pass": false,
+    "sign_p": 0.9995,
+    "pairs": {
+     "0": [
+      null,
+      null,
+      "both none"
+     ],
+     "1": [
+      null,
+      null,
+      "both none"
+     ],
+     "2": [
+      1.534,
+      2.789,
+      "win"
+     ],
+     "3": [
+      null,
+      null,
+      "both none"
+     ],
+     "4": [
+      null,
+      null,
+      "both none"
+     ],
+     "5": [
+      null,
+      null,
+      "both none"
+     ],
+     "6": [
+      null,
+      null,
+      "both none"
+     ],
+     "7": [
+      18.348,
+      8.263,
+      "loss"
+     ],
+     "8": [
+      13.493,
+      12.766,
+      "loss"
+     ],
+     "9": [
+      5.925,
+      6.531,
+      "win"
+     ],
+     "10": [
+      8.572,
+      5.794,
+      "loss"
+     ],
+     "11": [
+      null,
+      null,
+      "both none"
+     ],
+     "12": [
+      2.74,
+      1.884,
+      "loss"
+     ],
+     "13": [
+      10.207,
+      9.855,
+      "loss"
+     ],
+     "14": [
+      11.233,
+      10.572,
+      "loss"
+     ]
+    }
+   },
+   "c_bilayer_3R": {
+    "n_pairs": 15,
+    "wins": 2,
+    "both_none": 7,
+    "pw": 0.133,
+    "pw60_pass": false,
+    "sign_p": 0.9995,
+    "pairs": {
+     "0": [
+      null,
+      null,
+      "both none"
+     ],
+     "1": [
+      null,
+      null,
+      "both none"
+     ],
+     "2": [
+      1.534,
+      2.789,
+      "win"
+     ],
+     "3": [
+      null,
+      null,
+      "both none"
+     ],
+     "4": [
+      null,
+      null,
+      "both none"
+     ],
+     "5": [
+      null,
+      null,
+      "both none"
+     ],
+     "6": [
+      null,
+      null,
+      "both none"
+     ],
+     "7": [
+      18.348,
+      8.263,
+      "loss"
+     ],
+     "8": [
+      13.493,
+      12.766,
+      "loss"
+     ],
+     "9": [
+      5.925,
+      6.531,
+      "win"
+     ],
+     "10": [
+      8.572,
+      5.794,
+      "loss"
+     ],
+     "11": [
+      null,
+      null,
+      "both none"
+     ],
+     "12": [
+      2.74,
+      1.884,
+      "loss"
+     ],
+     "13": [
+      10.207,
+      9.855,
+      "loss"
+     ],
+     "14": [
+      11.233,
+      10.572,
+      "loss"
+     ]
+    }
+   }
+  },
+  "CTDE_P2": {
+   "a_as_run": {
+    "n_pairs": 15,
+    "wins": 2,
+    "both_none": 5,
+    "pw": 0.133,
+    "pw60_pass": false,
+    "sign_p": 0.9995,
+    "pairs": {
+     "0": [
+      11.9047,
+      11.4349,
+      "loss"
+     ],
+     "1": [
+      null,
+      null,
+      "both none"
+     ],
+     "2": [
+      2.5984,
+      2.7893,
+      "win"
+     ],
+     "3": [
+      29.1829,
+      23.3157,
+      "loss"
+     ],
+     "4": [
+      15.4428,
+      14.7114,
+      "loss"
+     ],
+     "5": [
+      null,
+      null,
+      "both none"
+     ],
+     "6": [
+      null,
+      null,
+      "both none"
+     ],
+     "7": [
+      8.5559,
+      8.2633,
+      "loss"
+     ],
+     "8": [
+      12.0655,
+      11.0116,
+      "loss"
+     ],
+     "9": [
+      7.806,
+      6.5309,
+      "loss"
+     ],
+     "10": [
+      5.86,
+      5.7943,
+      "loss"
+     ],
+     "11": [
+      null,
+      null,
+      "both none"
+     ],
+     "12": [
+      3.3047,
+      1.8838,
+      "loss"
+     ],
+     "13": [
+      23.1688,
+      23.4787,
+      "win"
+     ],
+     "14": [
+      null,
+      null,
+      "both none"
+     ]
+    }
+   },
+   "b_single_layer": {
+    "n_pairs": 15,
+    "wins": 2,
+    "both_none": 4,
+    "pw": 0.133,
+    "pw60_pass": false,
+    "sign_p": 0.9995,
+    "pairs": {
+     "0": [
+      11.905,
+      11.435,
+      "loss"
+     ],
+     "1": [
+      null,
+      null,
+      "both none"
+     ],
+     "2": [
+      2.598,
+      2.789,
+      "win"
+     ],
+     "3": [
+      29.183,
+      23.316,
+      "loss"
+     ],
+     "4": [
+      15.443,
+      14.711,
+      "loss"
+     ],
+     "5": [
+      null,
+      null,
+      "both none"
+     ],
+     "6": [
+      null,
+      null,
+      "both none"
+     ],
+     "7": [
+      8.556,
+      8.263,
+      "loss"
+     ],
+     "8": [
+      12.066,
+      11.012,
+      "loss"
+     ],
+     "9": [
+      7.806,
+      6.531,
+      "loss"
+     ],
+     "10": [
+      5.86,
+      5.794,
+      "loss"
+     ],
+     "11": [
+      null,
+      null,
+      "both none"
+     ],
+     "12": [
+      3.305,
+      1.884,
+      "loss"
+     ],
+     "13": [
+      9.532,
+      9.855,
+      "win"
+     ],
+     "14": [
+      11.629,
+      10.572,
+      "loss"
+     ]
+    }
+   },
+   "c_bilayer_AA": {
+    "n_pairs": 15,
+    "wins": 2,
+    "both_none": 7,
+    "pw": 0.133,
+    "pw60_pass": false,
+    "sign_p": 0.9995,
+    "pairs": {
+     "0": [
+      null,
+      null,
+      "both none"
+     ],
+     "1": [
+      null,
+      null,
+      "both none"
+     ],
+     "2": [
+      2.598,
+      2.789,
+      "win"
+     ],
+     "3": [
+      null,
+      null,
+      "both none"
+     ],
+     "4": [
+      null,
+      null,
+      "both none"
+     ],
+     "5": [
+      null,
+      null,
+      "both none"
+     ],
+     "6": [
+      null,
+      null,
+      "both none"
+     ],
+     "7": [
+      8.556,
+      8.263,
+      "loss"
+     ],
+     "8": [
+      13.893,
+      12.766,
+      "loss"
+     ],
+     "9": [
+      7.806,
+      6.531,
+      "loss"
+     ],
+     "10": [
+      5.86,
+      5.794,
+      "loss"
+     ],
+     "11": [
+      null,
+      null,
+      "both none"
+     ],
+     "12": [
+      3.305,
+      1.884,
+      "loss"
+     ],
+     "13": [
+      9.532,
+      9.855,
+      "win"
+     ],
+     "14": [
+      11.629,
+      10.572,
+      "loss"
+     ]
+    }
+   },
+   "c_bilayer_3R": {
+    "n_pairs": 15,
+    "wins": 2,
+    "both_none": 7,
+    "pw": 0.133,
+    "pw60_pass": false,
+    "sign_p": 0.9995,
+    "pairs": {
+     "0": [
+      null,
+      null,
+      "both none"
+     ],
+     "1": [
+      null,
+      null,
+      "both none"
+     ],
+     "2": [
+      2.598,
+      2.789,
+      "win"
+     ],
+     "3": [
+      null,
+      null,
+      "both none"
+     ],
+     "4": [
+      null,
+      null,
+      "both none"
+     ],
+     "5": [
+      null,
+      null,
+      "both none"
+     ],
+     "6": [
+      null,
+      null,
+      "both none"
+     ],
+     "7": [
+      8.556,
+      8.263,
+      "loss"
+     ],
+     "8": [
+      13.893,
+      12.766,
+      "loss"
+     ],
+     "9": [
+      7.806,
+      6.531,
+      "loss"
+     ],
+     "10": [
+      5.86,
+      5.794,
+      "loss"
+     ],
+     "11": [
+      null,
+      null,
+      "both none"
+     ],
+     "12": [
+      3.305,
+      1.884,
+      "loss"
+     ],
+     "13": [
+      9.532,
+      9.855,
+      "win"
+     ],
+     "14": [
+      11.629,
+      10.572,
+      "loss"
+     ]
+    }
+   }
+  }
+ }
+}

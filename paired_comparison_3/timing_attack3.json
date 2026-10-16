@@ -1,0 +1,998 @@
+{
+ "n_candidates": 29,
+ "prior_identity_acc": 0.0345,
+ "identity_limit": 0.0845,
+ "membership_auc_limit": 0.6,
+ "unresolved_ids": 0,
+ "dtde_wire_vs_scheduler_mismatches": 0,
+ "failed_wire_rows_excluded": 3,
+ "arms": {
+  "CTDE_P2": {
+   "identity_acc": 0.2184,
+   "identity_correct": 19,
+   "identity_n": 87,
+   "identity_breach": true,
+   "membership_auc": 0.6721,
+   "membership_breach": true,
+   "n_targets": 15,
+   "per_campaign": [
+    {
+     "arm": "CTDE_P2",
+     "seed": 0,
+     "src": "main",
+     "host": "grn064",
+     "correct": 1,
+     "n": 6
+    },
+    {
+     "arm": "CTDE_P2",
+     "seed": 1,
+     "src": "main",
+     "host": "grn035",
+     "correct": 1,
+     "n": 6
+    },
+    {
+     "arm": "CTDE_P2",
+     "seed": 10,
+     "src": "main",
+     "host": "notch488",
+     "correct": 4,
+     "n": 6
+    },
+    {
+     "arm": "CTDE_P2",
+     "seed": 11,
+     "src": "main",
+     "host": "notch490",
+     "correct": 3,
+     "n": 6
+    },
+    {
+     "arm": "CTDE_P2",
+     "seed": 12,
+     "src": "main",
+     "host": "notch493",
+     "correct": 1,
+     "n": 6
+    },
+    {
+     "arm": "CTDE_P2",
+     "seed": 13,
+     "src": "main",
+     "host": "notch486",
+     "correct": 0,
+     "n": 6
+    },
+    {
+     "arm": "CTDE_P2",
+     "seed": 14,
+     "src": "main",
+     "host": "notch481",
+     "correct": 0,
+     "n": 6
+    },
+    {
+     "arm": "CTDE_P2",
+     "seed": 2,
+     "src": "main",
+     "host": "grn037",
+     "correct": 0,
+     "n": 6
+    },
+    {
+     "arm": "CTDE_P2",
+     "seed": 3,
+     "src": "main",
+     "host": "grn063",
+     "correct": 2,
+     "n": 5
+    },
+    {
+     "arm": "CTDE_P2",
+     "seed": 4,
+     "src": "main",
+     "host": "notch493",
+     "correct": 1,
+     "n": 6
+    },
+    {
+     "arm": "CTDE_P2",
+     "seed": 5,
+     "src": "main",
+     "host": "notch494",
+     "correct": 1,
+     "n": 6
+    },
+    {
+     "arm": "CTDE_P2",
+     "seed": 6,
+     "src": "main",
+     "host": "notch487",
+     "correct": 1,
+     "n": 5
+    },
+    {
+     "arm": "CTDE_P2",
+     "seed": 7,
+     "src": "main",
+     "host": "notch473",
+     "correct": 1,
+     "n": 5
+    },
+    {
+     "arm": "CTDE_P2",
+     "seed": 8,
+     "src": "main",
+     "host": "notch487",
+     "correct": 2,
+     "n": 6
+    },
+    {
+     "arm": "CTDE_P2",
+     "seed": 9,
+     "src": "main",
+     "host": "notch476",
+     "correct": 1,
+     "n": 6
+    }
+   ]
+  },
+  "DTDE": {
+   "identity_acc": 0.75,
+   "identity_correct": 66,
+   "identity_n": 88,
+   "identity_breach": true,
+   "membership_auc": 0.9447,
+   "membership_breach": true,
+   "n_targets": 15,
+   "per_campaign": [
+    {
+     "arm": "DTDE",
+     "seed": 0,
+     "src": "main",
+     "host": "notch449",
+     "correct": 2,
+     "n": 6
+    },
+    {
+     "arm": "DTDE",
+     "seed": 1,
+     "src": "main",
+     "host": "grn041",
+     "correct": 5,
+     "n": 6
+    },
+    {
+     "arm": "DTDE",
+     "seed": 10,
+     "src": "main",
+     "host": "grn064",
+     "correct": 5,
+     "n": 6
+    },
+    {
+     "arm": "DTDE",
+     "seed": 11,
+     "src": "main",
+     "host": "grn037",
+     "correct": 5,
+     "n": 6
+    },
+    {
+     "arm": "DTDE",
+     "seed": 12,
+     "src": "main",
+     "host": "notch488",
+     "correct": 1,
+     "n": 5
+    },
+    {
+     "arm": "DTDE",
+     "seed": 13,
+     "src": "main",
+     "host": "notch484",
+     "correct": 3,
+     "n": 6
+    },
+    {
+     "arm": "DTDE",
+     "seed": 14,
+     "src": "main",
+     "host": "grn043",
+     "correct": 5,
+     "n": 6
+    },
+    {
+     "arm": "DTDE",
+     "seed": 2,
+     "src": "main",
+     "host": "grn033",
+     "correct": 6,
+     "n": 6
+    },
+    {
+     "arm": "DTDE",
+     "seed": 3,
+     "src": "main",
+     "host": "grn038",
+     "correct": 6,
+     "n": 6
+    },
+    {
+     "arm": "DTDE",
+     "seed": 4,
+     "src": "main",
+     "host": "grn021",
+     "correct": 4,
+     "n": 6
+    },
+    {
+     "arm": "DTDE",
+     "seed": 5,
+     "src": "main",
+     "host": "grn044",
+     "correct": 6,
+     "n": 6
+    },
+    {
+     "arm": "DTDE",
+     "seed": 6,
+     "src": "main",
+     "host": "grn033",
+     "correct": 6,
+     "n": 6
+    },
+    {
+     "arm": "DTDE",
+     "seed": 7,
+     "src": "main",
+     "host": "grn037",
+     "correct": 4,
+     "n": 5
+    },
+    {
+     "arm": "DTDE",
+     "seed": 8,
+     "src": "main",
+     "host": "grn043",
+     "correct": 4,
+     "n": 6
+    },
+    {
+     "arm": "DTDE",
+     "seed": 9,
+     "src": "main",
+     "host": "grn021",
+     "correct": 4,
+     "n": 6
+    }
+   ]
+  },
+  "CEDT_P4": {
+   "identity_acc": 0.4839,
+   "identity_correct": 45,
+   "identity_n": 93,
+   "identity_breach": true,
+   "membership_auc": 0.8256,
+   "membership_breach": true,
+   "n_targets": 15,
+   "per_campaign": [
+    {
+     "arm": "CEDT_P4",
+     "seed": 0,
+     "src": "main",
+     "host": "grn046",
+     "correct": 5,
+     "n": 6
+    },
+    {
+     "arm": "CEDT_P4",
+     "seed": 1,
+     "src": "main",
+     "host": "grn045",
+     "correct": 4,
+     "n": 6
+    },
+    {
+     "arm": "CEDT_P4",
+     "seed": 10,
+     "src": "main",
+     "host": "notch490",
+     "correct": 2,
+     "n": 6
+    },
+    {
+     "arm": "CEDT_P4",
+     "seed": 11,
+     "src": "main",
+     "host": "grn038",
+     "correct": 3,
+     "n": 6
+    },
+    {
+     "arm": "CEDT_P4",
+     "seed": 12,
+     "src": "main",
+     "host": "notch451",
+     "correct": 4,
+     "n": 7
+    },
+    {
+     "arm": "CEDT_P4",
+     "seed": 13,
+     "src": "main",
+     "host": "grn021",
+     "correct": 3,
+     "n": 6
+    },
+    {
+     "arm": "CEDT_P4",
+     "seed": 14,
+     "src": "main",
+     "host": "grn044",
+     "correct": 2,
+     "n": 7
+    },
+    {
+     "arm": "CEDT_P4",
+     "seed": 2,
+     "src": "main",
+     "host": "grn033",
+     "correct": 3,
+     "n": 6
+    },
+    {
+     "arm": "CEDT_P4",
+     "seed": 3,
+     "src": "main",
+     "host": "grn043",
+     "correct": 3,
+     "n": 6
+    },
+    {
+     "arm": "CEDT_P4",
+     "seed": 4,
+     "src": "main",
+     "host": "grn035",
+     "correct": 4,
+     "n": 7
+    },
+    {
+     "arm": "CEDT_P4",
+     "seed": 5,
+     "src": "main",
+     "host": "grn033",
+     "correct": 2,
+     "n": 6
+    },
+    {
+     "arm": "CEDT_P4",
+     "seed": 6,
+     "src": "main",
+     "host": "grn041",
+     "correct": 4,
+     "n": 6
+    },
+    {
+     "arm": "CEDT_P4",
+     "seed": 7,
+     "src": "main",
+     "host": "grn045",
+     "correct": 4,
+     "n": 6
+    },
+    {
+     "arm": "CEDT_P4",
+     "seed": 8,
+     "src": "main",
+     "host": "grn016",
+     "correct": 1,
+     "n": 6
+    },
+    {
+     "arm": "CEDT_P4",
+     "seed": 9,
+     "src": "main",
+     "host": "grn063",
+     "correct": 1,
+     "n": 6
+    }
+   ]
+  },
+  "MIX50_routed": {
+   "identity_acc": 0.1739,
+   "identity_correct": 12,
+   "identity_n": 69,
+   "identity_breach": true,
+   "membership_auc": 0.7216,
+   "membership_breach": true,
+   "n_targets": 15,
+   "per_campaign": [
+    {
+     "arm": "MIX50",
+     "seed": 0,
+     "src": "main",
+     "host": "notch480",
+     "correct": 2,
+     "n": 6
+    },
+    {
+     "arm": "MIX50",
+     "seed": 1,
+     "src": "main",
+     "host": "grn016",
+     "correct": 2,
+     "n": 5
+    },
+    {
+     "arm": "MIX50",
+     "seed": 10,
+     "src": "main",
+     "host": "notch488",
+     "correct": 0,
+     "n": 5
+    },
+    {
+     "arm": "MIX50",
+     "seed": 11,
+     "src": "main",
+     "host": "notch489",
+     "correct": 0,
+     "n": 4
+    },
+    {
+     "arm": "MIX50",
+     "seed": 12,
+     "src": "main",
+     "host": "notch491",
+     "correct": 1,
+     "n": 4
+    },
+    {
+     "arm": "MIX50",
+     "seed": 13,
+     "src": "main",
+     "host": "notch485",
+     "correct": 1,
+     "n": 5
+    },
+    {
+     "arm": "MIX50",
+     "seed": 14,
+     "src": "main",
+     "host": "notch452",
+     "correct": 0,
+     "n": 6
+    },
+    {
+     "arm": "MIX50",
+     "seed": 2,
+     "src": "main",
+     "host": "grn044",
+     "correct": 1,
+     "n": 5
+    },
+    {
+     "arm": "MIX50",
+     "seed": 3,
+     "src": "main",
+     "host": "notch493",
+     "correct": 0,
+     "n": 4
+    },
+    {
+     "arm": "MIX50",
+     "seed": 4,
+     "src": "main",
+     "host": "notch481",
+     "correct": 1,
+     "n": 4
+    },
+    {
+     "arm": "MIX50",
+     "seed": 5,
+     "src": "main",
+     "host": "notch491",
+     "correct": 1,
+     "n": 4
+    },
+    {
+     "arm": "MIX50",
+     "seed": 6,
+     "src": "main",
+     "host": "notch483",
+     "correct": 2,
+     "n": 2
+    },
+    {
+     "arm": "MIX50",
+     "seed": 7,
+     "src": "main",
+     "host": "notch489",
+     "correct": 0,
+     "n": 5
+    },
+    {
+     "arm": "MIX50",
+     "seed": 8,
+     "src": "main",
+     "host": "notch484",
+     "correct": 1,
+     "n": 5
+    },
+    {
+     "arm": "MIX50",
+     "seed": 9,
+     "src": "main",
+     "host": "notch492",
+     "correct": 0,
+     "n": 5
+    }
+   ]
+  },
+  "MIX50_all_jobs": {
+   "identity_acc": 0.2809,
+   "identity_correct": 25,
+   "identity_n": 89,
+   "identity_breach": true,
+   "membership_auc": 0.7632,
+   "membership_breach": true,
+   "n_targets": 15,
+   "per_campaign": [
+    {
+     "arm": "MIX50",
+     "seed": 0,
+     "src": "main",
+     "host": "notch480",
+     "correct": 3,
+     "n": 6
+    },
+    {
+     "arm": "MIX50",
+     "seed": 1,
+     "src": "main",
+     "host": "grn016",
+     "correct": 2,
+     "n": 6
+    },
+    {
+     "arm": "MIX50",
+     "seed": 10,
+     "src": "main",
+     "host": "notch488",
+     "correct": 0,
+     "n": 6
+    },
+    {
+     "arm": "MIX50",
+     "seed": 11,
+     "src": "main",
+     "host": "notch489",
+     "correct": 1,
+     "n": 6
+    },
+    {
+     "arm": "MIX50",
+     "seed": 12,
+     "src": "main",
+     "host": "notch491",
+     "correct": 2,
+     "n": 6
+    },
+    {
+     "arm": "MIX50",
+     "seed": 13,
+     "src": "main",
+     "host": "notch485",
+     "correct": 3,
+     "n": 6
+    },
+    {
+     "arm": "MIX50",
+     "seed": 14,
+     "src": "main",
+     "host": "notch452",
+     "correct": 0,
+     "n": 6
+    },
+    {
+     "arm": "MIX50",
+     "seed": 2,
+     "src": "main",
+     "host": "grn044",
+     "correct": 2,
+     "n": 6
+    },
+    {
+     "arm": "MIX50",
+     "seed": 3,
+     "src": "main",
+     "host": "notch493",
+     "correct": 2,
+     "n": 6
+    },
+    {
+     "arm": "MIX50",
+     "seed": 4,
+     "src": "main",
+     "host": "notch481",
+     "correct": 2,
+     "n": 6
+    },
+    {
+     "arm": "MIX50",
+     "seed": 5,
+     "src": "main",
+     "host": "notch491",
+     "correct": 1,
+     "n": 6
+    },
+    {
+     "arm": "MIX50",
+     "seed": 6,
+     "src": "main",
+     "host": "notch483",
+     "correct": 3,
+     "n": 6
+    },
+    {
+     "arm": "MIX50",
+     "seed": 7,
+     "src": "main",
+     "host": "notch489",
+     "correct": 1,
+     "n": 5
+    },
+    {
+     "arm": "MIX50",
+     "seed": 8,
+     "src": "main",
+     "host": "notch484",
+     "correct": 1,
+     "n": 6
+    },
+    {
+     "arm": "MIX50",
+     "seed": 9,
+     "src": "main",
+     "host": "notch492",
+     "correct": 2,
+     "n": 6
+    }
+   ]
+  }
+ },
+ "tests": {
+  "P-2026-10-01_item3": {
+   "condition": "CTDE_P2 > 0.80; MIX50 (routed) and CEDT_P4 in [0.15, 0.40]",
+   "CTDE_P2": 0.2184,
+   "MIX50_routed": 0.1739,
+   "CEDT_P4": 0.4839,
+   "parts": {
+    "CTDE_P2>0.80": false,
+    "MIX50_routed_in_band": true,
+    "CEDT_P4_in_band": false
+   },
+   "pass": false
+  },
+  "T1": {
+   "condition": "identity on notchpeak DTDE copies, granite references, > 0.084",
+   "value": 0.4655,
+   "pass": true,
+   "result": {
+    "identity_acc": 0.4655,
+    "identity_correct": 27,
+    "identity_n": 58,
+    "identity_breach": true,
+    "membership_auc": 0.8324,
+    "membership_breach": true,
+    "n_targets": 10,
+    "per_campaign": [
+     {
+      "arm": "DTDE",
+      "seed": 10,
+      "src": "bridge",
+      "host": "notch482",
+      "correct": 3,
+      "n": 6
+     },
+     {
+      "arm": "DTDE",
+      "seed": 11,
+      "src": "bridge",
+      "host": "notch494",
+      "correct": 1,
+      "n": 6
+     },
+     {
+      "arm": "DTDE",
+      "seed": 14,
+      "src": "bridge",
+      "host": "notch492",
+      "correct": 2,
+      "n": 6
+     },
+     {
+      "arm": "DTDE",
+      "seed": 3,
+      "src": "bridge",
+      "host": "notch449",
+      "correct": 4,
+      "n": 6
+     },
+     {
+      "arm": "DTDE",
+      "seed": 4,
+      "src": "bridge",
+      "host": "notch489",
+      "correct": 1,
+      "n": 5
+     },
+     {
+      "arm": "DTDE",
+      "seed": 5,
+      "src": "bridge",
+      "host": "notch453",
+      "correct": 6,
+      "n": 6
+     },
+     {
+      "arm": "DTDE",
+      "seed": 6,
+      "src": "bridge",
+      "host": "notch433",
+      "correct": 4,
+      "n": 6
+     },
+     {
+      "arm": "DTDE",
+      "seed": 7,
+      "src": "bridge",
+      "host": "notch446",
+      "correct": 5,
+      "n": 5
+     },
+     {
+      "arm": "DTDE",
+      "seed": 8,
+      "src": "bridge",
+      "host": "notch489",
+      "correct": 0,
+      "n": 6
+     },
+     {
+      "arm": "DTDE",
+      "seed": 9,
+      "src": "bridge",
+      "host": "notch476",
+      "correct": 1,
+      "n": 6
+     }
+    ]
+   }
+  },
+  "T2": {
+   "condition": "T1 attack on walls / campaign median F1 wall reaches >= T1 accuracy",
+   "value": 0.069,
+   "t1_value": 0.4655,
+   "pass": false,
+   "result": {
+    "identity_acc": 0.069,
+    "identity_correct": 4,
+    "identity_n": 58,
+    "identity_breach": false,
+    "membership_auc": 0.4611,
+    "membership_breach": false,
+    "n_targets": 10,
+    "per_campaign": [
+     {
+      "arm": "DTDE",
+      "seed": 10,
+      "src": "bridge",
+      "host": "notch482",
+      "correct": 0,
+      "n": 6
+     },
+     {
+      "arm": "DTDE",
+      "seed": 11,
+      "src": "bridge",
+      "host": "notch494",
+      "correct": 0,
+      "n": 6
+     },
+     {
+      "arm": "DTDE",
+      "seed": 14,
+      "src": "bridge",
+      "host": "notch492",
+      "correct": 0,
+      "n": 6
+     },
+     {
+      "arm": "DTDE",
+      "seed": 3,
+      "src": "bridge",
+      "host": "notch449",
+      "correct": 0,
+      "n": 6
+     },
+     {
+      "arm": "DTDE",
+      "seed": 4,
+      "src": "bridge",
+      "host": "notch489",
+      "correct": 0,
+      "n": 5
+     },
+     {
+      "arm": "DTDE",
+      "seed": 5,
+      "src": "bridge",
+      "host": "notch453",
+      "correct": 0,
+      "n": 6
+     },
+     {
+      "arm": "DTDE",
+      "seed": 6,
+      "src": "bridge",
+      "host": "notch433",
+      "correct": 2,
+      "n": 6
+     },
+     {
+      "arm": "DTDE",
+      "seed": 7,
+      "src": "bridge",
+      "host": "notch446",
+      "correct": 2,
+      "n": 5
+     },
+     {
+      "arm": "DTDE",
+      "seed": 8,
+      "src": "bridge",
+      "host": "notch489",
+      "correct": 0,
+      "n": 6
+     },
+     {
+      "arm": "DTDE",
+      "seed": 9,
+      "src": "bridge",
+      "host": "notch476",
+      "correct": 0,
+      "n": 6
+     }
+    ]
+   }
+  },
+  "T3": {
+   "condition": "CEDT_P4 identity < DTDE identity (same seeds) and > 0.084; CEDT_P4 AUC > 0.60",
+   "CEDT_P4_identity": 0.4839,
+   "DTDE_identity": 0.75,
+   "CEDT_P4_auc": 0.8256,
+   "parts": {
+    "below_DTDE": true,
+    "above_limit": true,
+    "auc_above_0.60": true
+   },
+   "pass": true
+  },
+  "T4": {
+   "condition": "median within-cluster repeat sd of log wall per (compound, stage) > 0.0030",
+   "value": 0.0152,
+   "pass": true,
+   "by_cluster": {
+    "granite": {
+     "n_pairs": 64,
+     "median_sd": 0.0053,
+     "max_sd": 0.0305
+    },
+    "notchpeak": {
+     "n_pairs": 64,
+     "median_sd": 0.0451,
+     "max_sd": 0.2246
+    },
+    "pooled": {
+     "n_pairs": 128,
+     "median_sd": 0.0152,
+     "max_sd": 0.2246
+    }
+   }
+  }
+ },
+ "sensitivity": {
+  "T1_with_same_seed_twin": {
+   "identity_acc": 0.5345,
+   "identity_correct": 31,
+   "identity_n": 58,
+   "identity_breach": true,
+   "membership_auc": 0.8231,
+   "membership_breach": true,
+   "n_targets": 10
+  },
+  "T2_with_same_seed_twin": {
+   "identity_acc": 0.2931,
+   "identity_correct": 17,
+   "identity_n": 58,
+   "identity_breach": true,
+   "membership_auc": 0.6333,
+   "membership_breach": true,
+   "n_targets": 10
+  },
+  "T1_refs_granite_DTDE_plus_CTDE_P2": {
+   "identity_acc": 0.4828,
+   "identity_correct": 28,
+   "identity_n": 58,
+   "identity_breach": true,
+   "membership_auc": 0.8171,
+   "membership_breach": true,
+   "n_targets": 10
+  },
+  "bridge_copies_with_notchpeak_refs": {
+   "identity_acc": 0.3793,
+   "identity_correct": 22,
+   "identity_n": 58,
+   "identity_breach": true,
+   "membership_auc": 0.7662,
+   "membership_breach": true,
+   "n_targets": 10
+  },
+  "T4_main_campaigns_only": {
+   "granite": {
+    "n_pairs": 64,
+    "median_sd": 0.0053,
+    "max_sd": 0.0305
+   },
+   "notchpeak": {
+    "n_pairs": 6,
+    "median_sd": 0.044,
+    "max_sd": 0.1237
+   },
+   "pooled": {
+    "n_pairs": 70,
+    "median_sd": 0.0064,
+    "max_sd": 0.1237
+   }
+  },
+  "T4_all_arms_true_wall": {
+   "granite": {
+    "n_pairs": 84,
+    "median_sd": 0.0279,
+    "max_sd": 0.2122
+   },
+   "notchpeak": {
+    "n_pairs": 85,
+    "median_sd": 0.1222,
+    "max_sd": 0.2711
+   },
+   "pooled": {
+    "n_pairs": 169,
+    "median_sd": 0.0548,
+    "max_sd": 0.2711
+   }
+  },
+  "T4_including_failed_jobs": {
+   "granite": {
+    "n_pairs": 64,
+    "median_sd": 0.0053,
+    "max_sd": 0.0305
+   },
+   "notchpeak": {
+    "n_pairs": 64,
+    "median_sd": 0.0451,
+    "max_sd": 0.2246
+   },
+   "pooled": {
+    "n_pairs": 128,
+    "median_sd": 0.0152,
+    "max_sd": 0.2246
+   }
+  },
+  "granite_DTDE_refs_n": 12,
+  "bridge_DTDE_targets_n": 10
+ }
+}

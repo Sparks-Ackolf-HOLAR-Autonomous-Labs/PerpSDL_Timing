@@ -1,0 +1,296 @@
+{
+ "n_super": 8,
+ "ram_median_gb": 98.9,
+ "candidates": [
+  {
+   "name": "TiS2_1T",
+   "phase": "1T",
+   "nat": 192,
+   "nelec": 1536,
+   "x": "S",
+   "ram_est_gb": 75.4,
+   "gap_1x1_ev": 0.0608,
+   "mem_bit": 0
+  },
+  {
+   "name": "TiS2_2H",
+   "phase": "2H",
+   "nat": 384,
+   "nelec": 3072,
+   "x": "S",
+   "ram_est_gb": 89.0,
+   "gap_1x1_ev": null,
+   "mem_bit": 0
+  },
+  {
+   "name": "TiSe2_1T",
+   "phase": "1T",
+   "nat": 192,
+   "nelec": 1536,
+   "x": "Se",
+   "ram_est_gb": 83.8,
+   "gap_1x1_ev": null,
+   "mem_bit": 0
+  },
+  {
+   "name": "TiSe2_2H",
+   "phase": "2H",
+   "nat": 384,
+   "nelec": 3072,
+   "x": "Se",
+   "ram_est_gb": 98.9,
+   "gap_1x1_ev": 0.456,
+   "mem_bit": 0
+  },
+  {
+   "name": "TiTe2_1T",
+   "phase": "1T",
+   "nat": 192,
+   "nelec": 1536,
+   "x": "Te",
+   "ram_est_gb": 103.4,
+   "gap_1x1_ev": null,
+   "mem_bit": 1
+  },
+  {
+   "name": "TiTe2_2H",
+   "phase": "2H",
+   "nat": 384,
+   "nelec": 3072,
+   "x": "Te",
+   "ram_est_gb": 122.2,
+   "gap_1x1_ev": 0.1242,
+   "mem_bit": 1
+  },
+  {
+   "name": "ZrS2_1T",
+   "phase": "1T",
+   "nat": 192,
+   "nelec": 1536,
+   "x": "S",
+   "ram_est_gb": 75.4,
+   "gap_1x1_ev": 1.2007,
+   "mem_bit": 0
+  },
+  {
+   "name": "ZrS2_2H",
+   "phase": "2H",
+   "nat": 384,
+   "nelec": 3072,
+   "x": "S",
+   "ram_est_gb": 89.0,
+   "gap_1x1_ev": null,
+   "mem_bit": 0
+  },
+  {
+   "name": "ZrSe2_1T",
+   "phase": "1T",
+   "nat": 192,
+   "nelec": 1536,
+   "x": "Se",
+   "ram_est_gb": 83.8,
+   "gap_1x1_ev": 0.4995,
+   "mem_bit": 0
+  },
+  {
+   "name": "ZrSe2_2H",
+   "phase": "2H",
+   "nat": 384,
+   "nelec": 3072,
+   "x": "Se",
+   "ram_est_gb": 98.9,
+   "gap_1x1_ev": 0.6199,
+   "mem_bit": 0
+  },
+  {
+   "name": "ZrTe2_1T",
+   "phase": "1T",
+   "nat": 192,
+   "nelec": 1536,
+   "x": "Te",
+   "ram_est_gb": 103.4,
+   "gap_1x1_ev": null,
+   "mem_bit": 1
+  },
+  {
+   "name": "ZrTe2_2H",
+   "phase": "2H",
+   "nat": 384,
+   "nelec": 3072,
+   "x": "Te",
+   "ram_est_gb": 122.2,
+   "gap_1x1_ev": null,
+   "mem_bit": 1
+  },
+  {
+   "name": "HfS2_1T",
+   "phase": "1T",
+   "nat": 192,
+   "nelec": 1536,
+   "x": "S",
+   "ram_est_gb": 75.4,
+   "gap_1x1_ev": 1.3299,
+   "mem_bit": 0
+  },
+  {
+   "name": "HfS2_2H",
+   "phase": "2H",
+   "nat": 384,
+   "nelec": 3072,
+   "x": "S",
+   "ram_est_gb": 89.0,
+   "gap_1x1_ev": 1.0143,
+   "mem_bit": 0
+  },
+  {
+   "name": "HfSe2_1T",
+   "phase": "1T",
+   "nat": 192,
+   "nelec": 1536,
+   "x": "Se",
+   "ram_est_gb": 83.8,
+   "gap_1x1_ev": 0.6456,
+   "mem_bit": 0
+  },
+  {
+   "name": "HfTe2_1T",
+   "phase": "1T",
+   "nat": 192,
+   "nelec": 1536,
+   "x": "Te",
+   "ram_est_gb": 103.4,
+   "gap_1x1_ev": null,
+   "mem_bit": 1
+  },
+  {
+   "name": "HfTe2_2H",
+   "phase": "2H",
+   "nat": 384,
+   "nelec": 3072,
+   "x": "Te",
+   "ram_est_gb": 122.2,
+   "gap_1x1_ev": 0.3042,
+   "mem_bit": 1
+  },
+  {
+   "name": "MoS2_1T",
+   "phase": "1T",
+   "nat": 192,
+   "nelec": 1664,
+   "x": "S",
+   "ram_est_gb": 85.3,
+   "gap_1x1_ev": null,
+   "mem_bit": 0
+  },
+  {
+   "name": "MoS2_2H",
+   "phase": "2H",
+   "nat": 384,
+   "nelec": 3328,
+   "x": "S",
+   "ram_est_gb": 100.8,
+   "gap_1x1_ev": 1.5571,
+   "mem_bit": 1
+  },
+  {
+   "name": "MoSe2_1T",
+   "phase": "1T",
+   "nat": 192,
+   "nelec": 1664,
+   "x": "Se",
+   "ram_est_gb": 94.8,
+   "gap_1x1_ev": null,
+   "mem_bit": 0
+  },
+  {
+   "name": "MoSe2_2H",
+   "phase": "2H",
+   "nat": 384,
+   "nelec": 3328,
+   "x": "Se",
+   "ram_est_gb": 112.0,
+   "gap_1x1_ev": 1.4488,
+   "mem_bit": 1
+  },
+  {
+   "name": "MoTe2_1T",
+   "phase": "1T",
+   "nat": 192,
+   "nelec": 1664,
+   "x": "Te",
+   "ram_est_gb": 117.1,
+   "gap_1x1_ev": null,
+   "mem_bit": 1
+  },
+  {
+   "name": "MoTe2_2H",
+   "phase": "2H",
+   "nat": 384,
+   "nelec": 3328,
+   "x": "Te",
+   "ram_est_gb": 138.3,
+   "gap_1x1_ev": 1.0346,
+   "mem_bit": 1
+  },
+  {
+   "name": "WS2_1T",
+   "phase": "1T",
+   "nat": 192,
+   "nelec": 1664,
+   "x": "S",
+   "ram_est_gb": 85.3,
+   "gap_1x1_ev": null,
+   "mem_bit": 0
+  },
+  {
+   "name": "WS2_2H",
+   "phase": "2H",
+   "nat": 384,
+   "nelec": 3328,
+   "x": "S",
+   "ram_est_gb": 100.8,
+   "gap_1x1_ev": 1.7698,
+   "mem_bit": 1
+  },
+  {
+   "name": "WSe2_1T",
+   "phase": "1T",
+   "nat": 192,
+   "nelec": 1664,
+   "x": "Se",
+   "ram_est_gb": 94.8,
+   "gap_1x1_ev": null,
+   "mem_bit": 0
+  },
+  {
+   "name": "WSe2_2H",
+   "phase": "2H",
+   "nat": 384,
+   "nelec": 3328,
+   "x": "Se",
+   "ram_est_gb": 112.0,
+   "gap_1x1_ev": 1.5508,
+   "mem_bit": 1
+  },
+  {
+   "name": "WTe2_1T",
+   "phase": "1T",
+   "nat": 192,
+   "nelec": 1664,
+   "x": "Te",
+   "ram_est_gb": 117.1,
+   "gap_1x1_ev": null,
+   "mem_bit": 1
+  },
+  {
+   "name": "WTe2_2H",
+   "phase": "2H",
+   "nat": 384,
+   "nelec": 3328,
+   "x": "Te",
+   "ram_est_gb": 138.3,
+   "gap_1x1_ev": 1.0267,
+   "mem_bit": 1
+  }
+ ]
+}

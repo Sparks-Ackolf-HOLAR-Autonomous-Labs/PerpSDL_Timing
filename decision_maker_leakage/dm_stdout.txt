@@ -1,0 +1,4 @@
+CEDT_P2: robust=0.00 | greedy=0.00 depth_first=0.00 repeat_prone=0.00 thompson=0.00 eps_greedy=0.00
+CEDT_P3_eps2: robust=0.03 | greedy=0.56 depth_first=0.04 repeat_prone=0.43 thompson=0.49 eps_greedy=0.54
+CTDE_P3_eps2: robust=0.01 | greedy=0.59 depth_first=0.01 repeat_prone=0.56 thompson=0.46 eps_greedy=0.56
+CEDT_P4: robust=1.00 | greedy=1.00 depth_first=1.00 repeat_prone=1.00 thompson=1.00 eps_greedy=1.00

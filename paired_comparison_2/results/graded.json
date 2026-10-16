@@ -1,0 +1,47 @@
+{
+ "n_pairs": 15,
+ "cedt_wins": 0,
+ "pw": 0.0,
+ "pw60_pass": false,
+ "sign_p": 1.0,
+ "dtde": {
+  "labels": 40,
+  "billed": 100.6776,
+  "lpn": 0.3973078420621866,
+  "fails": 30,
+  "calls": 120
+ },
+ "cedt": {
+  "labels": 40,
+  "billed": 88.8403,
+  "lpn": 0.4502461157830399,
+  "fails": 27,
+  "calls": 120
+ },
+ "h_ratio": 1.1332,
+ "h_pass": true,
+ "masking_price": {
+  "0": {
+   "billed_masked": 9.7733,
+   "billed_unmasked": 9.4876,
+   "price_pct": 3.01,
+   "makespan_masked_s": 52200.8,
+   "makespan_unmasked_s": 51059.3
+  },
+  "1": {
+   "billed_masked": 4.5877,
+   "billed_unmasked": 4.2816,
+   "price_pct": 7.15,
+   "makespan_masked_s": 27594.7,
+   "makespan_unmasked_s": 26126.2
+  },
+  "2": {
+   "billed_masked": 5.2914,
+   "billed_unmasked": 5.151,
+   "price_pct": 2.73,
+   "makespan_masked_s": 34244.5,
+   "makespan_unmasked_s": 32622.7
+  }
+ },
+ "preregistered_success": false
+}

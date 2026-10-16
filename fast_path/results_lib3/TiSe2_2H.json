@@ -1,0 +1,56 @@
+{
+ "candidate": "TiSe2_2H",
+ "role": "missing",
+ "ranks": 16,
+ "calls": [
+  {
+   "stage": "f1",
+   "solver": "david",
+   "rc": 0,
+   "wall_s": 41703.1,
+   "peak_rank_rss_gb": 7.3,
+   "outcome": "converged",
+   "fail_kind": null,
+   "out": "/scratch/general/vast/<uNID>/mpt_lib3/work/TiSe2_2H/f1.out",
+   "host": "grn039",
+   "cpu_model": "AMD EPYC 9654P 96-Core Processor",
+   "converged": true
+  },
+  {
+   "stage": "f2",
+   "solver": "david",
+   "rc": 0,
+   "wall_s": 67466.0,
+   "peak_rank_rss_gb": 8.62,
+   "outcome": "converged",
+   "fail_kind": null,
+   "out": "/scratch/general/vast/<uNID>/mpt_lib3/work/TiSe2_2H/f2.out",
+   "host": "grn039",
+   "cpu_model": "AMD EPYC 9654P 96-Core Processor",
+   "converged": true
+  },
+  {
+   "stage": "f3",
+   "solver": "david",
+   "rc": 0,
+   "wall_s": 47329.0,
+   "peak_rank_rss_gb": 8.09,
+   "outcome": "converged",
+   "fail_kind": null,
+   "out": "/scratch/general/vast/<uNID>/mpt_lib3/work/TiSe2_2H/f3.out",
+   "host": "grn039",
+   "cpu_model": "AMD EPYC 9654P 96-Core Processor",
+   "gap_ev": 0.4927
+  }
+ ],
+ "attempts": [
+  {
+   "host": "grn039",
+   "cpu_model": "AMD EPYC 9654P 96-Core Processor",
+   "slurm_job": "2089127",
+   "array_task": "0",
+   "restart_count": "0"
+  }
+ ],
+ "finished": true
+}

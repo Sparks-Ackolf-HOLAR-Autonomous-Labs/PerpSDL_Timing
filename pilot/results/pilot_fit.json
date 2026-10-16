@@ -1,0 +1,31 @@
+{
+ "n_jobs": 81,
+ "all_converged": true,
+ "total_node_hours": 0.21160833333333334,
+ "wall_range_s": [
+  2.15,
+  8.56
+ ],
+ "parallel_efficiency_exponent_s": 0.42501891141938225,
+ "prior_s": "N(0.65, 0.10) base card",
+ "pool_effect_log": -0.07770283095485062,
+ "aggressive_effect_log": -0.26891758592526627,
+ "quirk_sd_log": 0.06071302960329846,
+ "repeat_noise_sd_log": 0.07602068309555604,
+ "prior_quirk_sd": 0.18,
+ "failure_rate": 0.0,
+ "failure_rate_95ub": 0.036308782091904246,
+ "prior_beta0": "N(-3.0,0.4) -> ~4.7% base rate",
+ "max_rss_gb": 3.0501022338867188,
+ "mem_note": "memory channel confirmed dead at this scale (max ~GB per rank vs 380 GB node)",
+ "ablation_13_2_1": {
+  "loo_rmse_additive": 0.12416084946716038,
+  "loo_rmse_cross": 0.1342455317910417,
+  "heldout_change_pct": -8.122272332349533
+ },
+ "per_candidate_mean_wall_s": {
+  "TiS2_1T": 3.883703703703703,
+  "MoSe2_2H": 4.092962962962964,
+  "WTe2_2H": 5.205925925925926
+ }
+}

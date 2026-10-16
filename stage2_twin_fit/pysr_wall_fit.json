@@ -1,0 +1,110 @@
+{
+ "target": "log(node_hours) per QE call",
+ "n_train": 77,
+ "n_val": 21,
+ "selected": {
+  "complexity": 22,
+  "train_loss": 0.073014505,
+  "val_mse": 0.0666,
+  "expr": "((-4.595018 - (nk / ((1.0663509 ^ nk) - 0.1314042))) - log((1.0102383 ^ nk) * (0.6100287 ^ nat))) * log(log(nelec))"
+ },
+ "r2_all": 0.971,
+ "pareto": [
+  {
+   "complexity": 1,
+   "train_loss": 2.464957,
+   "val_mse": 2.6857,
+   "expr": "-6.3759747"
+  },
+  {
+   "complexity": 4,
+   "train_loss": 2.1842775,
+   "val_mse": 2.3636,
+   "expr": "-22.488787 / log(nelec)"
+  },
+  {
+   "complexity": 5,
+   "train_loss": 1.8093916,
+   "val_mse": 2.7955,
+   "expr": "-6.2428 - (-0.98452204 ^ nk)"
+  },
+  {
+   "complexity": 7,
+   "train_loss": 1.2038968,
+   "val_mse": 6.4941,
+   "expr": "-5.7930136 - (nk / (-1.0820284 ^ nk))"
+  },
+  {
+   "complexity": 9,
+   "train_loss": 1.1264408,
+   "val_mse": 5.9123,
+   "expr": "((nk * -2.2123342) / (-1.1076314 ^ nk)) + -5.900525"
+  },
+  {
+   "complexity": 10,
+   "train_loss": 0.82372034,
+   "val_mse": 0.8802,
+   "expr": "(nk / (0.80910766 - (1.0635139 ^ nk))) - log(nk)"
+  },
+  {
+   "complexity": 12,
+   "train_loss": 0.28281435,
+   "val_mse": 0.331,
+   "expr": "(-2.8857949 - log(1.0130707 ^ nk)) - (nk / (1.0591215 ^ nk))"
+  },
+  {
+   "complexity": 14,
+   "train_loss": 0.28184375,
+   "val_mse": 0.325,
+   "expr": "(-2.8315775 - log(1.013255 ^ nk)) + ((-0.16129023 - nk) / (1.0590045 ^ nk))"
+  },
+  {
+   "complexity": 15,
+   "train_loss": 0.122739926,
+   "val_mse": 0.1258,
+   "expr": "(-4.47504 - log(1.0124897 ^ nk)) + (log(nat) - (nk / (1.0599095 ^ nk)))"
+  },
+  {
+   "complexity": 16,
+   "train_loss": 0.11920104,
+   "val_mse": 0.117,
+   "expr": "(((nat ^ 0.5290024) + -5.2398553) - (nk / (1.0601451 ^ nk))) - log(1.0123559 ^ nk)"
+  },
+  {
+   "complexity": 17,
+   "train_loss": 0.11797052,
+   "val_mse": 0.1164,
+   "expr": "(((-0.35397124 - nk) / (1.059664 ^ nk)) + log(nat)) + (-4.335799 - log(1.0130271 ^ nk))"
+  },
+  {
+   "complexity": 18,
+   "train_loss": 0.112508684,
+   "val_mse": 0.1039,
+   "expr": "((((-0.37066644 - nk) / (1.0595238 ^ nk)) - log(1.0129391 ^ nk)) + -5.1105967) + (nat ^ 0.5373417)"
+  },
+  {
+   "complexity": 20,
+   "train_loss": 0.07630156,
+   "val_mse": 0.0743,
+   "expr": "((-4.4995046 - (nk / (1.066137 ^ nk))) - log((1.0102466 ^ nk) * (0.62177354 ^ nat))) * log(log(nelec))"
+  },
+  {
+   "complexity": 22,
+   "train_loss": 0.073014505,
+   "val_mse": 0.0666,
+   "expr": "((-4.595018 - (nk / ((1.0663509 ^ nk) - 0.1314042))) - log((1.0102383 ^ nk) * (0.6100287 ^ nat))) * log(log(nelec))"
+  },
+  {
+   "complexity": 24,
+   "train_loss": 0.07223025,
+   "val_mse": 0.0678,
+   "expr": "((-4.595018 - log((0.6100346 ^ nat) * (1.0103022 ^ nk))) - (nk / ((1.0664023 ^ nk) - 0.13140433))) * log(log(nelec - 0.6100346))"
+  },
+  {
+   "complexity": 25,
+   "train_loss": 0.07167613,
+   "val_mse": 0.0683,
+   "expr": "((-4.8193126 - (nk / ((1.0661126 ^ nk) - 0.28965357))) - log((1.0108215 ^ nk) * (0.57873803 ^ nat))) * log(log(nelec - log(nelec)))"
+  }
+ ]
+}

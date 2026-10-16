@@ -1,0 +1,16 @@
+{
+ "source": "paired_comparison_2/results/campaigns.jsonl (attempt 2)",
+ "bins": "small: <= 2000 electrons (1T 8x8), large: > 2000 (2H)",
+ "max_job_gb": {
+  "large:f1": 142.7,
+  "large:f2": 168.6,
+  "small:f1": 104.6,
+  "small:f2": 123.8
+ },
+ "n_calls": {
+  "large:f1": 43,
+  "large:f2": 31,
+  "small:f1": 71,
+  "small:f2": 57
+ }
+}
