@@ -98,6 +98,7 @@ Files the figure generator reads (`traced_inputs.json`):
 - `paired_comparison_3/site_bridge_2026-10-14/DTDE_s7/campaigns.jsonl`
 - `paired_comparison_3/site_bridge_2026-10-14/DTDE_s8/campaigns.jsonl`
 - `paired_comparison_3/site_bridge_2026-10-14/DTDE_s9/campaigns.jsonl`
+- `measured_attacks/attack_per_world.json`
 - `measured_attacks/attack_results.json`
 - `measured_attacks/pilot_attack_results.json`
 - `pilot/job_matrix.csv`

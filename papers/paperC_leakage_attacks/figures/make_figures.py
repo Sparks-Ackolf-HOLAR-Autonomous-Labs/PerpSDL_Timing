@@ -16,6 +16,7 @@ Sources (paths relative to ):
   measured_attacks/pilot_attack_results.json       configuration-rank attack
   timing_masking/mask_results.json                 measured walls, re-attacked
   measured_attacks/attack_results.json             simulated transcripts
+  measured_attacks/attack_per_world.json           per-world AUCs, intervals
   decision_maker_leakage/dm_leakage.json           simulated transcripts
 
 Colour code used in every figure: blue = 1T phase, orange = 2H phase.
@@ -471,12 +472,19 @@ def fig_policy():
              ("P3_eps2_rot", "noisy aggregates,\nIDs rotated"),
              ("P4", "class only")]
     ys = np.arange(len(mechs))[::-1]
+    # 95% intervals: bootstrap over the 60 held-out worlds of the per-world
+    # AUCs recomputed by measured_attacks/attack_per_world.py (P2 and P4
+    # reproduce the stored pooled values exactly, P3 within 0.005)
+    pw = json.load(open(ROOT / "measured_attacks/attack_per_world.json"))
     for pol, mfc, dy, name in [("greedy", INK2, 0.12, "greedy"),
                                ("depth_first", "white", -0.12,
                                 "depth-first")]:
         v = [att[f"{pol}/{m}"]["membership_auc"] for m, _ in mechs]
+        for y, m in zip(ys + dy, [m for m, _ in mechs]):
+            lo, hi = pw["results"][f"{pol}/{m}"]["ci95"]
+            ax.plot([lo, hi], [y, y], color=INK, lw=0.9, zorder=2)
         ax.plot(v, ys + dy, "o", ms=4.2, mfc=mfc, mec=INK, mew=0.9,
-                ls="none", label=name)
+                ls="none", label=name, zorder=3)
     ax.axvline(0.60, color=INK, lw=0.8, ls="--")
     ax.text(0.605, ys[0] + 0.45, "limit", fontsize=7, ha="left",
             va="bottom")
