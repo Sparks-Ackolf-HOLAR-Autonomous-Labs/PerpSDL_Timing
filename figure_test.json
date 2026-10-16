@@ -2,20 +2,18 @@
  "status": "pass",
  "returncode": 0,
  "expected_figures": [
-  "fig_8x8.pdf",
-  "fig_fingerprint.pdf",
-  "fig_guest.pdf",
+  "fig_forest.pdf",
   "fig_masking.pdf",
   "fig_pilot.pdf",
-  "fig_policy.pdf"
+  "fig_policy.pdf",
+  "fig_walltimes.pdf"
  ],
  "regenerated": [
-  "fig_8x8.pdf",
-  "fig_fingerprint.pdf",
-  "fig_guest.pdf",
+  "fig_forest.pdf",
   "fig_masking.pdf",
   "fig_pilot.pdf",
-  "fig_policy.pdf"
+  "fig_policy.pdf",
+  "fig_walltimes.pdf"
  ],
  "stderr_tail": ""
 }

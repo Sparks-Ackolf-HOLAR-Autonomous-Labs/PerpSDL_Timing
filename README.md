@@ -68,6 +68,7 @@ The folders `dft_campaign/`, `fast_path/`, `contention_transfer_bench/`, `paired
 Files the figure generator reads (`traced_inputs.json`):
 
 - `bootstrap_ci/seed_bootstrap.json`
+- `bootstrap_ci/seed_bootstrap3.json`
 - `decision_maker_leakage/dm_leakage.json`
 - `paired_comparison_1/results/campaigns.jsonl`
 - `paired_comparison_2/results/campaigns.jsonl`
@@ -98,6 +99,8 @@ Files the figure generator reads (`traced_inputs.json`):
 - `paired_comparison_3/site_bridge_2026-10-14/DTDE_s8/campaigns.jsonl`
 - `paired_comparison_3/site_bridge_2026-10-14/DTDE_s9/campaigns.jsonl`
 - `measured_attacks/attack_results.json`
+- `measured_attacks/pilot_attack_results.json`
+- `pilot/job_matrix.csv`
 - `pilot/results/pilot_results.csv`
 - `timing_masking/mask_results.json`
 
