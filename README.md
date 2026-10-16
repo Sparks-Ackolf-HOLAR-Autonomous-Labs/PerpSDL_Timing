@@ -1,5 +1,7 @@
 # Job Timing Reveals Secret Candidate Compounds in Shared-Cluster DFT Screening of Two-Dimensional Semiconductors at Every Disclosure Level
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23413484.svg)](https://doi.org/10.5281/zenodo.23413484)
+
 Code and data for the article "Job Timing Reveals Secret Candidate Compounds in Shared-Cluster DFT Screening of Two-Dimensional Semiconductors at Every Disclosure Level" (prepared for Proceedings on Privacy Enhancing Technologies).
 
 Groups screening two-dimensional semiconductors run density functional theory jobs on shared computing centres, where the group's candidate list and the centre's tuning knowledge are both secrets. Attacks were executed on the message logs of measured Quantum ESPRESSO campaigns over 29 MX2 layers (a dedicated node and shared guest nodes of two clusters) and of simulated campaigns driven by scripted and large language model agents. Wall-clock time alone identified the compound behind an opaque job identifier at every disclosure level; the article also measures the cost of timing masking, the forward use of the same records to predict a job's run time, and how leakage depends on the decision policy, collusion, the number of parties and shared tools.
